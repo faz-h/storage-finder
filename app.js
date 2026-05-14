@@ -112,7 +112,7 @@ app.get('/rawresults', (req, res) => {
 /***** AREA SEARCH (zip/city/state) ******/
 
 app.post('/area-search', async (req, res) => {
-  const { searchType, searchValue, keyword, excludeAirtable, excludeBanned } = req.body;
+  const { searchType, searchValue, keyword, excludeAirtable, excludeBanned, setSkipTrace } = req.body;
   const searchId = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 
   searches.set(searchId, {
@@ -122,6 +122,7 @@ app.post('/area-search', async (req, res) => {
     keyword: keyword || 'storage',
     excludeAirtable: excludeAirtable === 'on',
     excludeBanned: excludeBanned === 'on',
+    setSkipTrace: setSkipTrace === 'on',
     cancelToken: { cancelled: false },
     progress: { phase: 'starting' },
     results: null,
@@ -292,6 +293,7 @@ async function runAreaSearch(searchId) {
   console.log(`[${searchId}] Pushing ${filteredResults.length} records to Airtable`);
 
   try {
+    const stage = search.setSkipTrace ? 'Skip Trace' : 'Newly Added';
     search.airtableResult = await pushToAirtable(
       filteredResults,
       AIRTABLE_ACCESS_TOKEN,
@@ -303,7 +305,8 @@ async function runAreaSearch(searchId) {
           message: `Pushed ${prog.created}/${prog.total} records to Airtable`,
           ...prog,
         };
-      }
+      },
+      stage
     );
     console.log(`[${searchId}] Airtable push complete: ${search.airtableResult.created}/${search.airtableResult.total}`);
   } catch (err) {
