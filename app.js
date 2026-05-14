@@ -216,18 +216,12 @@ async function runAreaSearch(searchId) {
 
   let placesToDetail = gridResult.places;
 
-  if (search.excludeBanned) {
-    placesToDetail = preFilterPlaces(placesToDetail, {
-      bannedFacilities,
-      bounds,
-      requiredTypes: ['storage'],
-    });
-  } else {
-    placesToDetail = preFilterPlaces(placesToDetail, {
-      bounds,
-      requiredTypes: ['storage'],
-    });
-  }
+  placesToDetail = preFilterPlaces(placesToDetail, {
+    bannedFacilities: search.excludeBanned ? bannedFacilities : null,
+    bounds,
+    requiredTypes: ['storage'],
+    requireRelevantName: true,
+  });
 
   // Airtable pre-dedup using name+vicinity (rough match to avoid Details calls)
   if (search.excludeAirtable) {
