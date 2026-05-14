@@ -122,6 +122,7 @@ app.post('/area-search', async (req, res) => {
     keyword: keyword || 'storage',
     excludeAirtable: excludeAirtable === 'on',
     excludeBanned: excludeBanned === 'on',
+    cancelToken: { cancelled: false },
     progress: { phase: 'starting' },
     results: null,
     error: null,
@@ -158,6 +159,17 @@ app.get('/api/search/:id/status', (req, res) => {
     resultCount: search.results ? search.results.length : 0,
     airtableResult: search.airtableResult,
   });
+});
+
+app.post('/api/search/:id/cancel', (req, res) => {
+  const search = searches.get(req.params.id);
+  if (!search) return res.status(404).json({ error: 'Search not found' });
+  if (search.status !== 'running') return res.json({ message: 'Search already finished' });
+  search.cancelToken.cancelled = true;
+  search.status = 'cancelled';
+  search.progress = { phase: 'cancelled', message: 'Search cancelled by user.' };
+  console.log(`[${req.params.id}] Search cancelled by user`);
+  res.json({ message: 'Search cancelled' });
 });
 
 app.get('/area-search/:id/results', (req, res) => {
@@ -206,7 +218,9 @@ async function runAreaSearch(searchId) {
       message: `Searched ${prog.cellsProcessed}/${prog.totalInitialCells + (prog.cellsSubdivided * 3)} cells, found ${prog.uniquePlacesFound} unique places (${prog.cellsSubdivided} subdivisions)`,
       ...prog,
     };
-  });
+  }, search.cancelToken);
+
+  if (search.cancelToken.cancelled) return;
 
   console.log(`[${searchId}] Grid search complete: ${gridResult.placeIds.length} unique places from ${gridResult.stats.searchesMade} searches`);
 
