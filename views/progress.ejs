@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search in Progress - Storage Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+    <style>
+        body { padding: 30px; }
+        #log { max-height: 300px; overflow-y: auto; background: #f8f9fa; padding: 15px; border-radius: 5px; font-family: monospace; font-size: 13px; }
+        .stat { font-size: 24px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Storage Finder</h1>
+    <h3>Area Search: <%= search.searchType %> &mdash; <%= search.searchValue %></h3>
+    <hr>
+
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-status">Starting...</div>
+                <div class="text-muted">Status</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-places">0</div>
+                <div class="text-muted">Unique Places Found</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-cells">0</div>
+                <div class="text-muted">Grid Cells Searched</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-final">-</div>
+                <div class="text-muted">Final Results</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress mb-3" style="height: 30px;">
+        <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%">
+            Searching...
+        </div>
+    </div>
+
+    <div id="message" class="alert alert-info">Initializing search...</div>
+
+    <div id="log"></div>
+
+    <div id="complete-actions" style="display: none;" class="mt-4">
+        <a id="btn-results" class="btn btn-primary btn-lg mr-2" href="#">View Results Table</a>
+        <a id="btn-csv" class="btn btn-success btn-lg mr-2" href="#">Download CSV</a>
+        <a class="btn btn-secondary btn-lg" href="/">New Search</a>
+    </div>
+
+    <script>
+        var searchId = '<%= searchId %>';
+        var logDiv = document.getElementById('log');
+
+        function addLog(msg) {
+            var line = document.createElement('div');
+            line.textContent = new Date().toLocaleTimeString() + ' - ' + msg;
+            logDiv.appendChild(line);
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        function poll() {
+            fetch('/api/search/' + searchId + '/status')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    document.getElementById('message').textContent = data.progress.message || data.status;
+
+                    if (data.progress.uniquePlacesFound !== undefined) {
+                        document.getElementById('stat-places').textContent = data.progress.uniquePlacesFound;
+                    }
+                    if (data.progress.cellsProcessed !== undefined) {
+                        document.getElementById('stat-cells').textContent = data.progress.cellsProcessed;
+                    }
+
+                    var phase = data.progress.phase;
+                    document.getElementById('stat-status').textContent = phase;
+
+                    if (phase === 'searching' && data.progress.totalInitialCells) {
+                        var pct = Math.round((data.progress.cellsProcessed / (data.progress.totalInitialCells + data.progress.cellsSubdivided * 3)) * 50);
+                        document.getElementById('progress-bar').style.width = pct + '%';
+                        document.getElementById('progress-bar').textContent = 'Grid search ' + pct + '%';
+                    } else if (phase === 'details' && data.progress.totalToFetch) {
+                        var pct = 50 + Math.round((data.progress.detailsFetched / data.progress.totalToFetch) * 30);
+                        document.getElementById('progress-bar').style.width = pct + '%';
+                        document.getElementById('progress-bar').textContent = 'Fetching details ' + (pct - 50) * 2 + '%';
+                    } else if (phase === 'airtable-push') {
+                        var pct = 80 + Math.round((data.progress.created / data.progress.total) * 15);
+                        document.getElementById('progress-bar').style.width = pct + '%';
+                        document.getElementById('progress-bar').textContent = 'Pushing to Airtable...';
+                    }
+
+                    addLog(data.progress.message || data.status);
+
+                    if (data.status === 'complete') {
+                        document.getElementById('stat-final').textContent = data.resultCount;
+                        document.getElementById('stat-status').textContent = 'Complete';
+                        document.getElementById('progress-bar').style.width = '100%';
+                        document.getElementById('progress-bar').textContent = 'Complete!';
+                        document.getElementById('progress-bar').classList.remove('progress-bar-animated');
+                        document.getElementById('progress-bar').classList.add('bg-success');
+                        document.getElementById('message').className = 'alert alert-success';
+                        document.getElementById('message').textContent = 'Search complete! Found ' + data.resultCount + ' facilities.';
+                        if (data.airtableResult) {
+                            document.getElementById('message').textContent += ' Pushed ' + data.airtableResult.created + '/' + data.airtableResult.total + ' to Airtable.';
+                        }
+                        document.getElementById('complete-actions').style.display = 'block';
+                        document.getElementById('btn-results').href = '/area-search/' + searchId + '/results';
+                        document.getElementById('btn-csv').href = '/api/search/' + searchId + '/csv';
+                        return;
+                    }
+
+                    if (data.status === 'error') {
+                        document.getElementById('stat-status').textContent = 'Error';
+                        document.getElementById('message').className = 'alert alert-danger';
+                        document.getElementById('message').textContent = 'Error: ' + data.error;
+                        document.getElementById('progress-bar').classList.remove('progress-bar-animated');
+                        document.getElementById('progress-bar').classList.add('bg-danger');
+                        return;
+                    }
+
+                    setTimeout(poll, 3000);
+                })
+                .catch(function(err) {
+                    addLog('Poll error: ' + err.message);
+                    setTimeout(poll, 5000);
+                });
+        }
+
+        poll();
+    </script>
+</body>
+</html>

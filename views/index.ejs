@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Storage Finder</title>
+        <link rel="stylesheet" type="text/css" href="style/main.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+        <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+        <style>
+            body { padding: 30px; }
+            .search-section { display: none; }
+            .search-section.active { display: block; }
+            .mode-btn { margin-right: 10px; margin-bottom: 15px; }
+            .mode-btn.active { font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Storage Finder</h1>
+
+        <h4>Search Mode</h4>
+        <div class="btn-group mb-3" role="group">
+            <button type="button" class="btn btn-outline-primary mode-btn active" data-mode="coordinates">Coordinates</button>
+            <button type="button" class="btn btn-outline-primary mode-btn" data-mode="zip">Zip Code</button>
+            <button type="button" class="btn btn-outline-primary mode-btn" data-mode="city">City</button>
+            <button type="button" class="btn btn-outline-primary mode-btn" data-mode="state">State</button>
+        </div>
+
+        <!-- Coordinate Search (original) -->
+        <div id="section-coordinates" class="search-section active">
+            <form action='/search' method='POST'>
+                <input type="hidden" name="proptype" value="storage">
+                <label>Search Term</label>
+                <input name='keyword' type="text" class="form-control" value='storage'>
+                <br/>
+                <label>Coordinates</label>
+                <input name='coordinates' type="text" class="form-control" placeholder='29.629294, -98.236142'>
+                <br/>
+                <div class="form-check">
+                    <input name='excludeAirtable' id='excludeAirtable1' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeAirtable1">Exclude addresses already in Airtable</label>
+                </div>
+                <div class="form-check mt-2">
+                    <input name='excludeBanned' id='excludeBanned1' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeBanned1">Exclude banned facility names</label>
+                </div>
+                <br/>
+                <button class="btn btn-primary">Search</button>
+            </form>
+        </div>
+
+        <!-- Zip Code Search -->
+        <div id="section-zip" class="search-section">
+            <form action='/area-search' method='POST'>
+                <input type="hidden" name="searchType" value="zip">
+                <label>Search Term</label>
+                <input name='keyword' type="text" class="form-control" value='storage'>
+                <br/>
+                <label>Zip Code</label>
+                <input name='searchValue' type="text" class="form-control" placeholder='90210'>
+                <br/>
+                <div class="form-check">
+                    <input name='excludeAirtable' id='excludeAirtable2' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeAirtable2">Exclude addresses already in Airtable</label>
+                </div>
+                <div class="form-check mt-2">
+                    <input name='excludeBanned' id='excludeBanned2' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeBanned2">Exclude banned facility names</label>
+                </div>
+                <br/>
+                <button class="btn btn-primary">Search Zip Code</button>
+            </form>
+        </div>
+
+        <!-- City Search -->
+        <div id="section-city" class="search-section">
+            <form action='/area-search' method='POST'>
+                <input type="hidden" name="searchType" value="city">
+                <label>Search Term</label>
+                <input name='keyword' type="text" class="form-control" value='storage'>
+                <br/>
+                <label>City (e.g. "Houston, TX")</label>
+                <input name='searchValue' type="text" class="form-control" placeholder='Houston, TX'>
+                <br/>
+                <div class="form-check">
+                    <input name='excludeAirtable' id='excludeAirtable3' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeAirtable3">Exclude addresses already in Airtable</label>
+                </div>
+                <div class="form-check mt-2">
+                    <input name='excludeBanned' id='excludeBanned3' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeBanned3">Exclude banned facility names</label>
+                </div>
+                <br/>
+                <button class="btn btn-primary">Search City</button>
+            </form>
+        </div>
+
+        <!-- State Search -->
+        <div id="section-state" class="search-section">
+            <form action='/area-search' method='POST'>
+                <input type="hidden" name="searchType" value="state">
+                <label>Search Term</label>
+                <input name='keyword' type="text" class="form-control" value='storage'>
+                <br/>
+                <label>State (name or abbreviation)</label>
+                <input name='searchValue' type="text" class="form-control" placeholder='Texas'>
+                <br/>
+                <div class="form-check">
+                    <input name='excludeAirtable' id='excludeAirtable4' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeAirtable4">Exclude addresses already in Airtable</label>
+                </div>
+                <div class="form-check mt-2">
+                    <input name='excludeBanned' id='excludeBanned4' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeBanned4">Exclude banned facility names</label>
+                </div>
+                <br/>
+                <button class="btn btn-primary">Search Entire State</button>
+                <p class="text-muted mt-2">State searches may take a long time. You can leave this page open and check back.</p>
+            </form>
+        </div>
+
+        <script>
+            document.querySelectorAll('.mode-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.mode-btn').forEach(function(b) { b.classList.remove('active'); });
+                    document.querySelectorAll('.search-section').forEach(function(s) { s.classList.remove('active'); });
+                    btn.classList.add('active');
+                    document.getElementById('section-' + btn.getAttribute('data-mode')).classList.add('active');
+                });
+            });
+        </script>
+    </body>
+</html>

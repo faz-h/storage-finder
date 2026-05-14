@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Storage Finder - Results</title>
+        <link rel="stylesheet" type="text/css" href="/style/main.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+        <link rel="shortcut icon" type="image/jpg" href="/favicon.png"/>
+        <style>
+            #main-table thead th {
+                position: sticky;
+                top: 0;
+                background-color: #fff;
+                z-index: 10;
+                box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+            }
+            #main-table { margin-top: 0; }
+            .action-bar { padding: 15px; background: #f8f9fa; margin-bottom: 0; }
+        </style>
+    </head>
+    <body>
+        <% if(airtableError) { %>
+            <div class="alert alert-warning" role="alert">
+                <strong>Warning:</strong> Was unable to check for duplicates in Airtable. Results may contain addresses that already exist in your database.
+            </div>
+        <% } %>
+
+        <div class="action-bar">
+            <strong><%= results.length %> results found</strong>
+            <% if(typeof searchMeta !== 'undefined' && searchMeta) { %>
+                &mdash; <%= searchMeta.searchType %>: <%= searchMeta.searchValue %>
+                <% if(searchMeta.airtableResult) { %>
+                    | Airtable: <%= searchMeta.airtableResult.created %>/<%= searchMeta.airtableResult.total %> pushed
+                <% } %>
+                <a href="/api/search/<%= searchMeta.searchId %>/csv" class="btn btn-sm btn-success ml-3">Download CSV</a>
+            <% } %>
+            <a href="/" class="btn btn-sm btn-secondary ml-2">New Search</a>
+        </div>
+
+        <table id='main-table' class='table table-hover table-fixed table-bordered'>
+            <thead class='main-headers'>
+                <tr>
+                    <th>Name</th>
+                    <th>Asset Class</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Zip</th>
+                    <th>County</th>
+                    <th>Website</th>
+                    <th>Google Rating</th>
+                    <th>Google Reviews</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0;i<results.length;i++) { %>
+                <tr>
+                    <td><%= results[i].name %></td>
+                    <td><%= (typeof proptype !== 'undefined' && proptype === 'retail') ? 'Retail' : 'Storage' %></td>
+                    <td>
+                        <% var street_number = "" %>
+                        <% var route = "" %>
+                        <% var subpremise = "" %>
+                        <% if(results[i].address_components) { %>
+                            <% for(var j=0;j<results[i].address_components.length;j++) { %>
+                                <% if(results[i].address_components[j].types[0] == "street_number") { %>
+                                    <% street_number = results[i].address_components[j].long_name %>
+                                <% } else if(results[i].address_components[j].types[0] == "route") { %>
+                                    <% route = results[i].address_components[j].long_name %>
+                                <% } else if(results[i].address_components[j].types[0] == "subpremise") { %>
+                                    <% subpremise = results[i].address_components[j].long_name %>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                        <%= (street_number + " " + route + " " + subpremise).trim() %>
+                    </td>
+                    <td>
+                        <% if(results[i].address_components) { %>
+                            <% for(var j=0;j<results[i].address_components.length;j++) { %>
+                                <% if(results[i].address_components[j].types[0] == "locality") { %>
+                                    <%= results[i].address_components[j].long_name %>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                    </td>
+                    <td>
+                        <% if(results[i].address_components) { %>
+                            <% for(var j=0;j<results[i].address_components.length;j++) { %>
+                                <% if(results[i].address_components[j].types[0] == "administrative_area_level_1") { %>
+                                    <%= results[i].address_components[j].short_name %>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                    </td>
+                    <td>
+                        <% if(results[i].address_components) { %>
+                            <% for(var j=0;j<results[i].address_components.length;j++) { %>
+                                <% if(results[i].address_components[j].types[0] == "postal_code") { %>
+                                    <%= results[i].address_components[j].short_name %>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                    </td>
+                    <td>
+                        <% if(results[i].address_components) { %>
+                            <% for(var j=0;j<results[i].address_components.length;j++) { %>
+                                <% if(results[i].address_components[j].types[0] == "administrative_area_level_2") { %>
+                                    <%= results[i].address_components[j].long_name %>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                    </td>
+                    <td><%= results[i].website %></td>
+                    <td>
+                        <% if(results[i].rating) { %>
+                            <%= results[i].rating %>
+                        <% } else { %>
+                            N/A
+                        <% } %>
+                    </td>
+                    <td>
+                        <% if(results[i].user_ratings_total) { %>
+                            <%= results[i].user_ratings_total %>
+                        <% } else { %>
+                            0
+                        <% } %>
+                    </td>
+                    <td><%= results[i].formatted_phone_number %></td>
+                </tr>
+            <% } %>
+            </tbody>
+        </table>
+    </body>
+</html>
