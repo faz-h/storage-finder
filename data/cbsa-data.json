@@ -7,6 +7,7 @@
     "growthPct": -0.71,
     "medianIncome": 97334,
     "domesticMig2024": -146888,
+    "domesticMigPct": -0.74,
     "netMig2024": 141105,
     "bounds": {
       "sw": {
@@ -28,6 +29,7 @@
     "growthPct": -2.1,
     "medianIncome": 93525,
     "domesticMig2024": -122349,
+    "domesticMigPct": -0.95,
     "netMig2024": 7660,
     "bounds": {
       "sw": {
@@ -49,6 +51,7 @@
     "growthPct": -0.48,
     "medianIncome": 88850,
     "domesticMig2024": -45217,
+    "domesticMigPct": -0.48,
     "netMig2024": 51231,
     "bounds": {
       "sw": {
@@ -70,6 +73,7 @@
     "growthPct": 9.24,
     "medianIncome": 87155,
     "domesticMig2024": 24550,
+    "domesticMigPct": 0.29,
     "netMig2024": 127252,
     "bounds": {
       "sw": {
@@ -91,6 +95,7 @@
     "growthPct": 9.03,
     "medianIncome": 80458,
     "domesticMig2024": 21408,
+    "domesticMigPct": 0.27,
     "netMig2024": 149543,
     "bounds": {
       "sw": {
@@ -112,6 +117,7 @@
     "growthPct": 5.21,
     "medianIncome": 73481,
     "domesticMig2024": -101303,
+    "domesticMigPct": -1.57,
     "netMig2024": 111924,
     "bounds": {
       "sw": {
@@ -133,6 +139,7 @@
     "growthPct": 2.51,
     "medianIncome": 123896,
     "domesticMig2024": -22784,
+    "domesticMigPct": -0.35,
     "netMig2024": 61060,
     "bounds": {
       "sw": {
@@ -154,6 +161,7 @@
     "growthPct": 4.98,
     "medianIncome": 86338,
     "domesticMig2024": -1328,
+    "domesticMigPct": -0.02,
     "netMig2024": 48363,
     "bounds": {
       "sw": {
@@ -175,6 +183,7 @@
     "growthPct": 1.37,
     "medianIncome": 89273,
     "domesticMig2024": -12769,
+    "domesticMigPct": -0.2,
     "netMig2024": 39849,
     "bounds": {
       "sw": {
@@ -196,6 +205,7 @@
     "growthPct": 6.92,
     "medianIncome": 84703,
     "domesticMig2024": 21364,
+    "domesticMigPct": 0.41,
     "netMig2024": 70197,
     "bounds": {
       "sw": {
@@ -217,6 +227,7 @@
     "growthPct": 1.63,
     "medianIncome": 112484,
     "domesticMig2024": -22736,
+    "domesticMigPct": -0.45,
     "netMig2024": 47995,
     "bounds": {
       "sw": {
@@ -238,6 +249,7 @@
     "growthPct": 3.1,
     "medianIncome": 86031,
     "domesticMig2024": 1249,
+    "domesticMigPct": 0.03,
     "netMig2024": 22270,
     "bounds": {
       "sw": {
@@ -259,6 +271,7 @@
     "growthPct": -2.21,
     "medianIncome": 133780,
     "domesticMig2024": -39938,
+    "domesticMigPct": -0.86,
     "netMig2024": 27770,
     "bounds": {
       "sw": {
@@ -280,6 +293,7 @@
     "growthPct": 0.19,
     "medianIncome": 75123,
     "domesticMig2024": -11626,
+    "domesticMigPct": -0.26,
     "netMig2024": 28721,
     "bounds": {
       "sw": {
@@ -301,6 +315,7 @@
     "growthPct": 3.15,
     "medianIncome": 112594,
     "domesticMig2024": -11483,
+    "domesticMigPct": -0.28,
     "netMig2024": 52366,
     "bounds": {
       "sw": {
@@ -322,6 +337,7 @@
     "growthPct": 1.84,
     "medianIncome": 98180,
     "domesticMig2024": 467,
+    "domesticMigPct": 0.01,
     "netMig2024": 22165,
     "bounds": {
       "sw": {
@@ -343,6 +359,7 @@
     "growthPct": 7.85,
     "medianIncome": 71254,
     "domesticMig2024": 10544,
+    "domesticMigPct": 0.31,
     "netMig2024": 53836,
     "bounds": {
       "sw": {
@@ -364,6 +381,7 @@
     "growthPct": 0,
     "medianIncome": 102285,
     "domesticMig2024": -23934,
+    "domesticMigPct": -0.73,
     "netMig2024": 292,
     "bounds": {
       "sw": {
@@ -385,6 +403,7 @@
     "growthPct": 2.99,
     "medianIncome": 102339,
     "domesticMig2024": -2635,
+    "domesticMigPct": -0.09,
     "netMig2024": 20118,
     "bounds": {
       "sw": {
@@ -406,6 +425,7 @@
     "growthPct": 9.99,
     "medianIncome": 75611,
     "domesticMig2024": 779,
+    "domesticMigPct": 0.03,
     "netMig2024": 67579,
     "bounds": {
       "sw": {
@@ -427,6 +447,7 @@
     "growthPct": 8.39,
     "medianIncome": 80201,
     "domesticMig2024": 24377,
+    "domesticMigPct": 0.85,
     "netMig2024": 51539,
     "bounds": {
       "sw": {
@@ -448,6 +469,7 @@
     "growthPct": 0.36,
     "medianIncome": 97300,
     "domesticMig2024": -8427,
+    "domesticMigPct": -0.29,
     "netMig2024": 7313,
     "bounds": {
       "sw": {
@@ -469,6 +491,7 @@
     "growthPct": -0.32,
     "medianIncome": 78225,
     "domesticMig2024": -3759,
+    "domesticMigPct": -0.13,
     "netMig2024": 8616,
     "bounds": {
       "sw": {
@@ -490,6 +513,7 @@
     "growthPct": 8,
     "medianIncome": 74297,
     "domesticMig2024": 18981,
+    "domesticMigPct": 0.69,
     "netMig2024": 35242,
     "bounds": {
       "sw": {
@@ -511,6 +535,7 @@
     "growthPct": 11.7,
     "medianIncome": 97638,
     "domesticMig2024": 13980,
+    "domesticMigPct": 0.55,
     "netMig2024": 41926,
     "bounds": {
       "sw": {
@@ -532,6 +557,7 @@
     "growthPct": 1,
     "medianIncome": 94573,
     "domesticMig2024": -4976,
+    "domesticMigPct": -0.2,
     "netMig2024": 12812,
     "bounds": {
       "sw": {
@@ -553,6 +579,7 @@
     "growthPct": 2.68,
     "medianIncome": 93986,
     "domesticMig2024": 577,
+    "domesticMigPct": 0.02,
     "netMig2024": 24033,
     "bounds": {
       "sw": {
@@ -574,6 +601,7 @@
     "growthPct": -1.1,
     "medianIncome": 73942,
     "domesticMig2024": -2022,
+    "domesticMigPct": -0.08,
     "netMig2024": 8071,
     "bounds": {
       "sw": {
@@ -595,6 +623,7 @@
     "growthPct": 5.84,
     "medianIncome": 73845,
     "domesticMig2024": 12225,
+    "domesticMigPct": 0.51,
     "netMig2024": 39926,
     "bounds": {
       "sw": {
@@ -616,6 +645,7 @@
     "growthPct": 2.36,
     "medianIncome": 79490,
     "domesticMig2024": -928,
+    "domesticMigPct": -0.04,
     "netMig2024": 15643,
     "bounds": {
       "sw": {
@@ -637,6 +667,7 @@
     "growthPct": 2.81,
     "medianIncome": 81927,
     "domesticMig2024": 4510,
+    "domesticMigPct": 0.2,
     "netMig2024": 17840,
     "bounds": {
       "sw": {
@@ -658,6 +689,7 @@
     "growthPct": 4.04,
     "medianIncome": 79847,
     "domesticMig2024": -854,
+    "domesticMigPct": -0.04,
     "netMig2024": 22541,
     "bounds": {
       "sw": {
@@ -679,6 +711,7 @@
     "growthPct": 4.08,
     "medianIncome": 77065,
     "domesticMig2024": 3074,
+    "domesticMigPct": 0.14,
     "netMig2024": 18071,
     "bounds": {
       "sw": {
@@ -700,6 +733,7 @@
     "growthPct": -0.63,
     "medianIncome": 68507,
     "domesticMig2024": -3488,
+    "domesticMigPct": -0.16,
     "netMig2024": 7337,
     "bounds": {
       "sw": {
@@ -721,6 +755,7 @@
     "growthPct": 6.76,
     "medianIncome": 82499,
     "domesticMig2024": 14754,
+    "domesticMigPct": 0.69,
     "netMig2024": 28773,
     "bounds": {
       "sw": {
@@ -742,6 +777,7 @@
     "growthPct": -0.25,
     "medianIncome": 157444,
     "domesticMig2024": -21745,
+    "domesticMigPct": -1.09,
     "netMig2024": 23084,
     "bounds": {
       "sw": {
@@ -763,6 +799,7 @@
     "growthPct": 0.8,
     "medianIncome": 80533,
     "domesticMig2024": -3544,
+    "domesticMigPct": -0.2,
     "netMig2024": 1844,
     "bounds": {
       "sw": {
@@ -784,6 +821,7 @@
     "growthPct": 9.63,
     "medianIncome": 77013,
     "domesticMig2024": 19954,
+    "domesticMigPct": 1.13,
     "netMig2024": 34847,
     "bounds": {
       "sw": {
@@ -805,6 +843,7 @@
     "growthPct": 1.45,
     "medianIncome": 85646,
     "domesticMig2024": 44,
+    "domesticMigPct": 0,
     "netMig2024": 13581,
     "bounds": {
       "sw": {
@@ -826,6 +865,7 @@
     "growthPct": -0.02,
     "medianIncome": 76404,
     "domesticMig2024": -3694,
+    "domesticMigPct": -0.23,
     "netMig2024": 4242,
     "bounds": {
       "sw": {
@@ -847,6 +887,7 @@
     "growthPct": 10.47,
     "medianIncome": 96066,
     "domesticMig2024": 17505,
+    "domesticMigPct": 1.12,
     "netMig2024": 31520,
     "bounds": {
       "sw": {
@@ -868,6 +909,7 @@
     "growthPct": 5.06,
     "medianIncome": 70499,
     "domesticMig2024": 6233,
+    "domesticMigPct": 0.42,
     "netMig2024": 12055,
     "bounds": {
       "sw": {
@@ -889,6 +931,7 @@
     "growthPct": 2.36,
     "medianIncome": 71737,
     "domesticMig2024": 541,
+    "domesticMigPct": 0.04,
     "netMig2024": 15680,
     "bounds": {
       "sw": {
@@ -910,6 +953,7 @@
     "growthPct": 4.24,
     "medianIncome": 84405,
     "domesticMig2024": 7346,
+    "domesticMigPct": 0.54,
     "netMig2024": 14714,
     "bounds": {
       "sw": {
@@ -931,6 +975,7 @@
     "growthPct": -0.45,
     "medianIncome": 64743,
     "domesticMig2024": -9674,
+    "domesticMigPct": -0.72,
     "netMig2024": -4033,
     "bounds": {
       "sw": {
@@ -952,6 +997,7 @@
     "growthPct": 3.4,
     "medianIncome": 95045,
     "domesticMig2024": -8377,
+    "domesticMigPct": -0.64,
     "netMig2024": 10747,
     "bounds": {
       "sw": {
@@ -973,6 +1019,7 @@
     "growthPct": 1.01,
     "medianIncome": 69627,
     "domesticMig2024": 2205,
+    "domesticMigPct": 0.18,
     "netMig2024": 5956,
     "bounds": {
       "sw": {
@@ -994,6 +1041,7 @@
     "growthPct": 2.12,
     "medianIncome": 71897,
     "domesticMig2024": -5725,
+    "domesticMigPct": -0.48,
     "netMig2024": -278,
     "bounds": {
       "sw": {
@@ -1015,6 +1063,7 @@
     "growthPct": 2.5,
     "medianIncome": 80296,
     "domesticMig2024": 909,
+    "domesticMigPct": 0.08,
     "netMig2024": 8011,
     "bounds": {
       "sw": {
@@ -1036,6 +1085,7 @@
     "growthPct": 1.49,
     "medianIncome": 92823,
     "domesticMig2024": -1496,
+    "domesticMigPct": -0.13,
     "netMig2024": 9288,
     "bounds": {
       "sw": {
@@ -1057,6 +1107,7 @@
     "growthPct": -0.57,
     "medianIncome": 70572,
     "domesticMig2024": -2481,
+    "domesticMigPct": -0.21,
     "netMig2024": 3317,
     "bounds": {
       "sw": {
@@ -1078,6 +1129,7 @@
     "growthPct": 3.52,
     "medianIncome": 67929,
     "domesticMig2024": 4043,
+    "domesticMigPct": 0.37,
     "netMig2024": 12394,
     "bounds": {
       "sw": {
@@ -1099,6 +1151,7 @@
     "growthPct": 4.38,
     "medianIncome": 67823,
     "domesticMig2024": 4538,
+    "domesticMigPct": 0.43,
     "netMig2024": 9962,
     "bounds": {
       "sw": {
@@ -1120,6 +1173,7 @@
     "growthPct": -0.76,
     "medianIncome": 74438,
     "domesticMig2024": -1735,
+    "domesticMigPct": -0.16,
     "netMig2024": 2501,
     "bounds": {
       "sw": {
@@ -1141,6 +1195,7 @@
     "growthPct": 3.45,
     "medianIncome": 83023,
     "domesticMig2024": 1329,
+    "domesticMigPct": 0.13,
     "netMig2024": 7877,
     "bounds": {
       "sw": {
@@ -1162,6 +1217,7 @@
     "growthPct": -1.75,
     "medianIncome": 104264,
     "domesticMig2024": -6890,
+    "domesticMigPct": -0.69,
     "netMig2024": 1956,
     "bounds": {
       "sw": {
@@ -1183,6 +1239,7 @@
     "growthPct": 7.38,
     "medianIncome": 69016,
     "domesticMig2024": 11438,
+    "domesticMigPct": 1.15,
     "netMig2024": 16313,
     "bounds": {
       "sw": {
@@ -1204,6 +1261,7 @@
     "growthPct": 2.75,
     "medianIncome": 111656,
     "domesticMig2024": -5994,
+    "domesticMigPct": -0.62,
     "netMig2024": 8705,
     "bounds": {
       "sw": {
@@ -1225,6 +1283,7 @@
     "growthPct": -4.09,
     "medianIncome": 62271,
     "domesticMig2024": -10668,
+    "domesticMigPct": -1.1,
     "netMig2024": -2104,
     "bounds": {
       "sw": {
@@ -1246,6 +1305,7 @@
     "growthPct": 5.99,
     "medianIncome": 69734,
     "domesticMig2024": 9661,
+    "domesticMigPct": 1.01,
     "netMig2024": 12146,
     "bounds": {
       "sw": {
@@ -1267,6 +1327,7 @@
     "growthPct": 12.14,
     "medianIncome": 78278,
     "domesticMig2024": 15049,
+    "domesticMigPct": 1.61,
     "netMig2024": 23089,
     "bounds": {
       "sw": {
@@ -1288,6 +1349,7 @@
     "growthPct": 1.05,
     "medianIncome": 67995,
     "domesticMig2024": -1378,
+    "domesticMigPct": -0.15,
     "netMig2024": 3152,
     "bounds": {
       "sw": {
@@ -1309,6 +1371,7 @@
     "growthPct": 1.46,
     "medianIncome": 67660,
     "domesticMig2024": -2154,
+    "domesticMigPct": -0.23,
     "netMig2024": 2469,
     "bounds": {
       "sw": {
@@ -1330,6 +1393,7 @@
     "growthPct": 5.06,
     "medianIncome": 52281,
     "domesticMig2024": -1562,
+    "domesticMigPct": -0.17,
     "netMig2024": 3117,
     "bounds": {
       "sw": {
@@ -1351,6 +1415,7 @@
     "growthPct": 1.58,
     "medianIncome": 86072,
     "domesticMig2024": 1080,
+    "domesticMigPct": 0.12,
     "netMig2024": 6652,
     "bounds": {
       "sw": {
@@ -1372,6 +1437,7 @@
     "growthPct": 2.84,
     "medianIncome": 82602,
     "domesticMig2024": 1254,
+    "domesticMigPct": 0.14,
     "netMig2024": 8677,
     "bounds": {
       "sw": {
@@ -1393,6 +1459,7 @@
     "growthPct": 1.39,
     "medianIncome": 68910,
     "domesticMig2024": -2012,
+    "domesticMigPct": -0.23,
     "netMig2024": 3640,
     "bounds": {
       "sw": {
@@ -1414,6 +1481,7 @@
     "growthPct": 2.22,
     "medianIncome": 93561,
     "domesticMig2024": -1804,
+    "domesticMigPct": -0.2,
     "netMig2024": 7666,
     "bounds": {
       "sw": {
@@ -1435,6 +1503,7 @@
     "growthPct": 1.21,
     "medianIncome": 58800,
     "domesticMig2024": -7355,
+    "domesticMigPct": -0.84,
     "netMig2024": -2883,
     "bounds": {
       "sw": {
@@ -1456,6 +1525,7 @@
     "growthPct": 4.91,
     "medianIncome": 66146,
     "domesticMig2024": 6584,
+    "domesticMigPct": 0.76,
     "netMig2024": 10191,
     "bounds": {
       "sw": {
@@ -1477,6 +1547,7 @@
     "growthPct": 8.79,
     "medianIncome": 82272,
     "domesticMig2024": 10954,
+    "domesticMigPct": 1.26,
     "netMig2024": 15401,
     "bounds": {
       "sw": {
@@ -1498,6 +1569,7 @@
     "growthPct": 13.16,
     "medianIncome": 73099,
     "domesticMig2024": 5000,
+    "domesticMigPct": 0.58,
     "netMig2024": 18057,
     "bounds": {
       "sw": {
@@ -1519,6 +1591,7 @@
     "growthPct": 17.63,
     "medianIncome": 63644,
     "domesticMig2024": 19745,
+    "domesticMigPct": 2.32,
     "netMig2024": 27766,
     "bounds": {
       "sw": {
@@ -1540,6 +1613,7 @@
     "growthPct": 10.61,
     "medianIncome": 82694,
     "domesticMig2024": 10710,
+    "domesticMigPct": 1.27,
     "netMig2024": 14822,
     "bounds": {
       "sw": {
@@ -1561,6 +1635,7 @@
     "growthPct": -1.06,
     "medianIncome": 107327,
     "domesticMig2024": -3889,
+    "domesticMigPct": -0.47,
     "netMig2024": 269,
     "bounds": {
       "sw": {
@@ -1582,6 +1657,7 @@
     "growthPct": 0.95,
     "medianIncome": 69752,
     "domesticMig2024": 2200,
+    "domesticMigPct": 0.27,
     "netMig2024": 5868,
     "bounds": {
       "sw": {
@@ -1603,6 +1679,7 @@
     "growthPct": 4.73,
     "medianIncome": 88531,
     "domesticMig2024": -42,
+    "domesticMigPct": -0.01,
     "netMig2024": 7486,
     "bounds": {
       "sw": {
@@ -1624,6 +1701,7 @@
     "growthPct": 3.12,
     "medianIncome": 63083,
     "domesticMig2024": 2040,
+    "domesticMigPct": 0.25,
     "netMig2024": 7358,
     "bounds": {
       "sw": {
@@ -1645,6 +1723,7 @@
     "growthPct": 2.8,
     "medianIncome": 87180,
     "domesticMig2024": 32,
+    "domesticMigPct": 0,
     "netMig2024": 2768,
     "bounds": {
       "sw": {
@@ -1666,6 +1745,7 @@
     "growthPct": 2.84,
     "medianIncome": 65309,
     "domesticMig2024": 1786,
+    "domesticMigPct": 0.23,
     "netMig2024": 3330,
     "bounds": {
       "sw": {
@@ -1687,6 +1767,7 @@
     "growthPct": 13.31,
     "medianIncome": 96745,
     "domesticMig2024": 5176,
+    "domesticMigPct": 0.68,
     "netMig2024": 13244,
     "bounds": {
       "sw": {
@@ -1708,6 +1789,7 @@
     "growthPct": 6.26,
     "medianIncome": 84209,
     "domesticMig2024": 4257,
+    "domesticMigPct": 0.56,
     "netMig2024": 10467,
     "bounds": {
       "sw": {
@@ -1729,6 +1811,7 @@
     "growthPct": 10.55,
     "medianIncome": 67599,
     "domesticMig2024": 14801,
+    "domesticMigPct": 2,
     "netMig2024": 18765,
     "bounds": {
       "sw": {
@@ -1750,6 +1833,7 @@
     "growthPct": 1.92,
     "medianIncome": 96912,
     "domesticMig2024": -1620,
+    "domesticMigPct": -0.23,
     "netMig2024": 2545,
     "bounds": {
       "sw": {
@@ -1771,6 +1855,7 @@
     "growthPct": 3.94,
     "medianIncome": 86827,
     "domesticMig2024": 1296,
+    "domesticMigPct": 0.18,
     "netMig2024": 7421,
     "bounds": {
       "sw": {
@@ -1792,6 +1877,7 @@
     "growthPct": 4.32,
     "medianIncome": 64282,
     "domesticMig2024": 6073,
+    "domesticMigPct": 0.86,
     "netMig2024": 9048,
     "bounds": {
       "sw": {
@@ -1813,6 +1899,7 @@
     "growthPct": 0,
     "medianIncome": 71312,
     "domesticMig2024": 360,
+    "domesticMigPct": 0.05,
     "netMig2024": 3399,
     "bounds": {
       "sw": {
@@ -1834,6 +1921,7 @@
     "growthPct": 4.78,
     "medianIncome": 98361,
     "domesticMig2024": 941,
+    "domesticMigPct": 0.14,
     "netMig2024": 3595,
     "bounds": {
       "sw": {
@@ -1855,6 +1943,7 @@
     "growthPct": 2.1,
     "medianIncome": 68930,
     "domesticMig2024": 1077,
+    "domesticMigPct": 0.16,
     "netMig2024": 4605,
     "bounds": {
       "sw": {
@@ -1876,6 +1965,7 @@
     "growthPct": 8.55,
     "medianIncome": 75817,
     "domesticMig2024": 11084,
+    "domesticMigPct": 1.68,
     "netMig2024": 14804,
     "bounds": {
       "sw": {
@@ -1897,6 +1987,7 @@
     "growthPct": -1.04,
     "medianIncome": 73558,
     "domesticMig2024": -1976,
+    "domesticMigPct": -0.3,
     "netMig2024": 1112,
     "bounds": {
       "sw": {
@@ -1918,6 +2009,7 @@
     "growthPct": 4.22,
     "medianIncome": 66628,
     "domesticMig2024": 3069,
+    "domesticMigPct": 0.48,
     "netMig2024": 4724,
     "bounds": {
       "sw": {
@@ -1939,6 +2031,7 @@
     "growthPct": 5.37,
     "medianIncome": 81017,
     "domesticMig2024": -427,
+    "domesticMigPct": -0.07,
     "netMig2024": 7505,
     "bounds": {
       "sw": {
@@ -1960,6 +2053,7 @@
     "growthPct": 4,
     "medianIncome": 79281,
     "domesticMig2024": 2205,
+    "domesticMigPct": 0.36,
     "netMig2024": 6121,
     "bounds": {
       "sw": {
@@ -1981,6 +2075,7 @@
     "growthPct": -2.22,
     "medianIncome": 60489,
     "domesticMig2024": -5574,
+    "domesticMigPct": -0.92,
     "netMig2024": -3646,
     "bounds": {
       "sw": {
@@ -2002,6 +2097,7 @@
     "growthPct": 10.77,
     "medianIncome": 77979,
     "domesticMig2024": 7105,
+    "domesticMigPct": 1.17,
     "netMig2024": 10442,
     "bounds": {
       "sw": {
@@ -2023,6 +2119,7 @@
     "growthPct": 3.27,
     "medianIncome": 72836,
     "domesticMig2024": 1381,
+    "domesticMigPct": 0.23,
     "netMig2024": 3024,
     "bounds": {
       "sw": {
@@ -2044,6 +2141,7 @@
     "growthPct": -0.8,
     "medianIncome": 63749,
     "domesticMig2024": -1518,
+    "domesticMigPct": -0.25,
     "netMig2024": 152,
     "bounds": {
       "sw": {
@@ -2065,6 +2163,7 @@
     "growthPct": 4.39,
     "medianIncome": 68666,
     "domesticMig2024": 4678,
+    "domesticMigPct": 0.8,
     "netMig2024": 6316,
     "bounds": {
       "sw": {
@@ -2086,6 +2185,7 @@
     "growthPct": 1.05,
     "medianIncome": 86266,
     "domesticMig2024": -1802,
+    "domesticMigPct": -0.31,
     "netMig2024": 3526,
     "bounds": {
       "sw": {
@@ -2107,6 +2207,7 @@
     "growthPct": 4.6,
     "medianIncome": 84684,
     "domesticMig2024": 3323,
+    "domesticMigPct": 0.58,
     "netMig2024": 8111,
     "bounds": {
       "sw": {
@@ -2128,6 +2229,7 @@
     "growthPct": 1.13,
     "medianIncome": 63656,
     "domesticMig2024": 702,
+    "domesticMigPct": 0.12,
     "netMig2024": 4665,
     "bounds": {
       "sw": {
@@ -2149,6 +2251,7 @@
     "growthPct": 3.59,
     "medianIncome": 88602,
     "domesticMig2024": 1545,
+    "domesticMigPct": 0.27,
     "netMig2024": 4566,
     "bounds": {
       "sw": {
@@ -2170,6 +2273,7 @@
     "growthPct": 1.86,
     "medianIncome": 83703,
     "domesticMig2024": -1241,
+    "domesticMigPct": -0.22,
     "netMig2024": 1713,
     "bounds": {
       "sw": {
@@ -2191,6 +2295,7 @@
     "growthPct": 0.67,
     "medianIncome": 79661,
     "domesticMig2024": -2186,
+    "domesticMigPct": -0.39,
     "netMig2024": 1138,
     "bounds": {
       "sw": {
@@ -2212,6 +2317,7 @@
     "growthPct": 14.08,
     "medianIncome": 72506,
     "domesticMig2024": 12859,
+    "domesticMigPct": 2.31,
     "netMig2024": 17266,
     "bounds": {
       "sw": {
@@ -2233,6 +2339,7 @@
     "growthPct": 10.29,
     "medianIncome": 83529,
     "domesticMig2024": 10380,
+    "domesticMigPct": 1.91,
     "netMig2024": 12659,
     "bounds": {
       "sw": {
@@ -2254,6 +2361,7 @@
     "growthPct": 5.69,
     "medianIncome": 73588,
     "domesticMig2024": 5400,
+    "domesticMigPct": 1,
     "netMig2024": 7688,
     "bounds": {
       "sw": {
@@ -2275,6 +2383,7 @@
     "growthPct": 3.2,
     "medianIncome": 70717,
     "domesticMig2024": -589,
+    "domesticMigPct": -0.11,
     "netMig2024": 6339,
     "bounds": {
       "sw": {
@@ -2296,6 +2405,7 @@
     "growthPct": 7.15,
     "medianIncome": 67203,
     "domesticMig2024": 970,
+    "domesticMigPct": 0.19,
     "netMig2024": 2938,
     "bounds": {
       "sw": {
@@ -2317,6 +2427,7 @@
     "growthPct": 4.53,
     "medianIncome": 61488,
     "domesticMig2024": 3507,
+    "domesticMigPct": 0.71,
     "netMig2024": 4790,
     "bounds": {
       "sw": {
@@ -2338,6 +2449,7 @@
     "growthPct": -0.71,
     "medianIncome": 102840,
     "domesticMig2024": -206,
+    "domesticMigPct": -0.04,
     "netMig2024": 2143,
     "bounds": {
       "sw": {
@@ -2359,6 +2471,7 @@
     "growthPct": 2.2,
     "medianIncome": 69489,
     "domesticMig2024": -2111,
+    "domesticMigPct": -0.44,
     "netMig2024": -513,
     "bounds": {
       "sw": {
@@ -2380,6 +2493,7 @@
     "growthPct": 13.71,
     "medianIncome": 73687,
     "domesticMig2024": 12048,
+    "domesticMigPct": 2.51,
     "netMig2024": 13226,
     "bounds": {
       "sw": {
@@ -2401,6 +2515,7 @@
     "growthPct": 1.36,
     "medianIncome": 70886,
     "domesticMig2024": -1370,
+    "domesticMigPct": -0.29,
     "netMig2024": 3115,
     "bounds": {
       "sw": {
@@ -2422,6 +2537,7 @@
     "growthPct": 3.24,
     "medianIncome": 82238,
     "domesticMig2024": 2711,
+    "domesticMigPct": 0.58,
     "netMig2024": 4804,
     "bounds": {
       "sw": {
@@ -2443,6 +2559,7 @@
     "growthPct": -0.36,
     "medianIncome": 70535,
     "domesticMig2024": -748,
+    "domesticMigPct": -0.16,
     "netMig2024": 2211,
     "bounds": {
       "sw": {
@@ -2464,6 +2581,7 @@
     "growthPct": 3.4,
     "medianIncome": 69378,
     "domesticMig2024": 756,
+    "domesticMigPct": 0.16,
     "netMig2024": 2607,
     "bounds": {
       "sw": {
@@ -2485,6 +2603,7 @@
     "growthPct": 2.68,
     "medianIncome": 86365,
     "domesticMig2024": 1102,
+    "domesticMigPct": 0.24,
     "netMig2024": 4512,
     "bounds": {
       "sw": {
@@ -2506,6 +2625,7 @@
     "growthPct": 0.34,
     "medianIncome": 99994,
     "domesticMig2024": 284,
+    "domesticMigPct": 0.06,
     "netMig2024": 3465,
     "bounds": {
       "sw": {
@@ -2527,6 +2647,7 @@
     "growthPct": 0.95,
     "medianIncome": 65801,
     "domesticMig2024": -956,
+    "domesticMigPct": -0.21,
     "netMig2024": 763,
     "bounds": {
       "sw": {
@@ -2548,6 +2669,7 @@
     "growthPct": -0.83,
     "medianIncome": 95977,
     "domesticMig2024": -4612,
+    "domesticMigPct": -1.04,
     "netMig2024": -1125,
     "bounds": {
       "sw": {
@@ -2569,6 +2691,7 @@
     "growthPct": 2.33,
     "medianIncome": 76010,
     "domesticMig2024": -307,
+    "domesticMigPct": -0.07,
     "netMig2024": 2785,
     "bounds": {
       "sw": {
@@ -2590,6 +2713,7 @@
     "growthPct": 2.39,
     "medianIncome": 77684,
     "domesticMig2024": -115,
+    "domesticMigPct": -0.03,
     "netMig2024": 3443,
     "bounds": {
       "sw": {
@@ -2611,6 +2735,7 @@
     "growthPct": -1.08,
     "medianIncome": 94486,
     "domesticMig2024": -5447,
+    "domesticMigPct": -1.25,
     "netMig2024": -2032,
     "bounds": {
       "sw": {
@@ -2632,6 +2757,7 @@
     "growthPct": 2.55,
     "medianIncome": 51334,
     "domesticMig2024": -1946,
+    "domesticMigPct": -0.45,
     "netMig2024": 425,
     "bounds": {
       "sw": {
@@ -2653,6 +2779,7 @@
     "growthPct": 6.62,
     "medianIncome": 74632,
     "domesticMig2024": 2190,
+    "domesticMigPct": 0.51,
     "netMig2024": 4420,
     "bounds": {
       "sw": {
@@ -2674,6 +2801,7 @@
     "growthPct": 1.78,
     "medianIncome": 100436,
     "domesticMig2024": -65,
+    "domesticMigPct": -0.02,
     "netMig2024": 2501,
     "bounds": {
       "sw": {
@@ -2695,6 +2823,7 @@
     "growthPct": 14.1,
     "medianIncome": 58535,
     "domesticMig2024": 16105,
+    "domesticMigPct": 3.75,
     "netMig2024": 18998,
     "bounds": {
       "sw": {
@@ -2716,6 +2845,7 @@
     "growthPct": 2.53,
     "medianIncome": 61266,
     "domesticMig2024": 2719,
+    "domesticMigPct": 0.64,
     "netMig2024": 4073,
     "bounds": {
       "sw": {
@@ -2737,6 +2867,7 @@
     "growthPct": -1.07,
     "medianIncome": 55357,
     "domesticMig2024": 544,
+    "domesticMigPct": 0.13,
     "netMig2024": 1251,
     "bounds": {
       "sw": {
@@ -2758,6 +2889,7 @@
     "growthPct": 3.79,
     "medianIncome": 69236,
     "domesticMig2024": 3249,
+    "domesticMigPct": 0.77,
     "netMig2024": 5026,
     "bounds": {
       "sw": {
@@ -2779,6 +2911,7 @@
     "growthPct": 2.85,
     "medianIncome": 60910,
     "domesticMig2024": 1175,
+    "domesticMigPct": 0.28,
     "netMig2024": 2892,
     "bounds": {
       "sw": {
@@ -2800,6 +2933,7 @@
     "growthPct": 10.77,
     "medianIncome": 86173,
     "domesticMig2024": -352,
+    "domesticMigPct": -0.08,
     "netMig2024": 7285,
     "bounds": {
       "sw": {
@@ -2821,6 +2955,7 @@
     "growthPct": 17.76,
     "medianIncome": 64623,
     "domesticMig2024": 14565,
+    "domesticMigPct": 3.52,
     "netMig2024": 16311,
     "bounds": {
       "sw": {
@@ -2842,6 +2977,7 @@
     "growthPct": -0.6,
     "medianIncome": 58119,
     "domesticMig2024": -516,
+    "domesticMigPct": -0.13,
     "netMig2024": 246,
     "bounds": {
       "sw": {
@@ -2863,6 +2999,7 @@
     "growthPct": 2.23,
     "medianIncome": 95918,
     "domesticMig2024": -567,
+    "domesticMigPct": -0.14,
     "netMig2024": 1980,
     "bounds": {
       "sw": {
@@ -2884,6 +3021,7 @@
     "growthPct": -0.97,
     "medianIncome": 60673,
     "domesticMig2024": 280,
+    "domesticMigPct": 0.07,
     "netMig2024": 1338,
     "bounds": {
       "sw": {
@@ -2905,6 +3043,7 @@
     "growthPct": -0.26,
     "medianIncome": 65666,
     "domesticMig2024": 852,
+    "domesticMigPct": 0.21,
     "netMig2024": 1415,
     "bounds": {
       "sw": {
@@ -2926,6 +3065,7 @@
     "growthPct": 0.29,
     "medianIncome": 65245,
     "domesticMig2024": -946,
+    "domesticMigPct": -0.24,
     "netMig2024": 662,
     "bounds": {
       "sw": {
@@ -2947,6 +3087,7 @@
     "growthPct": 3.48,
     "medianIncome": 63078,
     "domesticMig2024": -760,
+    "domesticMigPct": -0.19,
     "netMig2024": 2383,
     "bounds": {
       "sw": {
@@ -2968,6 +3109,7 @@
     "growthPct": 11.46,
     "medianIncome": 62440,
     "domesticMig2024": 8247,
+    "domesticMigPct": 2.08,
     "netMig2024": 10210,
     "bounds": {
       "sw": {
@@ -2989,6 +3131,7 @@
     "growthPct": 1.81,
     "medianIncome": 58909,
     "domesticMig2024": -4028,
+    "domesticMigPct": -1.02,
     "netMig2024": -1633,
     "bounds": {
       "sw": {
@@ -3010,6 +3153,7 @@
     "growthPct": 1.24,
     "medianIncome": 96333,
     "domesticMig2024": -2719,
+    "domesticMigPct": -0.69,
     "netMig2024": 4625,
     "bounds": {
       "sw": {
@@ -3031,6 +3175,7 @@
     "growthPct": 0.47,
     "medianIncome": 62746,
     "domesticMig2024": -995,
+    "domesticMigPct": -0.26,
     "netMig2024": 697,
     "bounds": {
       "sw": {
@@ -3052,6 +3197,7 @@
     "growthPct": -2.58,
     "medianIncome": 54635,
     "domesticMig2024": -1806,
+    "domesticMigPct": -0.47,
     "netMig2024": -662,
     "bounds": {
       "sw": {
@@ -3073,6 +3219,7 @@
     "growthPct": -0.15,
     "medianIncome": 69311,
     "domesticMig2024": 484,
+    "domesticMigPct": 0.13,
     "netMig2024": 1568,
     "bounds": {
       "sw": {
@@ -3094,6 +3241,7 @@
     "growthPct": -0.66,
     "medianIncome": 71925,
     "domesticMig2024": -429,
+    "domesticMigPct": -0.11,
     "netMig2024": 1433,
     "bounds": {
       "sw": {
@@ -3115,6 +3263,7 @@
     "growthPct": 4.32,
     "medianIncome": 91364,
     "domesticMig2024": 1412,
+    "domesticMigPct": 0.38,
     "netMig2024": 2632,
     "bounds": {
       "sw": {
@@ -3136,6 +3285,7 @@
     "growthPct": 0.43,
     "medianIncome": 87156,
     "domesticMig2024": -3718,
+    "domesticMigPct": -0.99,
     "netMig2024": 2758,
     "bounds": {
       "sw": {
@@ -3157,6 +3307,7 @@
     "growthPct": 2.12,
     "medianIncome": 60255,
     "domesticMig2024": 3509,
+    "domesticMigPct": 0.94,
     "netMig2024": 4228,
     "bounds": {
       "sw": {
@@ -3178,6 +3329,7 @@
     "growthPct": 0.86,
     "medianIncome": 80600,
     "domesticMig2024": -284,
+    "domesticMigPct": -0.08,
     "netMig2024": 2257,
     "bounds": {
       "sw": {
@@ -3199,6 +3351,7 @@
     "growthPct": 12.39,
     "medianIncome": 93287,
     "domesticMig2024": 5846,
+    "domesticMigPct": 1.58,
     "netMig2024": 7044,
     "bounds": {
       "sw": {
@@ -3220,6 +3373,7 @@
     "growthPct": 4.51,
     "medianIncome": 62288,
     "domesticMig2024": 1782,
+    "domesticMigPct": 0.49,
     "netMig2024": 4214,
     "bounds": {
       "sw": {
@@ -3241,6 +3395,7 @@
     "growthPct": -2.45,
     "medianIncome": 58483,
     "domesticMig2024": 558,
+    "domesticMigPct": 0.15,
     "netMig2024": 887,
     "bounds": {
       "sw": {
@@ -3262,6 +3417,7 @@
     "growthPct": -1.25,
     "medianIncome": 70872,
     "domesticMig2024": -644,
+    "domesticMigPct": -0.18,
     "netMig2024": 1084,
     "bounds": {
       "sw": {
@@ -3283,6 +3439,7 @@
     "growthPct": 6.05,
     "medianIncome": 58946,
     "domesticMig2024": 352,
+    "domesticMigPct": 0.1,
     "netMig2024": 4264,
     "bounds": {
       "sw": {
@@ -3304,6 +3461,7 @@
     "growthPct": 3.06,
     "medianIncome": 73095,
     "domesticMig2024": 53,
+    "domesticMigPct": 0.02,
     "netMig2024": 3142,
     "bounds": {
       "sw": {
@@ -3325,6 +3483,7 @@
     "growthPct": 7.93,
     "medianIncome": 66210,
     "domesticMig2024": 2352,
+    "domesticMigPct": 0.68,
     "netMig2024": 3240,
     "bounds": {
       "sw": {
@@ -3346,6 +3505,7 @@
     "growthPct": -0.51,
     "medianIncome": 66571,
     "domesticMig2024": -141,
+    "domesticMigPct": -0.04,
     "netMig2024": 1599,
     "bounds": {
       "sw": {
@@ -3367,6 +3527,7 @@
     "growthPct": 1.96,
     "medianIncome": 77459,
     "domesticMig2024": 608,
+    "domesticMigPct": 0.18,
     "netMig2024": 1560,
     "bounds": {
       "sw": {
@@ -3388,6 +3549,7 @@
     "growthPct": -0.15,
     "medianIncome": 102772,
     "domesticMig2024": -1034,
+    "domesticMigPct": -0.31,
     "netMig2024": 1511,
     "bounds": {
       "sw": {
@@ -3409,6 +3571,7 @@
     "growthPct": 0.24,
     "medianIncome": 65385,
     "domesticMig2024": -1746,
+    "domesticMigPct": -0.54,
     "netMig2024": -151,
     "bounds": {
       "sw": {
@@ -3430,6 +3593,7 @@
     "growthPct": -1.38,
     "medianIncome": 57762,
     "domesticMig2024": -720,
+    "domesticMigPct": -0.22,
     "netMig2024": 72,
     "bounds": {
       "sw": {
@@ -3451,6 +3615,7 @@
     "growthPct": 5.21,
     "medianIncome": 85881,
     "domesticMig2024": 953,
+    "domesticMigPct": 0.3,
     "netMig2024": 3070,
     "bounds": {
       "sw": {
@@ -3472,6 +3637,7 @@
     "growthPct": 0.16,
     "medianIncome": 67447,
     "domesticMig2024": 811,
+    "domesticMigPct": 0.26,
     "netMig2024": 1949,
     "bounds": {
       "sw": {
@@ -3493,6 +3659,7 @@
     "growthPct": 2.04,
     "medianIncome": 55948,
     "domesticMig2024": 3146,
+    "domesticMigPct": 1,
     "netMig2024": 3290,
     "bounds": {
       "sw": {
@@ -3514,6 +3681,7 @@
     "growthPct": 5.94,
     "medianIncome": 75473,
     "domesticMig2024": 4139,
+    "domesticMigPct": 1.33,
     "netMig2024": 4755,
     "bounds": {
       "sw": {
@@ -3535,6 +3703,7 @@
     "growthPct": 8.08,
     "medianIncome": 79150,
     "domesticMig2024": 1034,
+    "domesticMigPct": 0.33,
     "netMig2024": 3570,
     "bounds": {
       "sw": {
@@ -3556,6 +3725,7 @@
     "growthPct": 7.62,
     "medianIncome": 81418,
     "domesticMig2024": 2000,
+    "domesticMigPct": 0.65,
     "netMig2024": 2714,
     "bounds": {
       "sw": {
@@ -3577,6 +3747,7 @@
     "growthPct": 3.83,
     "medianIncome": 63880,
     "domesticMig2024": 19,
+    "domesticMigPct": 0.01,
     "netMig2024": 1000,
     "bounds": {
       "sw": {
@@ -3598,6 +3769,7 @@
     "growthPct": 2.75,
     "medianIncome": 93985,
     "domesticMig2024": 2134,
+    "domesticMigPct": 0.7,
     "netMig2024": 3236,
     "bounds": {
       "sw": {
@@ -3619,6 +3791,7 @@
     "growthPct": 5.07,
     "medianIncome": 65044,
     "domesticMig2024": -902,
+    "domesticMigPct": -0.3,
     "netMig2024": 856,
     "bounds": {
       "sw": {
@@ -3640,6 +3813,7 @@
     "growthPct": 3.23,
     "medianIncome": 65210,
     "domesticMig2024": 395,
+    "domesticMigPct": 0.13,
     "netMig2024": 984,
     "bounds": {
       "sw": {
@@ -3661,6 +3835,7 @@
     "growthPct": -1.48,
     "medianIncome": 68830,
     "domesticMig2024": -409,
+    "domesticMigPct": -0.14,
     "netMig2024": 848,
     "bounds": {
       "sw": {
@@ -3682,6 +3857,7 @@
     "growthPct": 7.16,
     "medianIncome": 59691,
     "domesticMig2024": -1028,
+    "domesticMigPct": -0.36,
     "netMig2024": 1857,
     "bounds": {
       "sw": {
@@ -3703,6 +3879,7 @@
     "growthPct": 0.77,
     "medianIncome": 84185,
     "domesticMig2024": 888,
+    "domesticMigPct": 0.31,
     "netMig2024": 2276,
     "bounds": {
       "sw": {
@@ -3724,6 +3901,7 @@
     "growthPct": 4.52,
     "medianIncome": 59975,
     "domesticMig2024": 264,
+    "domesticMigPct": 0.09,
     "netMig2024": 1334,
     "bounds": {
       "sw": {
@@ -3745,6 +3923,7 @@
     "growthPct": -0.21,
     "medianIncome": 93398,
     "domesticMig2024": -678,
+    "domesticMigPct": -0.24,
     "netMig2024": 163,
     "bounds": {
       "sw": {
@@ -3766,6 +3945,7 @@
     "growthPct": 0.39,
     "medianIncome": 71067,
     "domesticMig2024": 542,
+    "domesticMigPct": 0.19,
     "netMig2024": 868,
     "bounds": {
       "sw": {
@@ -3787,6 +3967,7 @@
     "growthPct": 2.11,
     "medianIncome": 98546,
     "domesticMig2024": 2183,
+    "domesticMigPct": 0.78,
     "netMig2024": 3192,
     "bounds": {
       "sw": {
@@ -3808,6 +3989,7 @@
     "growthPct": 0.78,
     "medianIncome": 77084,
     "domesticMig2024": 527,
+    "domesticMigPct": 0.19,
     "netMig2024": 2238,
     "bounds": {
       "sw": {
@@ -3829,6 +4011,7 @@
     "growthPct": 4.93,
     "medianIncome": 79277,
     "domesticMig2024": 591,
+    "domesticMigPct": 0.21,
     "netMig2024": 1682,
     "bounds": {
       "sw": {
@@ -3850,6 +4033,7 @@
     "growthPct": 2.21,
     "medianIncome": 66571,
     "domesticMig2024": -336,
+    "domesticMigPct": -0.12,
     "netMig2024": 1057,
     "bounds": {
       "sw": {
@@ -3871,6 +4055,7 @@
     "growthPct": 2.14,
     "medianIncome": 62506,
     "domesticMig2024": -2517,
+    "domesticMigPct": -0.92,
     "netMig2024": -505,
     "bounds": {
       "sw": {
@@ -3892,6 +4077,7 @@
     "growthPct": 0.95,
     "medianIncome": 67671,
     "domesticMig2024": 357,
+    "domesticMigPct": 0.13,
     "netMig2024": 893,
     "bounds": {
       "sw": {
@@ -3913,6 +4099,7 @@
     "growthPct": 14.21,
     "medianIncome": 78162,
     "domesticMig2024": 6507,
+    "domesticMigPct": 2.4,
     "netMig2024": 7893,
     "bounds": {
       "sw": {
@@ -3934,6 +4121,7 @@
     "growthPct": 7.18,
     "medianIncome": 75523,
     "domesticMig2024": -217,
+    "domesticMigPct": -0.08,
     "netMig2024": 2211,
     "bounds": {
       "sw": {
@@ -3955,6 +4143,7 @@
     "growthPct": -1.22,
     "medianIncome": 61476,
     "domesticMig2024": -1008,
+    "domesticMigPct": -0.38,
     "netMig2024": 87,
     "bounds": {
       "sw": {
@@ -3976,6 +4165,7 @@
     "growthPct": 1.85,
     "medianIncome": 67782,
     "domesticMig2024": 1412,
+    "domesticMigPct": 0.53,
     "netMig2024": 1864,
     "bounds": {
       "sw": {
@@ -3997,6 +4187,7 @@
     "growthPct": 1.18,
     "medianIncome": 70525,
     "domesticMig2024": -676,
+    "domesticMigPct": -0.26,
     "netMig2024": 1277,
     "bounds": {
       "sw": {
@@ -4018,6 +4209,7 @@
     "growthPct": 6.83,
     "medianIncome": 85509,
     "domesticMig2024": 2590,
+    "domesticMigPct": 0.98,
     "netMig2024": 3198,
     "bounds": {
       "sw": {
@@ -4039,6 +4231,7 @@
     "growthPct": -3.58,
     "medianIncome": 109266,
     "domesticMig2024": -2801,
+    "domesticMigPct": -1.07,
     "netMig2024": -1575,
     "bounds": {
       "sw": {
@@ -4060,6 +4253,7 @@
     "growthPct": 12.88,
     "medianIncome": 75019,
     "domesticMig2024": 6570,
+    "domesticMigPct": 2.51,
     "netMig2024": 7645,
     "bounds": {
       "sw": {
@@ -4081,6 +4275,7 @@
     "growthPct": 0.7,
     "medianIncome": 68015,
     "domesticMig2024": -1371,
+    "domesticMigPct": -0.53,
     "netMig2024": 432,
     "bounds": {
       "sw": {
@@ -4102,6 +4297,7 @@
     "growthPct": 6.69,
     "medianIncome": 66106,
     "domesticMig2024": 3546,
+    "domesticMigPct": 1.41,
     "netMig2024": 4191,
     "bounds": {
       "sw": {
@@ -4123,6 +4319,7 @@
     "growthPct": 6.69,
     "medianIncome": 71923,
     "domesticMig2024": 1823,
+    "domesticMigPct": 0.73,
     "netMig2024": 2490,
     "bounds": {
       "sw": {
@@ -4144,6 +4341,7 @@
     "growthPct": 2.41,
     "medianIncome": 83919,
     "domesticMig2024": 628,
+    "domesticMigPct": 0.25,
     "netMig2024": 1258,
     "bounds": {
       "sw": {
@@ -4165,6 +4363,7 @@
     "growthPct": -1.28,
     "medianIncome": 63347,
     "domesticMig2024": -330,
+    "domesticMigPct": -0.14,
     "netMig2024": 747,
     "bounds": {
       "sw": {
@@ -4186,6 +4385,7 @@
     "growthPct": -4.59,
     "medianIncome": 67010,
     "domesticMig2024": 940,
+    "domesticMigPct": 0.39,
     "netMig2024": 1816,
     "bounds": {
       "sw": {
@@ -4207,6 +4407,7 @@
     "growthPct": 2.45,
     "medianIncome": 64558,
     "domesticMig2024": -3472,
+    "domesticMigPct": -1.43,
     "netMig2024": 2173,
     "bounds": {
       "sw": {
@@ -4228,6 +4429,7 @@
     "growthPct": 1.63,
     "medianIncome": 58127,
     "domesticMig2024": 1124,
+    "domesticMigPct": 0.47,
     "netMig2024": 1526,
     "bounds": {
       "sw": {
@@ -4249,6 +4451,7 @@
     "growthPct": 9.95,
     "medianIncome": 81015,
     "domesticMig2024": 3777,
+    "domesticMigPct": 1.59,
     "netMig2024": 5019,
     "bounds": {
       "sw": {
@@ -4270,6 +4473,7 @@
     "growthPct": 3.58,
     "medianIncome": 80989,
     "domesticMig2024": 1276,
+    "domesticMigPct": 0.54,
     "netMig2024": 2252,
     "bounds": {
       "sw": {
@@ -4291,6 +4495,7 @@
     "growthPct": 2.48,
     "medianIncome": 56717,
     "domesticMig2024": 1303,
+    "domesticMigPct": 0.56,
     "netMig2024": 1584,
     "bounds": {
       "sw": {
@@ -4312,6 +4517,7 @@
     "growthPct": -0.21,
     "medianIncome": 68160,
     "domesticMig2024": 144,
+    "domesticMigPct": 0.06,
     "netMig2024": 593,
     "bounds": {
       "sw": {
@@ -4333,6 +4539,7 @@
     "growthPct": 1.53,
     "medianIncome": 94452,
     "domesticMig2024": 46,
+    "domesticMigPct": 0.02,
     "netMig2024": 1559,
     "bounds": {
       "sw": {
@@ -4354,6 +4561,7 @@
     "growthPct": 1.95,
     "medianIncome": 89675,
     "domesticMig2024": -595,
+    "domesticMigPct": -0.26,
     "netMig2024": 642,
     "bounds": {
       "sw": {
@@ -4375,6 +4583,7 @@
     "growthPct": 2.69,
     "medianIncome": 59895,
     "domesticMig2024": -2410,
+    "domesticMigPct": -1.05,
     "netMig2024": 737,
     "bounds": {
       "sw": {
@@ -4396,6 +4605,7 @@
     "growthPct": 1.71,
     "medianIncome": 90911,
     "domesticMig2024": -52,
+    "domesticMigPct": -0.02,
     "netMig2024": 1039,
     "bounds": {
       "sw": {
@@ -4417,6 +4627,7 @@
     "growthPct": 4.46,
     "medianIncome": 55663,
     "domesticMig2024": 869,
+    "domesticMigPct": 0.38,
     "netMig2024": 2563,
     "bounds": {
       "sw": {
@@ -4438,6 +4649,7 @@
     "growthPct": 2.62,
     "medianIncome": 90552,
     "domesticMig2024": 495,
+    "domesticMigPct": 0.22,
     "netMig2024": 1812,
     "bounds": {
       "sw": {
@@ -4459,6 +4671,7 @@
     "growthPct": 6.2,
     "medianIncome": 55799,
     "domesticMig2024": 4659,
+    "domesticMigPct": 2.06,
     "netMig2024": 4944,
     "bounds": {
       "sw": {
@@ -4480,6 +4693,7 @@
     "growthPct": 12.82,
     "medianIncome": 67834,
     "domesticMig2024": 6049,
+    "domesticMigPct": 2.67,
     "netMig2024": 8290,
     "bounds": {
       "sw": {
@@ -4501,6 +4715,7 @@
     "growthPct": 1.63,
     "medianIncome": 79161,
     "domesticMig2024": 275,
+    "domesticMigPct": 0.12,
     "netMig2024": 864,
     "bounds": {
       "sw": {
@@ -4522,6 +4737,7 @@
     "growthPct": 3.84,
     "medianIncome": 62897,
     "domesticMig2024": -456,
+    "domesticMigPct": -0.2,
     "netMig2024": 691,
     "bounds": {
       "sw": {
@@ -4543,6 +4759,7 @@
     "growthPct": -2.3,
     "medianIncome": 49203,
     "domesticMig2024": -615,
+    "domesticMigPct": -0.28,
     "netMig2024": -99,
     "bounds": {
       "sw": {
@@ -4564,6 +4781,7 @@
     "growthPct": 9.33,
     "medianIncome": 77430,
     "domesticMig2024": 1229,
+    "domesticMigPct": 0.55,
     "netMig2024": 2613,
     "bounds": {
       "sw": {
@@ -4585,6 +4803,7 @@
     "growthPct": -0.87,
     "medianIncome": 71443,
     "domesticMig2024": 390,
+    "domesticMigPct": 0.18,
     "netMig2024": 637,
     "bounds": {
       "sw": {
@@ -4606,6 +4825,7 @@
     "growthPct": 7.46,
     "medianIncome": 60417,
     "domesticMig2024": 454,
+    "domesticMigPct": 0.21,
     "netMig2024": 4032,
     "bounds": {
       "sw": {
@@ -4627,6 +4847,7 @@
     "growthPct": 4.06,
     "medianIncome": 69463,
     "domesticMig2024": -114,
+    "domesticMigPct": -0.05,
     "netMig2024": 1556,
     "bounds": {
       "sw": {
@@ -4648,6 +4869,7 @@
     "growthPct": 3.7,
     "medianIncome": 56096,
     "domesticMig2024": 2004,
+    "domesticMigPct": 0.93,
     "netMig2024": 2442,
     "bounds": {
       "sw": {
@@ -4669,6 +4891,7 @@
     "growthPct": 4.09,
     "medianIncome": 64568,
     "domesticMig2024": -918,
+    "domesticMigPct": -0.43,
     "netMig2024": -491,
     "bounds": {
       "sw": {
@@ -4690,6 +4913,7 @@
     "growthPct": 13.54,
     "medianIncome": 66154,
     "domesticMig2024": 5981,
+    "domesticMigPct": 2.82,
     "netMig2024": 7244,
     "bounds": {
       "sw": {
@@ -4711,6 +4935,7 @@
     "growthPct": 2.33,
     "medianIncome": 123577,
     "domesticMig2024": 260,
+    "domesticMigPct": 0.12,
     "netMig2024": 596,
     "bounds": {
       "sw": {
@@ -4732,6 +4957,7 @@
     "growthPct": 4.57,
     "medianIncome": 77215,
     "domesticMig2024": 624,
+    "domesticMigPct": 0.3,
     "netMig2024": 2076,
     "bounds": {
       "sw": {
@@ -4753,6 +4979,7 @@
     "growthPct": -1.56,
     "medianIncome": 68574,
     "domesticMig2024": 896,
+    "domesticMigPct": 0.43,
     "netMig2024": 1441,
     "bounds": {
       "sw": {
@@ -4774,6 +5001,7 @@
     "growthPct": 15.34,
     "medianIncome": 76411,
     "domesticMig2024": 4178,
+    "domesticMigPct": 2.01,
     "netMig2024": 4646,
     "bounds": {
       "sw": {
@@ -4795,6 +5023,7 @@
     "growthPct": 0.18,
     "medianIncome": 65617,
     "domesticMig2024": -1462,
+    "domesticMigPct": -0.7,
     "netMig2024": -545,
     "bounds": {
       "sw": {
@@ -4816,6 +5045,7 @@
     "growthPct": 3.17,
     "medianIncome": 60146,
     "domesticMig2024": 1501,
+    "domesticMigPct": 0.72,
     "netMig2024": 2093,
     "bounds": {
       "sw": {
@@ -4837,6 +5067,7 @@
     "growthPct": -1.15,
     "medianIncome": 74580,
     "domesticMig2024": -605,
+    "domesticMigPct": -0.29,
     "netMig2024": 226,
     "bounds": {
       "sw": {
@@ -4858,6 +5089,7 @@
     "growthPct": 6.26,
     "medianIncome": 58991,
     "domesticMig2024": 1400,
+    "domesticMigPct": 0.68,
     "netMig2024": 3031,
     "bounds": {
       "sw": {
@@ -4879,6 +5111,7 @@
     "growthPct": 3.11,
     "medianIncome": 75670,
     "domesticMig2024": -433,
+    "domesticMigPct": -0.21,
     "netMig2024": 1175,
     "bounds": {
       "sw": {
@@ -4900,6 +5133,7 @@
     "growthPct": 6.51,
     "medianIncome": 78702,
     "domesticMig2024": 2233,
+    "domesticMigPct": 1.09,
     "netMig2024": 2756,
     "bounds": {
       "sw": {
@@ -4921,6 +5155,7 @@
     "growthPct": -4.03,
     "medianIncome": 58089,
     "domesticMig2024": -130,
+    "domesticMigPct": -0.06,
     "netMig2024": 183,
     "bounds": {
       "sw": {
@@ -4942,6 +5177,7 @@
     "growthPct": 0.27,
     "medianIncome": 53874,
     "domesticMig2024": 796,
+    "domesticMigPct": 0.4,
     "netMig2024": 1172,
     "bounds": {
       "sw": {
@@ -4963,6 +5199,7 @@
     "growthPct": -3.83,
     "medianIncome": 64269,
     "domesticMig2024": -1008,
+    "domesticMigPct": -0.51,
     "netMig2024": -207,
     "bounds": {
       "sw": {
@@ -4984,6 +5221,7 @@
     "growthPct": 0.21,
     "medianIncome": 75331,
     "domesticMig2024": 622,
+    "domesticMigPct": 0.31,
     "netMig2024": 1211,
     "bounds": {
       "sw": {
@@ -5005,6 +5243,7 @@
     "growthPct": 8.64,
     "medianIncome": 62437,
     "domesticMig2024": 1568,
+    "domesticMigPct": 0.8,
     "netMig2024": 3830,
     "bounds": {
       "sw": {
@@ -5026,6 +5265,7 @@
     "growthPct": 5.96,
     "medianIncome": 72872,
     "domesticMig2024": 1738,
+    "domesticMigPct": 0.9,
     "netMig2024": 2426,
     "bounds": {
       "sw": {
@@ -5047,6 +5287,7 @@
     "growthPct": 4.54,
     "medianIncome": 74599,
     "domesticMig2024": 894,
+    "domesticMigPct": 0.46,
     "netMig2024": 958,
     "bounds": {
       "sw": {
@@ -5068,6 +5309,7 @@
     "growthPct": 7.51,
     "medianIncome": 93442,
     "domesticMig2024": 1700,
+    "domesticMigPct": 0.9,
     "netMig2024": 3391,
     "bounds": {
       "sw": {
@@ -5089,6 +5331,7 @@
     "growthPct": 9.9,
     "medianIncome": 77034,
     "domesticMig2024": 2896,
+    "domesticMigPct": 1.54,
     "netMig2024": 2938,
     "bounds": {
       "sw": {
@@ -5110,6 +5353,7 @@
     "growthPct": -1.27,
     "medianIncome": 58347,
     "domesticMig2024": 163,
+    "domesticMigPct": 0.09,
     "netMig2024": 483,
     "bounds": {
       "sw": {
@@ -5131,6 +5375,7 @@
     "growthPct": 2.65,
     "medianIncome": 74762,
     "domesticMig2024": 70,
+    "domesticMigPct": 0.04,
     "netMig2024": 1126,
     "bounds": {
       "sw": {
@@ -5152,6 +5397,7 @@
     "growthPct": 4.34,
     "medianIncome": 66464,
     "domesticMig2024": 169,
+    "domesticMigPct": 0.09,
     "netMig2024": 1347,
     "bounds": {
       "sw": {
@@ -5173,6 +5419,7 @@
     "growthPct": 1.76,
     "medianIncome": 58740,
     "domesticMig2024": 1214,
+    "domesticMigPct": 0.66,
     "netMig2024": 1524,
     "bounds": {
       "sw": {
@@ -5194,6 +5441,7 @@
     "growthPct": 6.74,
     "medianIncome": 64445,
     "domesticMig2024": 2577,
+    "domesticMigPct": 1.41,
     "netMig2024": 3515,
     "bounds": {
       "sw": {
@@ -5215,6 +5463,7 @@
     "growthPct": 0.63,
     "medianIncome": 81804,
     "domesticMig2024": -382,
+    "domesticMigPct": -0.21,
     "netMig2024": 460,
     "bounds": {
       "sw": {
@@ -5236,6 +5485,7 @@
     "growthPct": 4.16,
     "medianIncome": 74142,
     "domesticMig2024": -683,
+    "domesticMigPct": -0.37,
     "netMig2024": 1123,
     "bounds": {
       "sw": {
@@ -5257,6 +5507,7 @@
     "growthPct": 0.11,
     "medianIncome": 64627,
     "domesticMig2024": -507,
+    "domesticMigPct": -0.28,
     "netMig2024": 646,
     "bounds": {
       "sw": {
@@ -5278,6 +5529,7 @@
     "growthPct": 1.12,
     "medianIncome": 56393,
     "domesticMig2024": -1196,
+    "domesticMigPct": -0.66,
     "netMig2024": 154,
     "bounds": {
       "sw": {
@@ -5299,6 +5551,7 @@
     "growthPct": -0.73,
     "medianIncome": 71931,
     "domesticMig2024": 814,
+    "domesticMigPct": 0.45,
     "netMig2024": 1313,
     "bounds": {
       "sw": {
@@ -5320,6 +5573,7 @@
     "growthPct": 5.22,
     "medianIncome": 58851,
     "domesticMig2024": 709,
+    "domesticMigPct": 0.39,
     "netMig2024": 1391,
     "bounds": {
       "sw": {
@@ -5341,6 +5595,7 @@
     "growthPct": 1.54,
     "medianIncome": 63495,
     "domesticMig2024": 841,
+    "domesticMigPct": 0.47,
     "netMig2024": 1012,
     "bounds": {
       "sw": {
@@ -5362,6 +5617,7 @@
     "growthPct": 2.42,
     "medianIncome": 72513,
     "domesticMig2024": 795,
+    "domesticMigPct": 0.45,
     "netMig2024": 1031,
     "bounds": {
       "sw": {
@@ -5383,6 +5639,7 @@
     "growthPct": 0.93,
     "medianIncome": 72873,
     "domesticMig2024": 789,
+    "domesticMigPct": 0.46,
     "netMig2024": 1240,
     "bounds": {
       "sw": {
@@ -5404,6 +5661,7 @@
     "growthPct": 7.73,
     "medianIncome": 71049,
     "domesticMig2024": 1946,
+    "domesticMigPct": 1.13,
     "netMig2024": 2974,
     "bounds": {
       "sw": {
@@ -5425,6 +5683,7 @@
     "growthPct": 0.48,
     "medianIncome": 78329,
     "domesticMig2024": -1047,
+    "domesticMigPct": -0.61,
     "netMig2024": 340,
     "bounds": {
       "sw": {
@@ -5446,6 +5705,7 @@
     "growthPct": 8.77,
     "medianIncome": 77300,
     "domesticMig2024": 1489,
+    "domesticMigPct": 0.87,
     "netMig2024": 1684,
     "bounds": {
       "sw": {
@@ -5467,6 +5727,7 @@
     "growthPct": 0.25,
     "medianIncome": 71009,
     "domesticMig2024": 346,
+    "domesticMigPct": 0.2,
     "netMig2024": 509,
     "bounds": {
       "sw": {
@@ -5488,6 +5749,7 @@
     "growthPct": 10.61,
     "medianIncome": 55355,
     "domesticMig2024": 5163,
+    "domesticMigPct": 3.03,
     "netMig2024": 5475,
     "bounds": {
       "sw": {
@@ -5509,6 +5771,7 @@
     "growthPct": 0.96,
     "medianIncome": 68916,
     "domesticMig2024": -228,
+    "domesticMigPct": -0.13,
     "netMig2024": 929,
     "bounds": {
       "sw": {
@@ -5530,6 +5793,7 @@
     "growthPct": 2.93,
     "medianIncome": 71031,
     "domesticMig2024": 1098,
+    "domesticMigPct": 0.65,
     "netMig2024": 2908,
     "bounds": {
       "sw": {
@@ -5551,6 +5815,7 @@
     "growthPct": 1.01,
     "medianIncome": 62250,
     "domesticMig2024": 321,
+    "domesticMigPct": 0.19,
     "netMig2024": 604,
     "bounds": {
       "sw": {
@@ -5572,6 +5837,7 @@
     "growthPct": 0,
     "medianIncome": 55380,
     "domesticMig2024": 183,
+    "domesticMigPct": 0.11,
     "netMig2024": 496,
     "bounds": {
       "sw": {
@@ -5593,6 +5859,7 @@
     "growthPct": -0.24,
     "medianIncome": 79412,
     "domesticMig2024": 165,
+    "domesticMigPct": 0.1,
     "netMig2024": 723,
     "bounds": {
       "sw": {
@@ -5614,6 +5881,7 @@
     "growthPct": -1.06,
     "medianIncome": 82374,
     "domesticMig2024": -75,
+    "domesticMigPct": -0.05,
     "netMig2024": 323,
     "bounds": {
       "sw": {
@@ -5635,6 +5903,7 @@
     "growthPct": 1.08,
     "medianIncome": 74390,
     "domesticMig2024": 760,
+    "domesticMigPct": 0.46,
     "netMig2024": 990,
     "bounds": {
       "sw": {
@@ -5656,6 +5925,7 @@
     "growthPct": 1.9,
     "medianIncome": 86391,
     "domesticMig2024": -966,
+    "domesticMigPct": -0.58,
     "netMig2024": 232,
     "bounds": {
       "sw": {
@@ -5677,6 +5947,7 @@
     "growthPct": -0.65,
     "medianIncome": 95049,
     "domesticMig2024": -2567,
+    "domesticMigPct": -1.57,
     "netMig2024": -1322,
     "bounds": {
       "sw": {
@@ -5698,6 +5969,7 @@
     "growthPct": 0.28,
     "medianIncome": 62949,
     "domesticMig2024": -1606,
+    "domesticMigPct": -0.99,
     "netMig2024": -16,
     "bounds": {
       "sw": {
@@ -5719,6 +5991,7 @@
     "growthPct": 3.57,
     "medianIncome": 71485,
     "domesticMig2024": 1663,
+    "domesticMigPct": 1.03,
     "netMig2024": 1789,
     "bounds": {
       "sw": {
@@ -5740,6 +6013,7 @@
     "growthPct": 9.35,
     "medianIncome": 77520,
     "domesticMig2024": -157,
+    "domesticMigPct": -0.1,
     "netMig2024": 963,
     "bounds": {
       "sw": {
@@ -5761,6 +6035,7 @@
     "growthPct": -0.08,
     "medianIncome": 65004,
     "domesticMig2024": 113,
+    "domesticMigPct": 0.07,
     "netMig2024": 511,
     "bounds": {
       "sw": {
@@ -5782,6 +6057,7 @@
     "growthPct": 1.04,
     "medianIncome": 72748,
     "domesticMig2024": -1544,
+    "domesticMigPct": -0.97,
     "netMig2024": 709,
     "bounds": {
       "sw": {
@@ -5803,6 +6079,7 @@
     "growthPct": 2.01,
     "medianIncome": 63987,
     "domesticMig2024": 312,
+    "domesticMigPct": 0.2,
     "netMig2024": 916,
     "bounds": {
       "sw": {
@@ -5824,6 +6101,7 @@
     "growthPct": 2.14,
     "medianIncome": 74946,
     "domesticMig2024": 866,
+    "domesticMigPct": 0.54,
     "netMig2024": 1280,
     "bounds": {
       "sw": {
@@ -5845,6 +6123,7 @@
     "growthPct": 2.64,
     "medianIncome": 93944,
     "domesticMig2024": 887,
+    "domesticMigPct": 0.56,
     "netMig2024": 1212,
     "bounds": {
       "sw": {
@@ -5866,6 +6145,7 @@
     "growthPct": 1.9,
     "medianIncome": 74689,
     "domesticMig2024": 399,
+    "domesticMigPct": 0.25,
     "netMig2024": 1708,
     "bounds": {
       "sw": {
@@ -5887,6 +6167,7 @@
     "growthPct": 3.05,
     "medianIncome": 63248,
     "domesticMig2024": 555,
+    "domesticMigPct": 0.35,
     "netMig2024": 1149,
     "bounds": {
       "sw": {
@@ -5908,6 +6189,7 @@
     "growthPct": 2.07,
     "medianIncome": 77495,
     "domesticMig2024": 653,
+    "domesticMigPct": 0.42,
     "netMig2024": 835,
     "bounds": {
       "sw": {
@@ -5929,6 +6211,7 @@
     "growthPct": 1.73,
     "medianIncome": 59008,
     "domesticMig2024": -25,
+    "domesticMigPct": -0.02,
     "netMig2024": 252,
     "bounds": {
       "sw": {
@@ -5950,6 +6233,7 @@
     "growthPct": 3.64,
     "medianIncome": 58049,
     "domesticMig2024": 1264,
+    "domesticMigPct": 0.81,
     "netMig2024": 1486,
     "bounds": {
       "sw": {
@@ -5971,6 +6255,7 @@
     "growthPct": 5.99,
     "medianIncome": 71985,
     "domesticMig2024": 5,
+    "domesticMigPct": 0,
     "netMig2024": 68,
     "bounds": {
       "sw": {
@@ -5992,6 +6277,7 @@
     "growthPct": 0.8,
     "medianIncome": 75272,
     "domesticMig2024": 593,
+    "domesticMigPct": 0.38,
     "netMig2024": 904,
     "bounds": {
       "sw": {
@@ -6013,6 +6299,7 @@
     "growthPct": 0.99,
     "medianIncome": 64499,
     "domesticMig2024": 867,
+    "domesticMigPct": 0.56,
     "netMig2024": 2256,
     "bounds": {
       "sw": {
@@ -6034,6 +6321,7 @@
     "growthPct": 1.59,
     "medianIncome": 68750,
     "domesticMig2024": -135,
+    "domesticMigPct": -0.09,
     "netMig2024": 659,
     "bounds": {
       "sw": {
@@ -6055,6 +6343,7 @@
     "growthPct": 2.48,
     "medianIncome": 56772,
     "domesticMig2024": 1200,
+    "domesticMigPct": 0.78,
     "netMig2024": 1496,
     "bounds": {
       "sw": {
@@ -6076,6 +6365,7 @@
     "growthPct": 19.22,
     "medianIncome": 73297,
     "domesticMig2024": 4385,
+    "domesticMigPct": 2.83,
     "netMig2024": 4638,
     "bounds": {
       "sw": {
@@ -6097,6 +6387,7 @@
     "growthPct": -1.19,
     "medianIncome": 63152,
     "domesticMig2024": -267,
+    "domesticMigPct": -0.17,
     "netMig2024": 539,
     "bounds": {
       "sw": {
@@ -6118,6 +6409,7 @@
     "growthPct": 3,
     "medianIncome": 54581,
     "domesticMig2024": 606,
+    "domesticMigPct": 0.4,
     "netMig2024": 868,
     "bounds": {
       "sw": {
@@ -6139,6 +6431,7 @@
     "growthPct": 0.81,
     "medianIncome": 72425,
     "domesticMig2024": 329,
+    "domesticMigPct": 0.22,
     "netMig2024": 588,
     "bounds": {
       "sw": {
@@ -6160,6 +6453,7 @@
     "growthPct": 11.02,
     "medianIncome": 70455,
     "domesticMig2024": 3025,
+    "domesticMigPct": 2.01,
     "netMig2024": 3455,
     "bounds": {
       "sw": {
@@ -6181,6 +6475,7 @@
     "growthPct": 6.08,
     "medianIncome": 53328,
     "domesticMig2024": 1780,
+    "domesticMigPct": 1.19,
     "netMig2024": 2043,
     "bounds": {
       "sw": {
@@ -6202,6 +6497,7 @@
     "growthPct": 1.17,
     "medianIncome": 63618,
     "domesticMig2024": -512,
+    "domesticMigPct": -0.34,
     "netMig2024": 1,
     "bounds": {
       "sw": {
@@ -6223,6 +6519,7 @@
     "growthPct": -0.01,
     "medianIncome": 45067,
     "domesticMig2024": 297,
+    "domesticMigPct": 0.2,
     "netMig2024": 463,
     "bounds": {
       "sw": {
@@ -6244,6 +6541,7 @@
     "growthPct": 4.95,
     "medianIncome": 82413,
     "domesticMig2024": 1733,
+    "domesticMigPct": 1.16,
     "netMig2024": 2091,
     "bounds": {
       "sw": {
@@ -6265,6 +6563,7 @@
     "growthPct": -2.75,
     "medianIncome": 56492,
     "domesticMig2024": -864,
+    "domesticMigPct": -0.58,
     "netMig2024": -274,
     "bounds": {
       "sw": {
@@ -6286,6 +6585,7 @@
     "growthPct": 2.27,
     "medianIncome": 57437,
     "domesticMig2024": 1350,
+    "domesticMigPct": 0.92,
     "netMig2024": 1598,
     "bounds": {
       "sw": {
@@ -6307,6 +6607,7 @@
     "growthPct": -1.38,
     "medianIncome": 70941,
     "domesticMig2024": -166,
+    "domesticMigPct": -0.11,
     "netMig2024": 75,
     "bounds": {
       "sw": {
@@ -6328,6 +6629,7 @@
     "growthPct": 2.48,
     "medianIncome": 65715,
     "domesticMig2024": 321,
+    "domesticMigPct": 0.22,
     "netMig2024": 974,
     "bounds": {
       "sw": {
@@ -6349,6 +6651,7 @@
     "growthPct": 9.39,
     "medianIncome": 69012,
     "domesticMig2024": 3343,
+    "domesticMigPct": 2.29,
     "netMig2024": 3736,
     "bounds": {
       "sw": {
@@ -6370,6 +6673,7 @@
     "growthPct": 1.12,
     "medianIncome": 72027,
     "domesticMig2024": -997,
+    "domesticMigPct": -0.68,
     "netMig2024": 119,
     "bounds": {
       "sw": {
@@ -6391,6 +6695,7 @@
     "growthPct": -1.31,
     "medianIncome": 55046,
     "domesticMig2024": 264,
+    "domesticMigPct": 0.18,
     "netMig2024": 468,
     "bounds": {
       "sw": {
@@ -6412,6 +6717,7 @@
     "growthPct": -2.33,
     "medianIncome": 54219,
     "domesticMig2024": -189,
+    "domesticMigPct": -0.13,
     "netMig2024": 43,
     "bounds": {
       "sw": {
@@ -6433,6 +6739,7 @@
     "growthPct": 1.44,
     "medianIncome": 76350,
     "domesticMig2024": 356,
+    "domesticMigPct": 0.24,
     "netMig2024": 873,
     "bounds": {
       "sw": {
@@ -6454,6 +6761,7 @@
     "growthPct": 0.04,
     "medianIncome": 69748,
     "domesticMig2024": -702,
+    "domesticMigPct": -0.48,
     "netMig2024": -44,
     "bounds": {
       "sw": {
@@ -6475,6 +6783,7 @@
     "growthPct": 1.03,
     "medianIncome": 66901,
     "domesticMig2024": 973,
+    "domesticMigPct": 0.67,
     "netMig2024": 1278,
     "bounds": {
       "sw": {
@@ -6496,6 +6805,7 @@
     "growthPct": 1.94,
     "medianIncome": 62394,
     "domesticMig2024": 154,
+    "domesticMigPct": 0.11,
     "netMig2024": 977,
     "bounds": {
       "sw": {
@@ -6517,6 +6827,7 @@
     "growthPct": 5.01,
     "medianIncome": 57256,
     "domesticMig2024": 1224,
+    "domesticMigPct": 0.88,
     "netMig2024": 1439,
     "bounds": {
       "sw": {
@@ -6538,6 +6849,7 @@
     "growthPct": 4.16,
     "medianIncome": 83982,
     "domesticMig2024": 539,
+    "domesticMigPct": 0.39,
     "netMig2024": 1324,
     "bounds": {
       "sw": {
@@ -6559,6 +6871,7 @@
     "growthPct": 0.75,
     "medianIncome": 76185,
     "domesticMig2024": -150,
+    "domesticMigPct": -0.11,
     "netMig2024": 228,
     "bounds": {
       "sw": {
@@ -6580,6 +6893,7 @@
     "growthPct": 2.41,
     "medianIncome": 72145,
     "domesticMig2024": -401,
+    "domesticMigPct": -0.29,
     "netMig2024": 676,
     "bounds": {
       "sw": {
@@ -6601,6 +6915,7 @@
     "growthPct": 2.94,
     "medianIncome": 55478,
     "domesticMig2024": 1149,
+    "domesticMigPct": 0.83,
     "netMig2024": 1214,
     "bounds": {
       "sw": {
@@ -6622,6 +6937,7 @@
     "growthPct": -3.14,
     "medianIncome": 58705,
     "domesticMig2024": 121,
+    "domesticMigPct": 0.09,
     "netMig2024": 226,
     "bounds": {
       "sw": {
@@ -6643,6 +6959,7 @@
     "growthPct": -0.73,
     "medianIncome": 60846,
     "domesticMig2024": 154,
+    "domesticMigPct": 0.11,
     "netMig2024": 574,
     "bounds": {
       "sw": {
@@ -6664,6 +6981,7 @@
     "growthPct": 0.63,
     "medianIncome": 64096,
     "domesticMig2024": -879,
+    "domesticMigPct": -0.65,
     "netMig2024": 439,
     "bounds": {
       "sw": {
@@ -6685,6 +7003,7 @@
     "growthPct": -0.39,
     "medianIncome": 60385,
     "domesticMig2024": 183,
+    "domesticMigPct": 0.14,
     "netMig2024": 588,
     "bounds": {
       "sw": {
@@ -6706,6 +7025,7 @@
     "growthPct": 2.48,
     "medianIncome": 85474,
     "domesticMig2024": 372,
+    "domesticMigPct": 0.28,
     "netMig2024": 1067,
     "bounds": {
       "sw": {
@@ -6727,6 +7047,7 @@
     "growthPct": -3.83,
     "medianIncome": 108970,
     "domesticMig2024": -1155,
+    "domesticMigPct": -0.87,
     "netMig2024": -533,
     "bounds": {
       "sw": {
@@ -6748,6 +7069,7 @@
     "growthPct": 0.37,
     "medianIncome": 63188,
     "domesticMig2024": 209,
+    "domesticMigPct": 0.16,
     "netMig2024": 298,
     "bounds": {
       "sw": {
@@ -6769,6 +7091,7 @@
     "growthPct": 3.01,
     "medianIncome": 73396,
     "domesticMig2024": 924,
+    "domesticMigPct": 0.7,
     "netMig2024": 1087,
     "bounds": {
       "sw": {
@@ -6790,6 +7113,7 @@
     "growthPct": -2.99,
     "medianIncome": 61135,
     "domesticMig2024": -1315,
+    "domesticMigPct": -0.99,
     "netMig2024": -1110,
     "bounds": {
       "sw": {
@@ -6811,6 +7135,7 @@
     "growthPct": 4.72,
     "medianIncome": 63490,
     "domesticMig2024": 1647,
+    "domesticMigPct": 1.25,
     "netMig2024": 2075,
     "bounds": {
       "sw": {
@@ -6832,6 +7157,7 @@
     "growthPct": 2.62,
     "medianIncome": 69592,
     "domesticMig2024": -25,
+    "domesticMigPct": -0.02,
     "netMig2024": 745,
     "bounds": {
       "sw": {
@@ -6853,6 +7179,7 @@
     "growthPct": -2.51,
     "medianIncome": 56292,
     "domesticMig2024": 45,
+    "domesticMigPct": 0.03,
     "netMig2024": 156,
     "bounds": {
       "sw": {
@@ -6874,6 +7201,7 @@
     "growthPct": 5.62,
     "medianIncome": 58837,
     "domesticMig2024": 1922,
+    "domesticMigPct": 1.48,
     "netMig2024": 2198,
     "bounds": {
       "sw": {
@@ -6895,6 +7223,7 @@
     "growthPct": 3.18,
     "medianIncome": 71090,
     "domesticMig2024": -324,
+    "domesticMigPct": -0.25,
     "netMig2024": 966,
     "bounds": {
       "sw": {
@@ -6916,6 +7245,7 @@
     "growthPct": -0.23,
     "medianIncome": 72565,
     "domesticMig2024": 196,
+    "domesticMigPct": 0.15,
     "netMig2024": 734,
     "bounds": {
       "sw": {
@@ -6937,6 +7267,7 @@
     "growthPct": 2.43,
     "medianIncome": 70949,
     "domesticMig2024": 1405,
+    "domesticMigPct": 1.09,
     "netMig2024": 1649,
     "bounds": {
       "sw": {
@@ -6958,6 +7289,7 @@
     "growthPct": 3.17,
     "medianIncome": 65062,
     "domesticMig2024": 631,
+    "domesticMigPct": 0.49,
     "netMig2024": 999,
     "bounds": {
       "sw": {
@@ -6979,6 +7311,7 @@
     "growthPct": 1.9,
     "medianIncome": 67630,
     "domesticMig2024": -276,
+    "domesticMigPct": -0.22,
     "netMig2024": 202,
     "bounds": {
       "sw": {
@@ -7000,6 +7333,7 @@
     "growthPct": 4.31,
     "medianIncome": 70888,
     "domesticMig2024": 700,
+    "domesticMigPct": 0.55,
     "netMig2024": 793,
     "bounds": {
       "sw": {
@@ -7021,6 +7355,7 @@
     "growthPct": 4.05,
     "medianIncome": 79007,
     "domesticMig2024": 391,
+    "domesticMigPct": 0.31,
     "netMig2024": 1564,
     "bounds": {
       "sw": {
@@ -7042,6 +7377,7 @@
     "growthPct": 6.74,
     "medianIncome": 87454,
     "domesticMig2024": 440,
+    "domesticMigPct": 0.35,
     "netMig2024": 588,
     "bounds": {
       "sw": {
@@ -7063,6 +7399,7 @@
     "growthPct": 6.51,
     "medianIncome": 58130,
     "domesticMig2024": 2617,
+    "domesticMigPct": 2.06,
     "netMig2024": 2969,
     "bounds": {
       "sw": {
@@ -7084,6 +7421,7 @@
     "growthPct": 0.2,
     "medianIncome": 59060,
     "domesticMig2024": -962,
+    "domesticMigPct": -0.76,
     "netMig2024": -806,
     "bounds": {
       "sw": {
@@ -7105,6 +7443,7 @@
     "growthPct": 3.28,
     "medianIncome": 63380,
     "domesticMig2024": 940,
+    "domesticMigPct": 0.74,
     "netMig2024": 1136,
     "bounds": {
       "sw": {
@@ -7126,6 +7465,7 @@
     "growthPct": 0.27,
     "medianIncome": 58970,
     "domesticMig2024": 581,
+    "domesticMigPct": 0.46,
     "netMig2024": 1227,
     "bounds": {
       "sw": {
@@ -7147,6 +7487,7 @@
     "growthPct": -1.5,
     "medianIncome": 74953,
     "domesticMig2024": -262,
+    "domesticMigPct": -0.21,
     "netMig2024": 1,
     "bounds": {
       "sw": {
@@ -7168,6 +7509,7 @@
     "growthPct": -0.07,
     "medianIncome": 57649,
     "domesticMig2024": 9,
+    "domesticMigPct": 0.01,
     "netMig2024": 156,
     "bounds": {
       "sw": {
@@ -7189,6 +7531,7 @@
     "growthPct": -2.77,
     "medianIncome": 56507,
     "domesticMig2024": -319,
+    "domesticMigPct": -0.26,
     "netMig2024": -149,
     "bounds": {
       "sw": {
@@ -7210,6 +7553,7 @@
     "growthPct": 7.24,
     "medianIncome": 66473,
     "domesticMig2024": 460,
+    "domesticMigPct": 0.38,
     "netMig2024": 1125,
     "bounds": {
       "sw": {
@@ -7231,6 +7575,7 @@
     "growthPct": 1.6,
     "medianIncome": 80255,
     "domesticMig2024": 333,
+    "domesticMigPct": 0.27,
     "netMig2024": 491,
     "bounds": {
       "sw": {
@@ -7252,6 +7597,7 @@
     "growthPct": 2.7,
     "medianIncome": 68756,
     "domesticMig2024": -643,
+    "domesticMigPct": -0.53,
     "netMig2024": 646,
     "bounds": {
       "sw": {
@@ -7273,6 +7619,7 @@
     "growthPct": 0.09,
     "medianIncome": 66037,
     "domesticMig2024": 192,
+    "domesticMigPct": 0.16,
     "netMig2024": 475,
     "bounds": {
       "sw": {
@@ -7294,6 +7641,7 @@
     "growthPct": -0.7,
     "medianIncome": 53020,
     "domesticMig2024": -310,
+    "domesticMigPct": -0.26,
     "netMig2024": -69,
     "bounds": {
       "sw": {
@@ -7315,6 +7663,7 @@
     "growthPct": 2.57,
     "medianIncome": 58082,
     "domesticMig2024": 51,
+    "domesticMigPct": 0.04,
     "netMig2024": 592,
     "bounds": {
       "sw": {
@@ -7336,6 +7685,7 @@
     "growthPct": -2.08,
     "medianIncome": 60594,
     "domesticMig2024": 99,
+    "domesticMigPct": 0.08,
     "netMig2024": 320,
     "bounds": {
       "sw": {
@@ -7357,6 +7707,7 @@
     "growthPct": -1.92,
     "medianIncome": 62900,
     "domesticMig2024": 69,
+    "domesticMigPct": 0.06,
     "netMig2024": 522,
     "bounds": {
       "sw": {
@@ -7378,6 +7729,7 @@
     "growthPct": 1.8,
     "medianIncome": 40318,
     "domesticMig2024": 240,
+    "domesticMigPct": 0.2,
     "netMig2024": 743,
     "bounds": {
       "sw": {
@@ -7399,6 +7751,7 @@
     "growthPct": 0.25,
     "medianIncome": 71898,
     "domesticMig2024": -85,
+    "domesticMigPct": -0.07,
     "netMig2024": 386,
     "bounds": {
       "sw": {
@@ -7420,6 +7773,7 @@
     "growthPct": 3.2,
     "medianIncome": 64819,
     "domesticMig2024": 954,
+    "domesticMigPct": 0.81,
     "netMig2024": 1225,
     "bounds": {
       "sw": {
@@ -7441,6 +7795,7 @@
     "growthPct": -0.21,
     "medianIncome": 71769,
     "domesticMig2024": -358,
+    "domesticMigPct": -0.31,
     "netMig2024": -57,
     "bounds": {
       "sw": {
@@ -7462,6 +7817,7 @@
     "growthPct": -0.01,
     "medianIncome": 55826,
     "domesticMig2024": 258,
+    "domesticMigPct": 0.22,
     "netMig2024": 350,
     "bounds": {
       "sw": {
@@ -7483,6 +7839,7 @@
     "growthPct": 3.72,
     "medianIncome": 67298,
     "domesticMig2024": 209,
+    "domesticMigPct": 0.18,
     "netMig2024": 931,
     "bounds": {
       "sw": {
@@ -7504,6 +7861,7 @@
     "growthPct": 9.75,
     "medianIncome": 71327,
     "domesticMig2024": 837,
+    "domesticMigPct": 0.73,
     "netMig2024": 857,
     "bounds": {
       "sw": {
@@ -7525,6 +7883,7 @@
     "growthPct": 1.46,
     "medianIncome": 91035,
     "domesticMig2024": 472,
+    "domesticMigPct": 0.41,
     "netMig2024": 801,
     "bounds": {
       "sw": {
@@ -7546,6 +7905,7 @@
     "growthPct": 2.93,
     "medianIncome": 72932,
     "domesticMig2024": 796,
+    "domesticMigPct": 0.7,
     "netMig2024": 988,
     "bounds": {
       "sw": {
@@ -7567,6 +7927,7 @@
     "growthPct": 0.99,
     "medianIncome": 65656,
     "domesticMig2024": -92,
+    "domesticMigPct": -0.08,
     "netMig2024": 448,
     "bounds": {
       "sw": {
@@ -7588,6 +7949,7 @@
     "growthPct": -2.11,
     "medianIncome": 70687,
     "domesticMig2024": 122,
+    "domesticMigPct": 0.11,
     "netMig2024": 263,
     "bounds": {
       "sw": {
@@ -7609,6 +7971,7 @@
     "growthPct": -3.14,
     "medianIncome": 57149,
     "domesticMig2024": 249,
+    "domesticMigPct": 0.22,
     "netMig2024": 380,
     "bounds": {
       "sw": {
@@ -7630,6 +7993,7 @@
     "growthPct": -0.84,
     "medianIncome": 64412,
     "domesticMig2024": -52,
+    "domesticMigPct": -0.05,
     "netMig2024": 209,
     "bounds": {
       "sw": {
@@ -7651,6 +8015,7 @@
     "growthPct": -3.06,
     "medianIncome": 64978,
     "domesticMig2024": -1703,
+    "domesticMigPct": -1.51,
     "netMig2024": -1128,
     "bounds": {
       "sw": {
@@ -7672,6 +8037,7 @@
     "growthPct": 0.93,
     "medianIncome": 56932,
     "domesticMig2024": 467,
+    "domesticMigPct": 0.41,
     "netMig2024": 791,
     "bounds": {
       "sw": {
@@ -7693,6 +8059,7 @@
     "growthPct": 0.95,
     "medianIncome": 58983,
     "domesticMig2024": 644,
+    "domesticMigPct": 0.57,
     "netMig2024": 715,
     "bounds": {
       "sw": {
@@ -7714,6 +8081,7 @@
     "growthPct": -0.95,
     "medianIncome": 70452,
     "domesticMig2024": -107,
+    "domesticMigPct": -0.1,
     "netMig2024": -19,
     "bounds": {
       "sw": {
@@ -7735,6 +8103,7 @@
     "growthPct": -3.57,
     "medianIncome": 52345,
     "domesticMig2024": -66,
+    "domesticMigPct": -0.06,
     "netMig2024": 123,
     "bounds": {
       "sw": {
@@ -7756,6 +8125,7 @@
     "growthPct": 8.44,
     "medianIncome": 55581,
     "domesticMig2024": 2047,
+    "domesticMigPct": 1.86,
     "netMig2024": 2684,
     "bounds": {
       "sw": {
@@ -7777,6 +8147,7 @@
     "growthPct": 2.62,
     "medianIncome": 52752,
     "domesticMig2024": 335,
+    "domesticMigPct": 0.31,
     "netMig2024": 506,
     "bounds": {
       "sw": {
@@ -7798,6 +8169,7 @@
     "growthPct": 8.7,
     "medianIncome": 82837,
     "domesticMig2024": 1221,
+    "domesticMigPct": 1.13,
     "netMig2024": 1573,
     "bounds": {
       "sw": {
@@ -7819,6 +8191,7 @@
     "growthPct": -1.5,
     "medianIncome": 59922,
     "domesticMig2024": 72,
+    "domesticMigPct": 0.07,
     "netMig2024": 330,
     "bounds": {
       "sw": {
@@ -7840,6 +8213,7 @@
     "growthPct": -2.27,
     "medianIncome": 60614,
     "domesticMig2024": 139,
+    "domesticMigPct": 0.13,
     "netMig2024": 182,
     "bounds": {
       "sw": {
@@ -7861,6 +8235,7 @@
     "growthPct": 3.92,
     "medianIncome": 81071,
     "domesticMig2024": 544,
+    "domesticMigPct": 0.5,
     "netMig2024": 977,
     "bounds": {
       "sw": {
@@ -7882,6 +8257,7 @@
     "growthPct": -1.15,
     "medianIncome": 68325,
     "domesticMig2024": -346,
+    "domesticMigPct": -0.33,
     "netMig2024": 73,
     "bounds": {
       "sw": {
@@ -7903,6 +8279,7 @@
     "growthPct": -2.13,
     "medianIncome": 61900,
     "domesticMig2024": -520,
+    "domesticMigPct": -0.49,
     "netMig2024": -185,
     "bounds": {
       "sw": {
@@ -7924,6 +8301,7 @@
     "growthPct": 0.77,
     "medianIncome": 77359,
     "domesticMig2024": -186,
+    "domesticMigPct": -0.18,
     "netMig2024": 82,
     "bounds": {
       "sw": {
@@ -7945,6 +8323,7 @@
     "growthPct": -0.12,
     "medianIncome": 73012,
     "domesticMig2024": -1414,
+    "domesticMigPct": -1.34,
     "netMig2024": 166,
     "bounds": {
       "sw": {
@@ -7966,6 +8345,7 @@
     "growthPct": 1.15,
     "medianIncome": 53959,
     "domesticMig2024": -145,
+    "domesticMigPct": -0.14,
     "netMig2024": 279,
     "bounds": {
       "sw": {
@@ -7987,6 +8367,7 @@
     "growthPct": 1.58,
     "medianIncome": 74722,
     "domesticMig2024": -353,
+    "domesticMigPct": -0.34,
     "netMig2024": 336,
     "bounds": {
       "sw": {
@@ -8008,6 +8389,7 @@
     "growthPct": -0.74,
     "medianIncome": 55990,
     "domesticMig2024": 159,
+    "domesticMigPct": 0.15,
     "netMig2024": 297,
     "bounds": {
       "sw": {
@@ -8029,6 +8411,7 @@
     "growthPct": 5.64,
     "medianIncome": 71115,
     "domesticMig2024": 116,
+    "domesticMigPct": 0.11,
     "netMig2024": 1149,
     "bounds": {
       "sw": {
@@ -8050,6 +8433,7 @@
     "growthPct": 0.12,
     "medianIncome": 73154,
     "domesticMig2024": -112,
+    "domesticMigPct": -0.11,
     "netMig2024": 260,
     "bounds": {
       "sw": {
@@ -8071,6 +8455,7 @@
     "growthPct": -0.17,
     "medianIncome": 68653,
     "domesticMig2024": -319,
+    "domesticMigPct": -0.31,
     "netMig2024": 466,
     "bounds": {
       "sw": {
@@ -8092,6 +8477,7 @@
     "growthPct": -0.2,
     "medianIncome": 53070,
     "domesticMig2024": 296,
+    "domesticMigPct": 0.29,
     "netMig2024": 460,
     "bounds": {
       "sw": {
@@ -8113,6 +8499,7 @@
     "growthPct": -1.16,
     "medianIncome": 60523,
     "domesticMig2024": 170,
+    "domesticMigPct": 0.17,
     "netMig2024": 245,
     "bounds": {
       "sw": {
@@ -8134,6 +8521,7 @@
     "growthPct": -1.05,
     "medianIncome": 62286,
     "domesticMig2024": 244,
+    "domesticMigPct": 0.24,
     "netMig2024": 379,
     "bounds": {
       "sw": {
@@ -8155,6 +8543,7 @@
     "growthPct": -0.04,
     "medianIncome": 84905,
     "domesticMig2024": 321,
+    "domesticMigPct": 0.31,
     "netMig2024": 505,
     "bounds": {
       "sw": {
@@ -8176,6 +8565,7 @@
     "growthPct": 2.68,
     "medianIncome": 55769,
     "domesticMig2024": 908,
+    "domesticMigPct": 0.89,
     "netMig2024": 1004,
     "bounds": {
       "sw": {
@@ -8197,6 +8587,7 @@
     "growthPct": 4.66,
     "medianIncome": 60946,
     "domesticMig2024": 410,
+    "domesticMigPct": 0.4,
     "netMig2024": 825,
     "bounds": {
       "sw": {
@@ -8218,6 +8609,7 @@
     "growthPct": 1.27,
     "medianIncome": 77884,
     "domesticMig2024": 493,
+    "domesticMigPct": 0.48,
     "netMig2024": 580,
     "bounds": {
       "sw": {
@@ -8239,6 +8631,7 @@
     "growthPct": -1.64,
     "medianIncome": 48994,
     "domesticMig2024": 239,
+    "domesticMigPct": 0.24,
     "netMig2024": 367,
     "bounds": {
       "sw": {
@@ -8260,6 +8653,7 @@
     "growthPct": 2.85,
     "medianIncome": 62540,
     "domesticMig2024": 739,
+    "domesticMigPct": 0.73,
     "netMig2024": 1079,
     "bounds": {
       "sw": {
@@ -8281,6 +8675,7 @@
     "growthPct": -1.32,
     "medianIncome": 62001,
     "domesticMig2024": -157,
+    "domesticMigPct": -0.16,
     "netMig2024": 8,
     "bounds": {
       "sw": {
@@ -8302,6 +8697,7 @@
     "growthPct": -3.13,
     "medianIncome": 62449,
     "domesticMig2024": -276,
+    "domesticMigPct": -0.27,
     "netMig2024": 104,
     "bounds": {
       "sw": {
@@ -8323,6 +8719,7 @@
     "growthPct": 1.53,
     "medianIncome": 63829,
     "domesticMig2024": -489,
+    "domesticMigPct": -0.49,
     "netMig2024": 138,
     "bounds": {
       "sw": {
@@ -8344,6 +8741,7 @@
     "growthPct": 4.03,
     "medianIncome": 69311,
     "domesticMig2024": 634,
+    "domesticMigPct": 0.63,
     "netMig2024": 703,
     "bounds": {
       "sw": {
@@ -8365,6 +8763,7 @@
     "growthPct": -0.27,
     "medianIncome": 55409,
     "domesticMig2024": 568,
+    "domesticMigPct": 0.57,
     "netMig2024": 682,
     "bounds": {
       "sw": {
@@ -8386,6 +8785,7 @@
     "growthPct": -2.02,
     "medianIncome": 58474,
     "domesticMig2024": 92,
+    "domesticMigPct": 0.09,
     "netMig2024": 102,
     "bounds": {
       "sw": {
@@ -8407,6 +8807,7 @@
     "growthPct": -0.03,
     "medianIncome": 75919,
     "domesticMig2024": -73,
+    "domesticMigPct": -0.07,
     "netMig2024": 250,
     "bounds": {
       "sw": {
@@ -8428,6 +8829,7 @@
     "growthPct": 0.84,
     "medianIncome": 69618,
     "domesticMig2024": -89,
+    "domesticMigPct": -0.09,
     "netMig2024": 58,
     "bounds": {
       "sw": {
@@ -8449,6 +8851,7 @@
     "growthPct": 3.9,
     "medianIncome": 76011,
     "domesticMig2024": -1008,
+    "domesticMigPct": -1.02,
     "netMig2024": 318,
     "bounds": {
       "sw": {
@@ -8470,6 +8873,7 @@
     "growthPct": 1.38,
     "medianIncome": 67267,
     "domesticMig2024": 214,
+    "domesticMigPct": 0.22,
     "netMig2024": 445,
     "bounds": {
       "sw": {
@@ -8491,6 +8895,7 @@
     "growthPct": -1.68,
     "medianIncome": 67013,
     "domesticMig2024": 314,
+    "domesticMigPct": 0.32,
     "netMig2024": 432,
     "bounds": {
       "sw": {
@@ -8512,6 +8917,7 @@
     "growthPct": 2.47,
     "medianIncome": 87564,
     "domesticMig2024": 770,
+    "domesticMigPct": 0.79,
     "netMig2024": 1046,
     "bounds": {
       "sw": {
@@ -8533,6 +8939,7 @@
     "growthPct": 7.69,
     "medianIncome": 74040,
     "domesticMig2024": 770,
+    "domesticMigPct": 0.8,
     "netMig2024": 790,
     "bounds": {
       "sw": {
@@ -8554,6 +8961,7 @@
     "growthPct": -3.69,
     "medianIncome": 46906,
     "domesticMig2024": -49,
+    "domesticMigPct": -0.05,
     "netMig2024": 17,
     "bounds": {
       "sw": {
@@ -8575,6 +8983,7 @@
     "growthPct": 6.53,
     "medianIncome": 56172,
     "domesticMig2024": 949,
+    "domesticMigPct": 0.99,
     "netMig2024": 1081,
     "bounds": {
       "sw": {
@@ -8596,6 +9005,7 @@
     "growthPct": -0.75,
     "medianIncome": 84722,
     "domesticMig2024": -1849,
+    "domesticMigPct": -1.95,
     "netMig2024": -1496,
     "bounds": {
       "sw": {
@@ -8617,6 +9027,7 @@
     "growthPct": 1.08,
     "medianIncome": 51044,
     "domesticMig2024": 648,
+    "domesticMigPct": 0.68,
     "netMig2024": 793,
     "bounds": {
       "sw": {
@@ -8638,6 +9049,7 @@
     "growthPct": -1.23,
     "medianIncome": 59413,
     "domesticMig2024": 263,
+    "domesticMigPct": 0.28,
     "netMig2024": 316,
     "bounds": {
       "sw": {
@@ -8659,6 +9071,7 @@
     "growthPct": 23.59,
     "medianIncome": 85012,
     "domesticMig2024": 4659,
+    "domesticMigPct": 4.97,
     "netMig2024": 4888,
     "bounds": {
       "sw": {
@@ -8680,6 +9093,7 @@
     "growthPct": 0.64,
     "medianIncome": 69037,
     "domesticMig2024": 222,
+    "domesticMigPct": 0.24,
     "netMig2024": 753,
     "bounds": {
       "sw": {
@@ -8701,6 +9115,7 @@
     "growthPct": 5.4,
     "medianIncome": 60916,
     "domesticMig2024": 856,
+    "domesticMigPct": 0.92,
     "netMig2024": 926,
     "bounds": {
       "sw": {
@@ -8722,6 +9137,7 @@
     "growthPct": -1.3,
     "medianIncome": 64494,
     "domesticMig2024": -89,
+    "domesticMigPct": -0.1,
     "netMig2024": 163,
     "bounds": {
       "sw": {
@@ -8743,6 +9159,7 @@
     "growthPct": -1.67,
     "medianIncome": 64740,
     "domesticMig2024": -86,
+    "domesticMigPct": -0.09,
     "netMig2024": 97,
     "bounds": {
       "sw": {
@@ -8764,6 +9181,7 @@
     "growthPct": -0.94,
     "medianIncome": 56331,
     "domesticMig2024": 643,
+    "domesticMigPct": 0.7,
     "netMig2024": 708,
     "bounds": {
       "sw": {
@@ -8785,6 +9203,7 @@
     "growthPct": 4.58,
     "medianIncome": 64080,
     "domesticMig2024": -11,
+    "domesticMigPct": -0.01,
     "netMig2024": 264,
     "bounds": {
       "sw": {
@@ -8806,6 +9225,7 @@
     "growthPct": -4.91,
     "medianIncome": 42014,
     "domesticMig2024": -368,
+    "domesticMigPct": -0.41,
     "netMig2024": -278,
     "bounds": {
       "sw": {
@@ -8827,6 +9247,7 @@
     "growthPct": -2.63,
     "medianIncome": 64688,
     "domesticMig2024": -428,
+    "domesticMigPct": -0.48,
     "netMig2024": 47,
     "bounds": {
       "sw": {
@@ -8848,6 +9269,7 @@
     "growthPct": 9.35,
     "medianIncome": 60329,
     "domesticMig2024": -70,
+    "domesticMigPct": -0.08,
     "netMig2024": 209,
     "bounds": {
       "sw": {
@@ -8869,6 +9291,7 @@
     "growthPct": -0.84,
     "medianIncome": 73992,
     "domesticMig2024": 232,
+    "domesticMigPct": 0.26,
     "netMig2024": 450,
     "bounds": {
       "sw": {
@@ -8890,6 +9313,7 @@
     "growthPct": -2.11,
     "medianIncome": 58376,
     "domesticMig2024": 284,
+    "domesticMigPct": 0.32,
     "netMig2024": 350,
     "bounds": {
       "sw": {
@@ -8911,6 +9335,7 @@
     "growthPct": 0.21,
     "medianIncome": 59097,
     "domesticMig2024": 784,
+    "domesticMigPct": 0.89,
     "netMig2024": 907,
     "bounds": {
       "sw": {
@@ -8932,6 +9357,7 @@
     "growthPct": 1.83,
     "medianIncome": 58847,
     "domesticMig2024": 45,
+    "domesticMigPct": 0.05,
     "netMig2024": 296,
     "bounds": {
       "sw": {
@@ -8953,6 +9379,7 @@
     "growthPct": -2.02,
     "medianIncome": 56029,
     "domesticMig2024": -21,
+    "domesticMigPct": -0.02,
     "netMig2024": 24,
     "bounds": {
       "sw": {
@@ -8974,6 +9401,7 @@
     "growthPct": 6.48,
     "medianIncome": 63955,
     "domesticMig2024": 1362,
+    "domesticMigPct": 1.56,
     "netMig2024": 1455,
     "bounds": {
       "sw": {
@@ -8995,6 +9423,7 @@
     "growthPct": 5.96,
     "medianIncome": 69690,
     "domesticMig2024": 775,
+    "domesticMigPct": 0.89,
     "netMig2024": 973,
     "bounds": {
       "sw": {
@@ -9016,6 +9445,7 @@
     "growthPct": 0.2,
     "medianIncome": 59203,
     "domesticMig2024": 309,
+    "domesticMigPct": 0.36,
     "netMig2024": 342,
     "bounds": {
       "sw": {
@@ -9037,6 +9467,7 @@
     "growthPct": -0.44,
     "medianIncome": 88358,
     "domesticMig2024": -12,
+    "domesticMigPct": -0.01,
     "netMig2024": 266,
     "bounds": {
       "sw": {
@@ -9058,6 +9489,7 @@
     "growthPct": 0.1,
     "medianIncome": 80604,
     "domesticMig2024": 174,
+    "domesticMigPct": 0.2,
     "netMig2024": 350,
     "bounds": {
       "sw": {
@@ -9079,6 +9511,7 @@
     "growthPct": -3.21,
     "medianIncome": 49156,
     "domesticMig2024": -466,
+    "domesticMigPct": -0.54,
     "netMig2024": -331,
     "bounds": {
       "sw": {
@@ -9100,6 +9533,7 @@
     "growthPct": 1.58,
     "medianIncome": 54936,
     "domesticMig2024": 2,
+    "domesticMigPct": 0,
     "netMig2024": 152,
     "bounds": {
       "sw": {
@@ -9121,6 +9555,7 @@
     "growthPct": 3.09,
     "medianIncome": 80365,
     "domesticMig2024": -430,
+    "domesticMigPct": -0.51,
     "netMig2024": 386,
     "bounds": {
       "sw": {
@@ -9142,6 +9577,7 @@
     "growthPct": 0.13,
     "medianIncome": 66203,
     "domesticMig2024": -23,
+    "domesticMigPct": -0.03,
     "netMig2024": -21,
     "bounds": {
       "sw": {
@@ -9163,6 +9599,7 @@
     "growthPct": 3.13,
     "medianIncome": 48937,
     "domesticMig2024": -433,
+    "domesticMigPct": -0.51,
     "netMig2024": 311,
     "bounds": {
       "sw": {
@@ -9184,6 +9621,7 @@
     "growthPct": 0.5,
     "medianIncome": 62496,
     "domesticMig2024": 394,
+    "domesticMigPct": 0.47,
     "netMig2024": 446,
     "bounds": {
       "sw": {
@@ -9205,6 +9643,7 @@
     "growthPct": 0.63,
     "medianIncome": 77538,
     "domesticMig2024": -154,
+    "domesticMigPct": -0.18,
     "netMig2024": 62,
     "bounds": {
       "sw": {
@@ -9226,6 +9665,7 @@
     "growthPct": 9.57,
     "medianIncome": 49862,
     "domesticMig2024": 800,
+    "domesticMigPct": 0.96,
     "netMig2024": 1114,
     "bounds": {
       "sw": {
@@ -9247,6 +9687,7 @@
     "growthPct": -1.31,
     "medianIncome": 43214,
     "domesticMig2024": 165,
+    "domesticMigPct": 0.2,
     "netMig2024": 368,
     "bounds": {
       "sw": {
@@ -9268,6 +9709,7 @@
     "growthPct": -0.34,
     "medianIncome": 58739,
     "domesticMig2024": -102,
+    "domesticMigPct": -0.12,
     "netMig2024": 161,
     "bounds": {
       "sw": {
@@ -9289,6 +9731,7 @@
     "growthPct": 4.93,
     "medianIncome": 60193,
     "domesticMig2024": 1001,
+    "domesticMigPct": 1.21,
     "netMig2024": 1349,
     "bounds": {
       "sw": {
@@ -9310,6 +9753,7 @@
     "growthPct": -2.22,
     "medianIncome": 60254,
     "domesticMig2024": 107,
+    "domesticMigPct": 0.13,
     "netMig2024": 188,
     "bounds": {
       "sw": {
@@ -9331,6 +9775,7 @@
     "growthPct": -2.37,
     "medianIncome": 49867,
     "domesticMig2024": -319,
+    "domesticMigPct": -0.39,
     "netMig2024": -316,
     "bounds": {
       "sw": {
@@ -9352,6 +9797,7 @@
     "growthPct": 0.16,
     "medianIncome": 68611,
     "domesticMig2024": 214,
+    "domesticMigPct": 0.26,
     "netMig2024": 432,
     "bounds": {
       "sw": {
@@ -9373,6 +9819,7 @@
     "growthPct": -3.61,
     "medianIncome": 63469,
     "domesticMig2024": -43,
+    "domesticMigPct": -0.05,
     "netMig2024": 126,
     "bounds": {
       "sw": {
@@ -9394,6 +9841,7 @@
     "growthPct": 4.95,
     "medianIncome": 125583,
     "domesticMig2024": -216,
+    "domesticMigPct": -0.27,
     "netMig2024": 298,
     "bounds": {
       "sw": {
@@ -9415,6 +9863,7 @@
     "growthPct": -2.37,
     "medianIncome": 82430,
     "domesticMig2024": -1374,
+    "domesticMigPct": -1.7,
     "netMig2024": -432,
     "bounds": {
       "sw": {
@@ -9436,6 +9885,7 @@
     "growthPct": -2.04,
     "medianIncome": 45637,
     "domesticMig2024": -541,
+    "domesticMigPct": -0.67,
     "netMig2024": -387,
     "bounds": {
       "sw": {
@@ -9457,6 +9907,7 @@
     "growthPct": 0.52,
     "medianIncome": 73922,
     "domesticMig2024": 34,
+    "domesticMigPct": 0.04,
     "netMig2024": 196,
     "bounds": {
       "sw": {
@@ -9478,6 +9929,7 @@
     "growthPct": 2.33,
     "medianIncome": 69826,
     "domesticMig2024": -431,
+    "domesticMigPct": -0.54,
     "netMig2024": 66,
     "bounds": {
       "sw": {
@@ -9499,6 +9951,7 @@
     "growthPct": 0.56,
     "medianIncome": 71247,
     "domesticMig2024": 364,
+    "domesticMigPct": 0.45,
     "netMig2024": 379,
     "bounds": {
       "sw": {
@@ -9520,6 +9973,7 @@
     "growthPct": 0.87,
     "medianIncome": 51381,
     "domesticMig2024": 297,
+    "domesticMigPct": 0.37,
     "netMig2024": 480,
     "bounds": {
       "sw": {
@@ -9541,6 +9995,7 @@
     "growthPct": 0.96,
     "medianIncome": 90267,
     "domesticMig2024": -481,
+    "domesticMigPct": -0.6,
     "netMig2024": -185,
     "bounds": {
       "sw": {
@@ -9562,6 +10017,7 @@
     "growthPct": 2.95,
     "medianIncome": 53435,
     "domesticMig2024": 580,
+    "domesticMigPct": 0.73,
     "netMig2024": 607,
     "bounds": {
       "sw": {
@@ -9583,6 +10039,7 @@
     "growthPct": -3.01,
     "medianIncome": 60181,
     "domesticMig2024": 96,
+    "domesticMigPct": 0.12,
     "netMig2024": 168,
     "bounds": {
       "sw": {
@@ -9604,6 +10061,7 @@
     "growthPct": 2.13,
     "medianIncome": 81001,
     "domesticMig2024": 607,
+    "domesticMigPct": 0.78,
     "netMig2024": 710,
     "bounds": {
       "sw": {
@@ -9625,6 +10083,7 @@
     "growthPct": 1.04,
     "medianIncome": 67999,
     "domesticMig2024": 970,
+    "domesticMigPct": 1.24,
     "netMig2024": 1141,
     "bounds": {
       "sw": {
@@ -9646,6 +10105,7 @@
     "growthPct": 2.98,
     "medianIncome": 63539,
     "domesticMig2024": 496,
+    "domesticMigPct": 0.64,
     "netMig2024": 737,
     "bounds": {
       "sw": {
@@ -9667,6 +10127,7 @@
     "growthPct": -2.47,
     "medianIncome": 69208,
     "domesticMig2024": 19,
+    "domesticMigPct": 0.02,
     "netMig2024": 226,
     "bounds": {
       "sw": {
@@ -9688,6 +10149,7 @@
     "growthPct": 2.53,
     "medianIncome": 68277,
     "domesticMig2024": 773,
+    "domesticMigPct": 1,
     "netMig2024": 1090,
     "bounds": {
       "sw": {
@@ -9709,6 +10171,7 @@
     "growthPct": 5.42,
     "medianIncome": 47256,
     "domesticMig2024": 1177,
+    "domesticMigPct": 1.52,
     "netMig2024": 1454,
     "bounds": {
       "sw": {
@@ -9730,6 +10193,7 @@
     "growthPct": 0.31,
     "medianIncome": 67397,
     "domesticMig2024": -764,
+    "domesticMigPct": -0.99,
     "netMig2024": -80,
     "bounds": {
       "sw": {
@@ -9751,6 +10215,7 @@
     "growthPct": -1.36,
     "medianIncome": 59819,
     "domesticMig2024": 34,
+    "domesticMigPct": 0.04,
     "netMig2024": 38,
     "bounds": {
       "sw": {
@@ -9772,6 +10237,7 @@
     "growthPct": -2.08,
     "medianIncome": 79195,
     "domesticMig2024": -750,
+    "domesticMigPct": -0.99,
     "netMig2024": -399,
     "bounds": {
       "sw": {
@@ -9793,6 +10259,7 @@
     "growthPct": -2.03,
     "medianIncome": 58248,
     "domesticMig2024": -42,
+    "domesticMigPct": -0.06,
     "netMig2024": 55,
     "bounds": {
       "sw": {
@@ -9814,6 +10281,7 @@
     "growthPct": 0.93,
     "medianIncome": 68750,
     "domesticMig2024": -271,
+    "domesticMigPct": -0.36,
     "netMig2024": 1400,
     "bounds": {
       "sw": {
@@ -9835,6 +10303,7 @@
     "growthPct": 0.14,
     "medianIncome": 69699,
     "domesticMig2024": -271,
+    "domesticMigPct": -0.36,
     "netMig2024": 159,
     "bounds": {
       "sw": {
@@ -9856,6 +10325,7 @@
     "growthPct": -2.21,
     "medianIncome": 66583,
     "domesticMig2024": 66,
+    "domesticMigPct": 0.09,
     "netMig2024": 127,
     "bounds": {
       "sw": {
@@ -9877,6 +10347,7 @@
     "growthPct": 2.76,
     "medianIncome": 60828,
     "domesticMig2024": 753,
+    "domesticMigPct": 1.01,
     "netMig2024": 811,
     "bounds": {
       "sw": {
@@ -9898,6 +10369,7 @@
     "growthPct": 6.14,
     "medianIncome": 55070,
     "domesticMig2024": 514,
+    "domesticMigPct": 0.69,
     "netMig2024": 918,
     "bounds": {
       "sw": {
@@ -9919,6 +10391,7 @@
     "growthPct": -2.39,
     "medianIncome": 63470,
     "domesticMig2024": -246,
+    "domesticMigPct": -0.33,
     "netMig2024": -187,
     "bounds": {
       "sw": {
@@ -9940,6 +10413,7 @@
     "growthPct": -0.35,
     "medianIncome": 66417,
     "domesticMig2024": -20,
+    "domesticMigPct": -0.03,
     "netMig2024": 160,
     "bounds": {
       "sw": {
@@ -9961,6 +10435,7 @@
     "growthPct": 0.75,
     "medianIncome": 93612,
     "domesticMig2024": -488,
+    "domesticMigPct": -0.66,
     "netMig2024": -138,
     "bounds": {
       "sw": {
@@ -9982,6 +10457,7 @@
     "growthPct": 4.61,
     "medianIncome": 54071,
     "domesticMig2024": 1289,
+    "domesticMigPct": 1.76,
     "netMig2024": 1319,
     "bounds": {
       "sw": {
@@ -10003,6 +10479,7 @@
     "growthPct": 2.09,
     "medianIncome": 51149,
     "domesticMig2024": 446,
+    "domesticMigPct": 0.61,
     "netMig2024": 660,
     "bounds": {
       "sw": {
@@ -10024,6 +10501,7 @@
     "growthPct": 0.4,
     "medianIncome": 58186,
     "domesticMig2024": 516,
+    "domesticMigPct": 0.71,
     "netMig2024": 599,
     "bounds": {
       "sw": {
@@ -10045,6 +10523,7 @@
     "growthPct": 5.87,
     "medianIncome": 61617,
     "domesticMig2024": 320,
+    "domesticMigPct": 0.44,
     "netMig2024": 540,
     "bounds": {
       "sw": {
@@ -10066,6 +10545,7 @@
     "growthPct": -2.7,
     "medianIncome": 59378,
     "domesticMig2024": 289,
+    "domesticMigPct": 0.4,
     "netMig2024": 311,
     "bounds": {
       "sw": {
@@ -10087,6 +10567,7 @@
     "growthPct": 2.37,
     "medianIncome": 73284,
     "domesticMig2024": 396,
+    "domesticMigPct": 0.55,
     "netMig2024": 624,
     "bounds": {
       "sw": {
@@ -10108,6 +10589,7 @@
     "growthPct": -2.99,
     "medianIncome": 49571,
     "domesticMig2024": -3,
+    "domesticMigPct": 0,
     "netMig2024": 106,
     "bounds": {
       "sw": {
@@ -10129,6 +10611,7 @@
     "growthPct": 0.26,
     "medianIncome": 56095,
     "domesticMig2024": 342,
+    "domesticMigPct": 0.48,
     "netMig2024": 440,
     "bounds": {
       "sw": {
@@ -10150,6 +10633,7 @@
     "growthPct": -4.17,
     "medianIncome": 54537,
     "domesticMig2024": -107,
+    "domesticMigPct": -0.15,
     "netMig2024": -86,
     "bounds": {
       "sw": {
@@ -10171,6 +10655,7 @@
     "growthPct": -5.04,
     "medianIncome": 48727,
     "domesticMig2024": 236,
+    "domesticMigPct": 0.33,
     "netMig2024": 306,
     "bounds": {
       "sw": {
@@ -10192,6 +10677,7 @@
     "growthPct": -0.23,
     "medianIncome": 72584,
     "domesticMig2024": 129,
+    "domesticMigPct": 0.18,
     "netMig2024": 345,
     "bounds": {
       "sw": {
@@ -10213,6 +10699,7 @@
     "growthPct": 7.06,
     "medianIncome": 59361,
     "domesticMig2024": 1469,
+    "domesticMigPct": 2.08,
     "netMig2024": 1507,
     "bounds": {
       "sw": {
@@ -10234,6 +10721,7 @@
     "growthPct": 1.48,
     "medianIncome": 59353,
     "domesticMig2024": 242,
+    "domesticMigPct": 0.34,
     "netMig2024": 328,
     "bounds": {
       "sw": {
@@ -10255,6 +10743,7 @@
     "growthPct": 3.8,
     "medianIncome": 70235,
     "domesticMig2024": 937,
+    "domesticMigPct": 1.33,
     "netMig2024": 1088,
     "bounds": {
       "sw": {
@@ -10276,6 +10765,7 @@
     "growthPct": 5.51,
     "medianIncome": 60690,
     "domesticMig2024": -1105,
+    "domesticMigPct": -1.58,
     "netMig2024": -428,
     "bounds": {
       "sw": {
@@ -10297,6 +10787,7 @@
     "growthPct": 2.76,
     "medianIncome": 52717,
     "domesticMig2024": -233,
+    "domesticMigPct": -0.33,
     "netMig2024": 313,
     "bounds": {
       "sw": {
@@ -10318,6 +10809,7 @@
     "growthPct": 5.96,
     "medianIncome": 78359,
     "domesticMig2024": 660,
+    "domesticMigPct": 0.95,
     "netMig2024": 1054,
     "bounds": {
       "sw": {
@@ -10339,6 +10831,7 @@
     "growthPct": 12.23,
     "medianIncome": 86802,
     "domesticMig2024": 1535,
+    "domesticMigPct": 2.22,
     "netMig2024": 1606,
     "bounds": {
       "sw": {
@@ -10360,6 +10853,7 @@
     "growthPct": 11.04,
     "medianIncome": 77315,
     "domesticMig2024": 660,
+    "domesticMigPct": 0.96,
     "netMig2024": 848,
     "bounds": {
       "sw": {
@@ -10381,6 +10875,7 @@
     "growthPct": 2.88,
     "medianIncome": 82792,
     "domesticMig2024": -124,
+    "domesticMigPct": -0.18,
     "netMig2024": 517,
     "bounds": {
       "sw": {
@@ -10402,6 +10897,7 @@
     "growthPct": -5.42,
     "medianIncome": 44496,
     "domesticMig2024": -219,
+    "domesticMigPct": -0.32,
     "netMig2024": -57,
     "bounds": {
       "sw": {
@@ -10423,6 +10919,7 @@
     "growthPct": 8.3,
     "medianIncome": 63060,
     "domesticMig2024": 494,
+    "domesticMigPct": 0.72,
     "netMig2024": 1016,
     "bounds": {
       "sw": {
@@ -10444,6 +10941,7 @@
     "growthPct": 5.76,
     "medianIncome": 61256,
     "domesticMig2024": 777,
+    "domesticMigPct": 1.14,
     "netMig2024": 922,
     "bounds": {
       "sw": {
@@ -10465,6 +10963,7 @@
     "growthPct": -0.15,
     "medianIncome": 64464,
     "domesticMig2024": 107,
+    "domesticMigPct": 0.16,
     "netMig2024": 158,
     "bounds": {
       "sw": {
@@ -10486,6 +10985,7 @@
     "growthPct": 2.15,
     "medianIncome": 64675,
     "domesticMig2024": 372,
+    "domesticMigPct": 0.55,
     "netMig2024": 511,
     "bounds": {
       "sw": {
@@ -10507,6 +11007,7 @@
     "growthPct": -0.59,
     "medianIncome": 58738,
     "domesticMig2024": 36,
+    "domesticMigPct": 0.05,
     "netMig2024": 180,
     "bounds": {
       "sw": {
@@ -10528,6 +11029,7 @@
     "growthPct": -3.91,
     "medianIncome": 57811,
     "domesticMig2024": -293,
+    "domesticMigPct": -0.43,
     "netMig2024": -177,
     "bounds": {
       "sw": {
@@ -10549,6 +11051,7 @@
     "growthPct": 0.87,
     "medianIncome": 54813,
     "domesticMig2024": 575,
+    "domesticMigPct": 0.85,
     "netMig2024": 623,
     "bounds": {
       "sw": {
@@ -10570,6 +11073,7 @@
     "growthPct": 7.72,
     "medianIncome": 61631,
     "domesticMig2024": 1455,
+    "domesticMigPct": 2.16,
     "netMig2024": 1625,
     "bounds": {
       "sw": {
@@ -10591,6 +11095,7 @@
     "growthPct": -0.13,
     "medianIncome": 65521,
     "domesticMig2024": 422,
+    "domesticMigPct": 0.63,
     "netMig2024": 556,
     "bounds": {
       "sw": {
@@ -10612,6 +11117,7 @@
     "growthPct": -3.07,
     "medianIncome": 51587,
     "domesticMig2024": -433,
+    "domesticMigPct": -0.65,
     "netMig2024": -303,
     "bounds": {
       "sw": {
@@ -10633,6 +11139,7 @@
     "growthPct": 2.78,
     "medianIncome": 50943,
     "domesticMig2024": 797,
+    "domesticMigPct": 1.19,
     "netMig2024": 896,
     "bounds": {
       "sw": {
@@ -10654,6 +11161,7 @@
     "growthPct": 0.62,
     "medianIncome": 51999,
     "domesticMig2024": 201,
+    "domesticMigPct": 0.3,
     "netMig2024": 240,
     "bounds": {
       "sw": {
@@ -10675,6 +11183,7 @@
     "growthPct": 1.01,
     "medianIncome": 38182,
     "domesticMig2024": -385,
+    "domesticMigPct": -0.58,
     "netMig2024": -216,
     "bounds": {
       "sw": {
@@ -10696,6 +11205,7 @@
     "growthPct": 1.09,
     "medianIncome": 77648,
     "domesticMig2024": 58,
+    "domesticMigPct": 0.09,
     "netMig2024": 357,
     "bounds": {
       "sw": {
@@ -10717,6 +11227,7 @@
     "growthPct": -0.33,
     "medianIncome": 54007,
     "domesticMig2024": 80,
+    "domesticMigPct": 0.12,
     "netMig2024": 316,
     "bounds": {
       "sw": {
@@ -10738,6 +11249,7 @@
     "growthPct": -0.2,
     "medianIncome": 56652,
     "domesticMig2024": 197,
+    "domesticMigPct": 0.3,
     "netMig2024": 361,
     "bounds": {
       "sw": {
@@ -10759,6 +11271,7 @@
     "growthPct": 0.33,
     "medianIncome": 50438,
     "domesticMig2024": 315,
+    "domesticMigPct": 0.48,
     "netMig2024": 429,
     "bounds": {
       "sw": {
@@ -10780,6 +11293,7 @@
     "growthPct": 4.15,
     "medianIncome": 66734,
     "domesticMig2024": 695,
+    "domesticMigPct": 1.05,
     "netMig2024": 814,
     "bounds": {
       "sw": {
@@ -10801,6 +11315,7 @@
     "growthPct": 1.99,
     "medianIncome": 61992,
     "domesticMig2024": 258,
+    "domesticMigPct": 0.39,
     "netMig2024": 415,
     "bounds": {
       "sw": {
@@ -10822,6 +11337,7 @@
     "growthPct": 15.11,
     "medianIncome": 65527,
     "domesticMig2024": 616,
+    "domesticMigPct": 0.93,
     "netMig2024": 964,
     "bounds": {
       "sw": {
@@ -10843,6 +11359,7 @@
     "growthPct": -2.6,
     "medianIncome": 55193,
     "domesticMig2024": -723,
+    "domesticMigPct": -1.1,
     "netMig2024": -482,
     "bounds": {
       "sw": {
@@ -10864,6 +11381,7 @@
     "growthPct": 1.64,
     "medianIncome": 51528,
     "domesticMig2024": -95,
+    "domesticMigPct": -0.14,
     "netMig2024": 31,
     "bounds": {
       "sw": {
@@ -10885,6 +11403,7 @@
     "growthPct": 7.32,
     "medianIncome": 58475,
     "domesticMig2024": 1327,
+    "domesticMigPct": 2.02,
     "netMig2024": 1328,
     "bounds": {
       "sw": {
@@ -10906,6 +11425,7 @@
     "growthPct": 1.77,
     "medianIncome": 49771,
     "domesticMig2024": 600,
+    "domesticMigPct": 0.91,
     "netMig2024": 602,
     "bounds": {
       "sw": {
@@ -10927,6 +11447,7 @@
     "growthPct": 0.02,
     "medianIncome": 60185,
     "domesticMig2024": 534,
+    "domesticMigPct": 0.82,
     "netMig2024": 588,
     "bounds": {
       "sw": {
@@ -10948,6 +11469,7 @@
     "growthPct": 1.54,
     "medianIncome": 70694,
     "domesticMig2024": 169,
+    "domesticMigPct": 0.26,
     "netMig2024": 233,
     "bounds": {
       "sw": {
@@ -10969,6 +11491,7 @@
     "growthPct": 2.44,
     "medianIncome": 87983,
     "domesticMig2024": 580,
+    "domesticMigPct": 0.89,
     "netMig2024": 593,
     "bounds": {
       "sw": {
@@ -10990,6 +11513,7 @@
     "growthPct": 1.04,
     "medianIncome": 53759,
     "domesticMig2024": 282,
+    "domesticMigPct": 0.43,
     "netMig2024": 596,
     "bounds": {
       "sw": {
@@ -11011,6 +11535,7 @@
     "growthPct": -0.58,
     "medianIncome": 57306,
     "domesticMig2024": 174,
+    "domesticMigPct": 0.27,
     "netMig2024": 190,
     "bounds": {
       "sw": {
@@ -11032,6 +11557,7 @@
     "growthPct": -2.21,
     "medianIncome": 61834,
     "domesticMig2024": -504,
+    "domesticMigPct": -0.78,
     "netMig2024": -429,
     "bounds": {
       "sw": {
@@ -11053,6 +11579,7 @@
     "growthPct": -0.92,
     "medianIncome": 60313,
     "domesticMig2024": 211,
+    "domesticMigPct": 0.33,
     "netMig2024": 393,
     "bounds": {
       "sw": {
@@ -11074,6 +11601,7 @@
     "growthPct": 1.82,
     "medianIncome": 73988,
     "domesticMig2024": 365,
+    "domesticMigPct": 0.57,
     "netMig2024": 513,
     "bounds": {
       "sw": {
@@ -11095,6 +11623,7 @@
     "growthPct": -2.24,
     "medianIncome": 52029,
     "domesticMig2024": -197,
+    "domesticMigPct": -0.31,
     "netMig2024": 11,
     "bounds": {
       "sw": {
@@ -11116,6 +11645,7 @@
     "growthPct": -3.82,
     "medianIncome": 45823,
     "domesticMig2024": 28,
+    "domesticMigPct": 0.04,
     "netMig2024": 114,
     "bounds": {
       "sw": {
@@ -11137,6 +11667,7 @@
     "growthPct": -1.87,
     "medianIncome": 47021,
     "domesticMig2024": 299,
+    "domesticMigPct": 0.47,
     "netMig2024": 399,
     "bounds": {
       "sw": {
@@ -11158,6 +11689,7 @@
     "growthPct": 1.27,
     "medianIncome": 53837,
     "domesticMig2024": -158,
+    "domesticMigPct": -0.25,
     "netMig2024": 399,
     "bounds": {
       "sw": {
@@ -11179,6 +11711,7 @@
     "growthPct": 1.55,
     "medianIncome": 61001,
     "domesticMig2024": 550,
+    "domesticMigPct": 0.87,
     "netMig2024": 613,
     "bounds": {
       "sw": {
@@ -11200,6 +11733,7 @@
     "growthPct": 2.07,
     "medianIncome": 57315,
     "domesticMig2024": 239,
+    "domesticMigPct": 0.38,
     "netMig2024": 346,
     "bounds": {
       "sw": {
@@ -11221,6 +11755,7 @@
     "growthPct": 6.54,
     "medianIncome": 79318,
     "domesticMig2024": 834,
+    "domesticMigPct": 1.34,
     "netMig2024": 1058,
     "bounds": {
       "sw": {
@@ -11242,6 +11777,7 @@
     "growthPct": -0.83,
     "medianIncome": 72212,
     "domesticMig2024": 254,
+    "domesticMigPct": 0.41,
     "netMig2024": 508,
     "bounds": {
       "sw": {
@@ -11263,6 +11799,7 @@
     "growthPct": -1.33,
     "medianIncome": 67302,
     "domesticMig2024": -288,
+    "domesticMigPct": -0.46,
     "netMig2024": -139,
     "bounds": {
       "sw": {
@@ -11284,6 +11821,7 @@
     "growthPct": 0.48,
     "medianIncome": 46930,
     "domesticMig2024": -392,
+    "domesticMigPct": -0.63,
     "netMig2024": 218,
     "bounds": {
       "sw": {
@@ -11305,6 +11843,7 @@
     "growthPct": -1.42,
     "medianIncome": 79605,
     "domesticMig2024": 338,
+    "domesticMigPct": 0.55,
     "netMig2024": 672,
     "bounds": {
       "sw": {
@@ -11326,6 +11865,7 @@
     "growthPct": -0.78,
     "medianIncome": 60498,
     "domesticMig2024": 95,
+    "domesticMigPct": 0.15,
     "netMig2024": 229,
     "bounds": {
       "sw": {
@@ -11347,6 +11887,7 @@
     "growthPct": 0.38,
     "medianIncome": 64707,
     "domesticMig2024": -65,
+    "domesticMigPct": -0.11,
     "netMig2024": 72,
     "bounds": {
       "sw": {
@@ -11368,6 +11909,7 @@
     "growthPct": 1.37,
     "medianIncome": 70912,
     "domesticMig2024": 223,
+    "domesticMigPct": 0.37,
     "netMig2024": 372,
     "bounds": {
       "sw": {
@@ -11389,6 +11931,7 @@
     "growthPct": 5.59,
     "medianIncome": 61997,
     "domesticMig2024": 851,
+    "domesticMigPct": 1.4,
     "netMig2024": 965,
     "bounds": {
       "sw": {
@@ -11410,6 +11953,7 @@
     "growthPct": 3.43,
     "medianIncome": 67086,
     "domesticMig2024": 59,
+    "domesticMigPct": 0.1,
     "netMig2024": 229,
     "bounds": {
       "sw": {
@@ -11431,6 +11975,7 @@
     "growthPct": -2.07,
     "medianIncome": 83619,
     "domesticMig2024": -200,
+    "domesticMigPct": -0.33,
     "netMig2024": -18,
     "bounds": {
       "sw": {
@@ -11452,6 +11997,7 @@
     "growthPct": -0.58,
     "medianIncome": 64778,
     "domesticMig2024": 89,
+    "domesticMigPct": 0.15,
     "netMig2024": 128,
     "bounds": {
       "sw": {
@@ -11473,6 +12019,7 @@
     "growthPct": 5.31,
     "medianIncome": 59225,
     "domesticMig2024": 230,
+    "domesticMigPct": 0.38,
     "netMig2024": 362,
     "bounds": {
       "sw": {
@@ -11494,6 +12041,7 @@
     "growthPct": 0.06,
     "medianIncome": 79853,
     "domesticMig2024": -425,
+    "domesticMigPct": -0.71,
     "netMig2024": -299,
     "bounds": {
       "sw": {
@@ -11515,6 +12063,7 @@
     "growthPct": -0.43,
     "medianIncome": 62482,
     "domesticMig2024": -80,
+    "domesticMigPct": -0.13,
     "netMig2024": 109,
     "bounds": {
       "sw": {
@@ -11536,6 +12085,7 @@
     "growthPct": 2.74,
     "medianIncome": 58846,
     "domesticMig2024": 240,
+    "domesticMigPct": 0.4,
     "netMig2024": 515,
     "bounds": {
       "sw": {
@@ -11557,6 +12107,7 @@
     "growthPct": 1.2,
     "medianIncome": 50316,
     "domesticMig2024": 227,
+    "domesticMigPct": 0.38,
     "netMig2024": 315,
     "bounds": {
       "sw": {
@@ -11578,6 +12129,7 @@
     "growthPct": -1.18,
     "medianIncome": 63998,
     "domesticMig2024": -55,
+    "domesticMigPct": -0.09,
     "netMig2024": 179,
     "bounds": {
       "sw": {
@@ -11599,6 +12151,7 @@
     "growthPct": 14.53,
     "medianIncome": 48979,
     "domesticMig2024": 1174,
+    "domesticMigPct": 1.98,
     "netMig2024": 2218,
     "bounds": {
       "sw": {
@@ -11620,6 +12173,7 @@
     "growthPct": 7.9,
     "medianIncome": 72399,
     "domesticMig2024": 814,
+    "domesticMigPct": 1.38,
     "netMig2024": 819,
     "bounds": {
       "sw": {
@@ -11641,6 +12195,7 @@
     "growthPct": 5.13,
     "medianIncome": 56535,
     "domesticMig2024": 804,
+    "domesticMigPct": 1.36,
     "netMig2024": 886,
     "bounds": {
       "sw": {
@@ -11662,6 +12217,7 @@
     "growthPct": -0.06,
     "medianIncome": 62500,
     "domesticMig2024": 2,
+    "domesticMigPct": 0,
     "netMig2024": 186,
     "bounds": {
       "sw": {
@@ -11683,6 +12239,7 @@
     "growthPct": 1.64,
     "medianIncome": 51270,
     "domesticMig2024": -289,
+    "domesticMigPct": -0.49,
     "netMig2024": 141,
     "bounds": {
       "sw": {
@@ -11704,6 +12261,7 @@
     "growthPct": -2.41,
     "medianIncome": 61355,
     "domesticMig2024": 162,
+    "domesticMigPct": 0.28,
     "netMig2024": 227,
     "bounds": {
       "sw": {
@@ -11725,6 +12283,7 @@
     "growthPct": -0.68,
     "medianIncome": 65972,
     "domesticMig2024": -148,
+    "domesticMigPct": -0.25,
     "netMig2024": 1,
     "bounds": {
       "sw": {
@@ -11746,6 +12305,7 @@
     "growthPct": -0.84,
     "medianIncome": 71809,
     "domesticMig2024": 38,
+    "domesticMigPct": 0.07,
     "netMig2024": 200,
     "bounds": {
       "sw": {
@@ -11767,6 +12327,7 @@
     "growthPct": 1.98,
     "medianIncome": 75141,
     "domesticMig2024": 173,
+    "domesticMigPct": 0.3,
     "netMig2024": 280,
     "bounds": {
       "sw": {
@@ -11788,6 +12349,7 @@
     "growthPct": 2.75,
     "medianIncome": 49047,
     "domesticMig2024": 816,
+    "domesticMigPct": 1.41,
     "netMig2024": 976,
     "bounds": {
       "sw": {
@@ -11809,6 +12371,7 @@
     "growthPct": -1.35,
     "medianIncome": 72055,
     "domesticMig2024": 80,
+    "domesticMigPct": 0.14,
     "netMig2024": 115,
     "bounds": {
       "sw": {
@@ -11830,6 +12393,7 @@
     "growthPct": -1.35,
     "medianIncome": 58404,
     "domesticMig2024": 69,
+    "domesticMigPct": 0.12,
     "netMig2024": 231,
     "bounds": {
       "sw": {
@@ -11851,6 +12415,7 @@
     "growthPct": 2.19,
     "medianIncome": 56163,
     "domesticMig2024": 38,
+    "domesticMigPct": 0.07,
     "netMig2024": 256,
     "bounds": {
       "sw": {
@@ -11872,6 +12437,7 @@
     "growthPct": 1.66,
     "medianIncome": 49037,
     "domesticMig2024": 173,
+    "domesticMigPct": 0.3,
     "netMig2024": 253,
     "bounds": {
       "sw": {
@@ -11893,6 +12459,7 @@
     "growthPct": 2.13,
     "medianIncome": 85296,
     "domesticMig2024": 414,
+    "domesticMigPct": 0.73,
     "netMig2024": 449,
     "bounds": {
       "sw": {
@@ -11914,6 +12481,7 @@
     "growthPct": 1.22,
     "medianIncome": 58258,
     "domesticMig2024": 29,
+    "domesticMigPct": 0.05,
     "netMig2024": 50,
     "bounds": {
       "sw": {
@@ -11935,6 +12503,7 @@
     "growthPct": 7.39,
     "medianIncome": 59310,
     "domesticMig2024": 582,
+    "domesticMigPct": 1.03,
     "netMig2024": 674,
     "bounds": {
       "sw": {
@@ -11956,6 +12525,7 @@
     "growthPct": 5.4,
     "medianIncome": 64672,
     "domesticMig2024": 371,
+    "domesticMigPct": 0.66,
     "netMig2024": 571,
     "bounds": {
       "sw": {
@@ -11977,6 +12547,7 @@
     "growthPct": 2.56,
     "medianIncome": 56209,
     "domesticMig2024": 457,
+    "domesticMigPct": 0.81,
     "netMig2024": 581,
     "bounds": {
       "sw": {
@@ -11998,6 +12569,7 @@
     "growthPct": 1.23,
     "medianIncome": 83305,
     "domesticMig2024": -199,
+    "domesticMigPct": -0.35,
     "netMig2024": -60,
     "bounds": {
       "sw": {
@@ -12019,6 +12591,7 @@
     "growthPct": 2.55,
     "medianIncome": 49004,
     "domesticMig2024": 321,
+    "domesticMigPct": 0.57,
     "netMig2024": 532,
     "bounds": {
       "sw": {
@@ -12040,6 +12613,7 @@
     "growthPct": 8.53,
     "medianIncome": 55975,
     "domesticMig2024": 810,
+    "domesticMigPct": 1.45,
     "netMig2024": 850,
     "bounds": {
       "sw": {
@@ -12061,6 +12635,7 @@
     "growthPct": 3.46,
     "medianIncome": 67123,
     "domesticMig2024": 216,
+    "domesticMigPct": 0.39,
     "netMig2024": 529,
     "bounds": {
       "sw": {
@@ -12082,6 +12657,7 @@
     "growthPct": -1,
     "medianIncome": 67537,
     "domesticMig2024": 74,
+    "domesticMigPct": 0.13,
     "netMig2024": 139,
     "bounds": {
       "sw": {
@@ -12103,6 +12679,7 @@
     "growthPct": 0.37,
     "medianIncome": 44795,
     "domesticMig2024": 452,
+    "domesticMigPct": 0.82,
     "netMig2024": 586,
     "bounds": {
       "sw": {
@@ -12124,6 +12701,7 @@
     "growthPct": 1.7,
     "medianIncome": 51367,
     "domesticMig2024": -509,
+    "domesticMigPct": -0.93,
     "netMig2024": -293,
     "bounds": {
       "sw": {
@@ -12145,6 +12723,7 @@
     "growthPct": -0.63,
     "medianIncome": 65020,
     "domesticMig2024": -11,
+    "domesticMigPct": -0.02,
     "netMig2024": 123,
     "bounds": {
       "sw": {
@@ -12166,6 +12745,7 @@
     "growthPct": -1.87,
     "medianIncome": 64536,
     "domesticMig2024": 147,
+    "domesticMigPct": 0.27,
     "netMig2024": 256,
     "bounds": {
       "sw": {
@@ -12187,6 +12767,7 @@
     "growthPct": 3.57,
     "medianIncome": 81455,
     "domesticMig2024": 310,
+    "domesticMigPct": 0.57,
     "netMig2024": 442,
     "bounds": {
       "sw": {
@@ -12208,6 +12789,7 @@
     "growthPct": -2.5,
     "medianIncome": 103174,
     "domesticMig2024": -882,
+    "domesticMigPct": -1.62,
     "netMig2024": -645,
     "bounds": {
       "sw": {
@@ -12229,6 +12811,7 @@
     "growthPct": 7.93,
     "medianIncome": 62197,
     "domesticMig2024": 590,
+    "domesticMigPct": 1.09,
     "netMig2024": 792,
     "bounds": {
       "sw": {
@@ -12250,6 +12833,7 @@
     "growthPct": 1.5,
     "medianIncome": 59089,
     "domesticMig2024": 461,
+    "domesticMigPct": 0.85,
     "netMig2024": 470,
     "bounds": {
       "sw": {
@@ -12271,6 +12855,7 @@
     "growthPct": 3.08,
     "medianIncome": 61205,
     "domesticMig2024": 231,
+    "domesticMigPct": 0.43,
     "netMig2024": 348,
     "bounds": {
       "sw": {
@@ -12292,6 +12877,7 @@
     "growthPct": 0.01,
     "medianIncome": 66435,
     "domesticMig2024": -207,
+    "domesticMigPct": -0.38,
     "netMig2024": -150,
     "bounds": {
       "sw": {
@@ -12313,6 +12899,7 @@
     "growthPct": 14.53,
     "medianIncome": 65168,
     "domesticMig2024": 1170,
+    "domesticMigPct": 2.17,
     "netMig2024": 1343,
     "bounds": {
       "sw": {
@@ -12334,6 +12921,7 @@
     "growthPct": 2.48,
     "medianIncome": 67927,
     "domesticMig2024": 243,
+    "domesticMigPct": 0.45,
     "netMig2024": 328,
     "bounds": {
       "sw": {
@@ -12355,6 +12943,7 @@
     "growthPct": -3.11,
     "medianIncome": 72259,
     "domesticMig2024": 73,
+    "domesticMigPct": 0.14,
     "netMig2024": 108,
     "bounds": {
       "sw": {
@@ -12376,6 +12965,7 @@
     "growthPct": 2.32,
     "medianIncome": 49454,
     "domesticMig2024": 573,
+    "domesticMigPct": 1.07,
     "netMig2024": 657,
     "bounds": {
       "sw": {
@@ -12397,6 +12987,7 @@
     "growthPct": -3.8,
     "medianIncome": 38706,
     "domesticMig2024": -987,
+    "domesticMigPct": -1.85,
     "netMig2024": -101,
     "bounds": {
       "sw": {
@@ -12418,6 +13009,7 @@
     "growthPct": 5.33,
     "medianIncome": 59830,
     "domesticMig2024": 396,
+    "domesticMigPct": 0.74,
     "netMig2024": 475,
     "bounds": {
       "sw": {
@@ -12439,6 +13031,7 @@
     "growthPct": -0.26,
     "medianIncome": 45572,
     "domesticMig2024": -199,
+    "domesticMigPct": -0.37,
     "netMig2024": 344,
     "bounds": {
       "sw": {
@@ -12460,6 +13053,7 @@
     "growthPct": -2.57,
     "medianIncome": 41963,
     "domesticMig2024": -176,
+    "domesticMigPct": -0.33,
     "netMig2024": -157,
     "bounds": {
       "sw": {
@@ -12481,6 +13075,7 @@
     "growthPct": -0.04,
     "medianIncome": 64991,
     "domesticMig2024": 294,
+    "domesticMigPct": 0.56,
     "netMig2024": 308,
     "bounds": {
       "sw": {
@@ -12502,6 +13097,7 @@
     "growthPct": 0.75,
     "medianIncome": 64349,
     "domesticMig2024": 338,
+    "domesticMigPct": 0.65,
     "netMig2024": 383,
     "bounds": {
       "sw": {
@@ -12523,6 +13119,7 @@
     "growthPct": 1.77,
     "medianIncome": 48038,
     "domesticMig2024": 90,
+    "domesticMigPct": 0.17,
     "netMig2024": 350,
     "bounds": {
       "sw": {
@@ -12544,6 +13141,7 @@
     "growthPct": -2.37,
     "medianIncome": 62615,
     "domesticMig2024": -19,
+    "domesticMigPct": -0.04,
     "netMig2024": 21,
     "bounds": {
       "sw": {
@@ -12565,6 +13163,7 @@
     "growthPct": -0.8,
     "medianIncome": 64654,
     "domesticMig2024": 46,
+    "domesticMigPct": 0.09,
     "netMig2024": 84,
     "bounds": {
       "sw": {
@@ -12586,6 +13185,7 @@
     "growthPct": -0.97,
     "medianIncome": 79244,
     "domesticMig2024": -108,
+    "domesticMigPct": -0.21,
     "netMig2024": -31,
     "bounds": {
       "sw": {
@@ -12607,6 +13207,7 @@
     "growthPct": 1.61,
     "medianIncome": 61314,
     "domesticMig2024": 173,
+    "domesticMigPct": 0.34,
     "netMig2024": 343,
     "bounds": {
       "sw": {
@@ -12628,6 +13229,7 @@
     "growthPct": 6.06,
     "medianIncome": 76842,
     "domesticMig2024": 308,
+    "domesticMigPct": 0.61,
     "netMig2024": 338,
     "bounds": {
       "sw": {
@@ -12649,6 +13251,7 @@
     "growthPct": 0.73,
     "medianIncome": 50810,
     "domesticMig2024": 30,
+    "domesticMigPct": 0.06,
     "netMig2024": 135,
     "bounds": {
       "sw": {
@@ -12670,6 +13273,7 @@
     "growthPct": 0.01,
     "medianIncome": 88659,
     "domesticMig2024": 439,
+    "domesticMigPct": 0.87,
     "netMig2024": 473,
     "bounds": {
       "sw": {
@@ -12691,6 +13295,7 @@
     "growthPct": 5.97,
     "medianIncome": 53614,
     "domesticMig2024": -148,
+    "domesticMigPct": -0.29,
     "netMig2024": 640,
     "bounds": {
       "sw": {
@@ -12712,6 +13317,7 @@
     "growthPct": 9.19,
     "medianIncome": 54280,
     "domesticMig2024": 1100,
+    "domesticMigPct": 2.19,
     "netMig2024": 1178,
     "bounds": {
       "sw": {
@@ -12733,6 +13339,7 @@
     "growthPct": 2.36,
     "medianIncome": 61027,
     "domesticMig2024": -27,
+    "domesticMigPct": -0.05,
     "netMig2024": -7,
     "bounds": {
       "sw": {
@@ -12754,6 +13361,7 @@
     "growthPct": 1.51,
     "medianIncome": 53955,
     "domesticMig2024": 38,
+    "domesticMigPct": 0.08,
     "netMig2024": 105,
     "bounds": {
       "sw": {
@@ -12775,6 +13383,7 @@
     "growthPct": 0.57,
     "medianIncome": 70198,
     "domesticMig2024": 177,
+    "domesticMigPct": 0.35,
     "netMig2024": 337,
     "bounds": {
       "sw": {
@@ -12796,6 +13405,7 @@
     "growthPct": -1.51,
     "medianIncome": 66394,
     "domesticMig2024": -58,
+    "domesticMigPct": -0.12,
     "netMig2024": 84,
     "bounds": {
       "sw": {
@@ -12817,6 +13427,7 @@
     "growthPct": -1.81,
     "medianIncome": 55225,
     "domesticMig2024": 21,
+    "domesticMigPct": 0.04,
     "netMig2024": 53,
     "bounds": {
       "sw": {
@@ -12838,6 +13449,7 @@
     "growthPct": 2,
     "medianIncome": 62833,
     "domesticMig2024": 65,
+    "domesticMigPct": 0.13,
     "netMig2024": 184,
     "bounds": {
       "sw": {
@@ -12859,6 +13471,7 @@
     "growthPct": 7.9,
     "medianIncome": 65622,
     "domesticMig2024": 677,
+    "domesticMigPct": 1.36,
     "netMig2024": 865,
     "bounds": {
       "sw": {
@@ -12880,6 +13493,7 @@
     "growthPct": 0.24,
     "medianIncome": 62923,
     "domesticMig2024": 37,
+    "domesticMigPct": 0.07,
     "netMig2024": 100,
     "bounds": {
       "sw": {
@@ -12901,6 +13515,7 @@
     "growthPct": -1.93,
     "medianIncome": 61626,
     "domesticMig2024": 287,
+    "domesticMigPct": 0.58,
     "netMig2024": 336,
     "bounds": {
       "sw": {
@@ -12922,6 +13537,7 @@
     "growthPct": 2.36,
     "medianIncome": 58856,
     "domesticMig2024": 180,
+    "domesticMigPct": 0.37,
     "netMig2024": 272,
     "bounds": {
       "sw": {
@@ -12943,6 +13559,7 @@
     "growthPct": 0.34,
     "medianIncome": 60144,
     "domesticMig2024": 260,
+    "domesticMigPct": 0.53,
     "netMig2024": 266,
     "bounds": {
       "sw": {
@@ -12964,6 +13581,7 @@
     "growthPct": 3.52,
     "medianIncome": 53668,
     "domesticMig2024": 568,
+    "domesticMigPct": 1.17,
     "netMig2024": 635,
     "bounds": {
       "sw": {
@@ -12985,6 +13603,7 @@
     "growthPct": -2.51,
     "medianIncome": 53291,
     "domesticMig2024": -107,
+    "domesticMigPct": -0.22,
     "netMig2024": 273,
     "bounds": {
       "sw": {
@@ -13006,6 +13625,7 @@
     "growthPct": -0.16,
     "medianIncome": 66629,
     "domesticMig2024": -492,
+    "domesticMigPct": -1.01,
     "netMig2024": -302,
     "bounds": {
       "sw": {
@@ -13027,6 +13647,7 @@
     "growthPct": 5.18,
     "medianIncome": 68214,
     "domesticMig2024": -245,
+    "domesticMigPct": -0.5,
     "netMig2024": 111,
     "bounds": {
       "sw": {
@@ -13048,6 +13669,7 @@
     "growthPct": 0.88,
     "medianIncome": 52893,
     "domesticMig2024": -169,
+    "domesticMigPct": -0.35,
     "netMig2024": 433,
     "bounds": {
       "sw": {
@@ -13069,6 +13691,7 @@
     "growthPct": -0.32,
     "medianIncome": 38035,
     "domesticMig2024": -6,
+    "domesticMigPct": -0.01,
     "netMig2024": 42,
     "bounds": {
       "sw": {
@@ -13090,6 +13713,7 @@
     "growthPct": 3.52,
     "medianIncome": 69928,
     "domesticMig2024": 228,
+    "domesticMigPct": 0.47,
     "netMig2024": 293,
     "bounds": {
       "sw": {
@@ -13111,6 +13735,7 @@
     "growthPct": 2.35,
     "medianIncome": 55186,
     "domesticMig2024": 343,
+    "domesticMigPct": 0.71,
     "netMig2024": 345,
     "bounds": {
       "sw": {
@@ -13132,6 +13757,7 @@
     "growthPct": 0.86,
     "medianIncome": 59673,
     "domesticMig2024": -495,
+    "domesticMigPct": -1.03,
     "netMig2024": -217,
     "bounds": {
       "sw": {
@@ -13153,6 +13779,7 @@
     "growthPct": 0.84,
     "medianIncome": 82749,
     "domesticMig2024": -92,
+    "domesticMigPct": -0.19,
     "netMig2024": -40,
     "bounds": {
       "sw": {
@@ -13174,6 +13801,7 @@
     "growthPct": -0.58,
     "medianIncome": 72822,
     "domesticMig2024": 46,
+    "domesticMigPct": 0.1,
     "netMig2024": 116,
     "bounds": {
       "sw": {
@@ -13195,6 +13823,7 @@
     "growthPct": 1.95,
     "medianIncome": 95253,
     "domesticMig2024": 144,
+    "domesticMigPct": 0.3,
     "netMig2024": 184,
     "bounds": {
       "sw": {
@@ -13216,6 +13845,7 @@
     "growthPct": 0.72,
     "medianIncome": 70908,
     "domesticMig2024": 108,
+    "domesticMigPct": 0.23,
     "netMig2024": 187,
     "bounds": {
       "sw": {
@@ -13237,6 +13867,7 @@
     "growthPct": 2.12,
     "medianIncome": 70208,
     "domesticMig2024": -31,
+    "domesticMigPct": -0.07,
     "netMig2024": 514,
     "bounds": {
       "sw": {
@@ -13258,6 +13889,7 @@
     "growthPct": 2.35,
     "medianIncome": 49691,
     "domesticMig2024": -122,
+    "domesticMigPct": -0.26,
     "netMig2024": 418,
     "bounds": {
       "sw": {
@@ -13279,6 +13911,7 @@
     "growthPct": 2.62,
     "medianIncome": 56793,
     "domesticMig2024": 182,
+    "domesticMigPct": 0.39,
     "netMig2024": 202,
     "bounds": {
       "sw": {
@@ -13300,6 +13933,7 @@
     "growthPct": 0.22,
     "medianIncome": 64619,
     "domesticMig2024": -87,
+    "domesticMigPct": -0.19,
     "netMig2024": 14,
     "bounds": {
       "sw": {
@@ -13321,6 +13955,7 @@
     "growthPct": -5.28,
     "medianIncome": 51768,
     "domesticMig2024": -473,
+    "domesticMigPct": -1.01,
     "netMig2024": -236,
     "bounds": {
       "sw": {
@@ -13342,6 +13977,7 @@
     "growthPct": 1.16,
     "medianIncome": 67257,
     "domesticMig2024": 59,
+    "domesticMigPct": 0.13,
     "netMig2024": 96,
     "bounds": {
       "sw": {
@@ -13363,6 +13999,7 @@
     "growthPct": 5.24,
     "medianIncome": 53233,
     "domesticMig2024": 497,
+    "domesticMigPct": 1.07,
     "netMig2024": 504,
     "bounds": {
       "sw": {
@@ -13384,6 +14021,7 @@
     "growthPct": 0.83,
     "medianIncome": 68041,
     "domesticMig2024": 100,
+    "domesticMigPct": 0.22,
     "netMig2024": 170,
     "bounds": {
       "sw": {
@@ -13405,6 +14043,7 @@
     "growthPct": -1.63,
     "medianIncome": 56040,
     "domesticMig2024": -191,
+    "domesticMigPct": -0.41,
     "netMig2024": 5,
     "bounds": {
       "sw": {
@@ -13426,6 +14065,7 @@
     "growthPct": 0.22,
     "medianIncome": 68213,
     "domesticMig2024": 39,
+    "domesticMigPct": 0.08,
     "netMig2024": 110,
     "bounds": {
       "sw": {
@@ -13447,6 +14087,7 @@
     "growthPct": 3.23,
     "medianIncome": 75501,
     "domesticMig2024": -425,
+    "domesticMigPct": -0.92,
     "netMig2024": 306,
     "bounds": {
       "sw": {
@@ -13468,6 +14109,7 @@
     "growthPct": 2.95,
     "medianIncome": 61958,
     "domesticMig2024": 63,
+    "domesticMigPct": 0.14,
     "netMig2024": 440,
     "bounds": {
       "sw": {
@@ -13489,6 +14131,7 @@
     "growthPct": 1.53,
     "medianIncome": 71785,
     "domesticMig2024": 162,
+    "domesticMigPct": 0.35,
     "netMig2024": 227,
     "bounds": {
       "sw": {
@@ -13510,6 +14153,7 @@
     "growthPct": -0.14,
     "medianIncome": 69183,
     "domesticMig2024": 1,
+    "domesticMigPct": 0,
     "netMig2024": 69,
     "bounds": {
       "sw": {
@@ -13531,6 +14175,7 @@
     "growthPct": -0.96,
     "medianIncome": 65177,
     "domesticMig2024": -41,
+    "domesticMigPct": -0.09,
     "netMig2024": -13,
     "bounds": {
       "sw": {
@@ -13552,6 +14197,7 @@
     "growthPct": -1.84,
     "medianIncome": 67527,
     "domesticMig2024": 1,
+    "domesticMigPct": 0,
     "netMig2024": 26,
     "bounds": {
       "sw": {
@@ -13573,6 +14219,7 @@
     "growthPct": -0.44,
     "medianIncome": 61415,
     "domesticMig2024": 63,
+    "domesticMigPct": 0.14,
     "netMig2024": 82,
     "bounds": {
       "sw": {
@@ -13594,6 +14241,7 @@
     "growthPct": -1.08,
     "medianIncome": 76454,
     "domesticMig2024": -67,
+    "domesticMigPct": -0.15,
     "netMig2024": -57,
     "bounds": {
       "sw": {
@@ -13615,6 +14263,7 @@
     "growthPct": 2.32,
     "medianIncome": 55427,
     "domesticMig2024": -210,
+    "domesticMigPct": -0.46,
     "netMig2024": 216,
     "bounds": {
       "sw": {
@@ -13636,6 +14285,7 @@
     "growthPct": 2.38,
     "medianIncome": 53775,
     "domesticMig2024": 218,
+    "domesticMigPct": 0.48,
     "netMig2024": 220,
     "bounds": {
       "sw": {
@@ -13657,6 +14307,7 @@
     "growthPct": -0.66,
     "medianIncome": 68021,
     "domesticMig2024": -200,
+    "domesticMigPct": -0.44,
     "netMig2024": -148,
     "bounds": {
       "sw": {
@@ -13678,6 +14329,7 @@
     "growthPct": -0.87,
     "medianIncome": 45939,
     "domesticMig2024": -247,
+    "domesticMigPct": -0.54,
     "netMig2024": -114,
     "bounds": {
       "sw": {
@@ -13699,6 +14351,7 @@
     "growthPct": -0.35,
     "medianIncome": 60869,
     "domesticMig2024": 41,
+    "domesticMigPct": 0.09,
     "netMig2024": 95,
     "bounds": {
       "sw": {
@@ -13720,6 +14373,7 @@
     "growthPct": 1.01,
     "medianIncome": 66189,
     "domesticMig2024": 266,
+    "domesticMigPct": 0.58,
     "netMig2024": 290,
     "bounds": {
       "sw": {
@@ -13741,6 +14395,7 @@
     "growthPct": 0.93,
     "medianIncome": 66380,
     "domesticMig2024": 89,
+    "domesticMigPct": 0.2,
     "netMig2024": 102,
     "bounds": {
       "sw": {
@@ -13762,6 +14417,7 @@
     "growthPct": 1.54,
     "medianIncome": 55527,
     "domesticMig2024": 414,
+    "domesticMigPct": 0.91,
     "netMig2024": 570,
     "bounds": {
       "sw": {
@@ -13783,6 +14439,7 @@
     "growthPct": -0.43,
     "medianIncome": 57610,
     "domesticMig2024": 146,
+    "domesticMigPct": 0.32,
     "netMig2024": 339,
     "bounds": {
       "sw": {
@@ -13804,6 +14461,7 @@
     "growthPct": 0.42,
     "medianIncome": 65551,
     "domesticMig2024": 327,
+    "domesticMigPct": 0.72,
     "netMig2024": 341,
     "bounds": {
       "sw": {
@@ -13825,6 +14483,7 @@
     "growthPct": 5.63,
     "medianIncome": 61553,
     "domesticMig2024": 531,
+    "domesticMigPct": 1.18,
     "netMig2024": 619,
     "bounds": {
       "sw": {
@@ -13846,6 +14505,7 @@
     "growthPct": -0.81,
     "medianIncome": 42776,
     "domesticMig2024": 147,
+    "domesticMigPct": 0.33,
     "netMig2024": 207,
     "bounds": {
       "sw": {
@@ -13867,6 +14527,7 @@
     "growthPct": -0.51,
     "medianIncome": 74219,
     "domesticMig2024": 30,
+    "domesticMigPct": 0.07,
     "netMig2024": 112,
     "bounds": {
       "sw": {
@@ -13888,6 +14549,7 @@
     "growthPct": 4.99,
     "medianIncome": 66072,
     "domesticMig2024": 415,
+    "domesticMigPct": 0.93,
     "netMig2024": 589,
     "bounds": {
       "sw": {
@@ -13909,6 +14571,7 @@
     "growthPct": 2.17,
     "medianIncome": 75097,
     "domesticMig2024": -322,
+    "domesticMigPct": -0.72,
     "netMig2024": 275,
     "bounds": {
       "sw": {
@@ -13930,6 +14593,7 @@
     "growthPct": 4.11,
     "medianIncome": 55308,
     "domesticMig2024": 110,
+    "domesticMigPct": 0.25,
     "netMig2024": 203,
     "bounds": {
       "sw": {
@@ -13951,6 +14615,7 @@
     "growthPct": -0.17,
     "medianIncome": 57997,
     "domesticMig2024": 377,
+    "domesticMigPct": 0.85,
     "netMig2024": 374,
     "bounds": {
       "sw": {
@@ -13972,6 +14637,7 @@
     "growthPct": 4.59,
     "medianIncome": 65351,
     "domesticMig2024": -141,
+    "domesticMigPct": -0.32,
     "netMig2024": -73,
     "bounds": {
       "sw": {
@@ -13993,6 +14659,7 @@
     "growthPct": -1.91,
     "medianIncome": 61453,
     "domesticMig2024": -117,
+    "domesticMigPct": -0.26,
     "netMig2024": 48,
     "bounds": {
       "sw": {
@@ -14014,6 +14681,7 @@
     "growthPct": 2.44,
     "medianIncome": 70080,
     "domesticMig2024": 38,
+    "domesticMigPct": 0.09,
     "netMig2024": 66,
     "bounds": {
       "sw": {
@@ -14035,6 +14703,7 @@
     "growthPct": 6.21,
     "medianIncome": 72472,
     "domesticMig2024": 366,
+    "domesticMigPct": 0.83,
     "netMig2024": 421,
     "bounds": {
       "sw": {
@@ -14056,6 +14725,7 @@
     "growthPct": 2.87,
     "medianIncome": 60236,
     "domesticMig2024": 108,
+    "domesticMigPct": 0.25,
     "netMig2024": 182,
     "bounds": {
       "sw": {
@@ -14077,6 +14747,7 @@
     "growthPct": 1.89,
     "medianIncome": 60232,
     "domesticMig2024": -112,
+    "domesticMigPct": -0.26,
     "netMig2024": 129,
     "bounds": {
       "sw": {
@@ -14098,6 +14769,7 @@
     "growthPct": -0.34,
     "medianIncome": 55413,
     "domesticMig2024": 343,
+    "domesticMigPct": 0.79,
     "netMig2024": 356,
     "bounds": {
       "sw": {
@@ -14119,6 +14791,7 @@
     "growthPct": 0,
     "medianIncome": 71918,
     "domesticMig2024": -190,
+    "domesticMigPct": -0.44,
     "netMig2024": -19,
     "bounds": {
       "sw": {
@@ -14140,6 +14813,7 @@
     "growthPct": 6.52,
     "medianIncome": 54088,
     "domesticMig2024": 908,
+    "domesticMigPct": 2.08,
     "netMig2024": 1035,
     "bounds": {
       "sw": {
@@ -14161,6 +14835,7 @@
     "growthPct": -0.6,
     "medianIncome": 56673,
     "domesticMig2024": -176,
+    "domesticMigPct": -0.41,
     "netMig2024": -146,
     "bounds": {
       "sw": {
@@ -14182,6 +14857,7 @@
     "growthPct": -0.86,
     "medianIncome": 54787,
     "domesticMig2024": 231,
+    "domesticMigPct": 0.53,
     "netMig2024": 249,
     "bounds": {
       "sw": {
@@ -14203,6 +14879,7 @@
     "growthPct": -1.69,
     "medianIncome": 65429,
     "domesticMig2024": -82,
+    "domesticMigPct": -0.19,
     "netMig2024": -40,
     "bounds": {
       "sw": {
@@ -14224,6 +14901,7 @@
     "growthPct": -3.61,
     "medianIncome": 61943,
     "domesticMig2024": -74,
+    "domesticMigPct": -0.17,
     "netMig2024": -5,
     "bounds": {
       "sw": {
@@ -14245,6 +14923,7 @@
     "growthPct": 3.29,
     "medianIncome": 48427,
     "domesticMig2024": 593,
+    "domesticMigPct": 1.38,
     "netMig2024": 592,
     "bounds": {
       "sw": {
@@ -14266,6 +14945,7 @@
     "growthPct": 0.28,
     "medianIncome": 78036,
     "domesticMig2024": -115,
+    "domesticMigPct": -0.27,
     "netMig2024": -28,
     "bounds": {
       "sw": {
@@ -14287,6 +14967,7 @@
     "growthPct": 6.88,
     "medianIncome": 52288,
     "domesticMig2024": 597,
+    "domesticMigPct": 1.41,
     "netMig2024": 807,
     "bounds": {
       "sw": {
@@ -14308,6 +14989,7 @@
     "growthPct": -0.58,
     "medianIncome": 46943,
     "domesticMig2024": -40,
+    "domesticMigPct": -0.09,
     "netMig2024": 145,
     "bounds": {
       "sw": {
@@ -14329,6 +15011,7 @@
     "growthPct": 6.73,
     "medianIncome": 65179,
     "domesticMig2024": -107,
+    "domesticMigPct": -0.25,
     "netMig2024": 332,
     "bounds": {
       "sw": {
@@ -14350,6 +15033,7 @@
     "growthPct": -1.23,
     "medianIncome": 72894,
     "domesticMig2024": -198,
+    "domesticMigPct": -0.47,
     "netMig2024": -50,
     "bounds": {
       "sw": {
@@ -14371,6 +15055,7 @@
     "growthPct": -2.58,
     "medianIncome": 69512,
     "domesticMig2024": -283,
+    "domesticMigPct": -0.67,
     "netMig2024": -141,
     "bounds": {
       "sw": {
@@ -14392,6 +15077,7 @@
     "growthPct": -5.85,
     "medianIncome": 56648,
     "domesticMig2024": -214,
+    "domesticMigPct": -0.51,
     "netMig2024": -164,
     "bounds": {
       "sw": {
@@ -14413,6 +15099,7 @@
     "growthPct": 1.07,
     "medianIncome": 66100,
     "domesticMig2024": 52,
+    "domesticMigPct": 0.12,
     "netMig2024": 119,
     "bounds": {
       "sw": {
@@ -14434,6 +15121,7 @@
     "growthPct": -0.02,
     "medianIncome": 68125,
     "domesticMig2024": -58,
+    "domesticMigPct": -0.14,
     "netMig2024": 115,
     "bounds": {
       "sw": {
@@ -14455,6 +15143,7 @@
     "growthPct": -2.22,
     "medianIncome": 43626,
     "domesticMig2024": 91,
+    "domesticMigPct": 0.22,
     "netMig2024": 87,
     "bounds": {
       "sw": {
@@ -14476,6 +15165,7 @@
     "growthPct": 3.97,
     "medianIncome": 57774,
     "domesticMig2024": 214,
+    "domesticMigPct": 0.51,
     "netMig2024": 274,
     "bounds": {
       "sw": {
@@ -14497,6 +15187,7 @@
     "growthPct": -0.75,
     "medianIncome": 49213,
     "domesticMig2024": 63,
+    "domesticMigPct": 0.15,
     "netMig2024": 90,
     "bounds": {
       "sw": {
@@ -14518,6 +15209,7 @@
     "growthPct": -0.93,
     "medianIncome": 55477,
     "domesticMig2024": 108,
+    "domesticMigPct": 0.26,
     "netMig2024": 213,
     "bounds": {
       "sw": {
@@ -14539,6 +15231,7 @@
     "growthPct": -1.82,
     "medianIncome": 70761,
     "domesticMig2024": -182,
+    "domesticMigPct": -0.44,
     "netMig2024": -148,
     "bounds": {
       "sw": {
@@ -14560,6 +15253,7 @@
     "growthPct": 2.09,
     "medianIncome": 63912,
     "domesticMig2024": 236,
+    "domesticMigPct": 0.57,
     "netMig2024": 332,
     "bounds": {
       "sw": {
@@ -14581,6 +15275,7 @@
     "growthPct": -0.94,
     "medianIncome": 61128,
     "domesticMig2024": 5,
+    "domesticMigPct": 0.01,
     "netMig2024": 48,
     "bounds": {
       "sw": {
@@ -14602,6 +15297,7 @@
     "growthPct": -2.36,
     "medianIncome": 76464,
     "domesticMig2024": -146,
+    "domesticMigPct": -0.35,
     "netMig2024": -55,
     "bounds": {
       "sw": {
@@ -14623,6 +15319,7 @@
     "growthPct": -8.34,
     "medianIncome": 40117,
     "domesticMig2024": -663,
+    "domesticMigPct": -1.61,
     "netMig2024": -664,
     "bounds": {
       "sw": {
@@ -14644,6 +15341,7 @@
     "growthPct": -0.06,
     "medianIncome": 68705,
     "domesticMig2024": 59,
+    "domesticMigPct": 0.14,
     "netMig2024": 124,
     "bounds": {
       "sw": {
@@ -14665,6 +15363,7 @@
     "growthPct": 2.16,
     "medianIncome": 71495,
     "domesticMig2024": -19,
+    "domesticMigPct": -0.05,
     "netMig2024": 500,
     "bounds": {
       "sw": {
@@ -14686,6 +15385,7 @@
     "growthPct": -0.46,
     "medianIncome": 90224,
     "domesticMig2024": 794,
+    "domesticMigPct": 1.95,
     "netMig2024": 1045,
     "bounds": {
       "sw": {
@@ -14707,6 +15407,7 @@
     "growthPct": 2.54,
     "medianIncome": 49814,
     "domesticMig2024": 254,
+    "domesticMigPct": 0.62,
     "netMig2024": 249,
     "bounds": {
       "sw": {
@@ -14728,6 +15429,7 @@
     "growthPct": -1.48,
     "medianIncome": 57185,
     "domesticMig2024": 199,
+    "domesticMigPct": 0.49,
     "netMig2024": 282,
     "bounds": {
       "sw": {
@@ -14749,6 +15451,7 @@
     "growthPct": -0.19,
     "medianIncome": 67077,
     "domesticMig2024": 201,
+    "domesticMigPct": 0.49,
     "netMig2024": 282,
     "bounds": {
       "sw": {
@@ -14770,6 +15473,7 @@
     "growthPct": 0.73,
     "medianIncome": 72785,
     "domesticMig2024": -247,
+    "domesticMigPct": -0.61,
     "netMig2024": 224,
     "bounds": {
       "sw": {
@@ -14791,6 +15495,7 @@
     "growthPct": 4.42,
     "medianIncome": 67326,
     "domesticMig2024": 514,
+    "domesticMigPct": 1.28,
     "netMig2024": 604,
     "bounds": {
       "sw": {
@@ -14812,6 +15517,7 @@
     "growthPct": 1.99,
     "medianIncome": 56403,
     "domesticMig2024": -181,
+    "domesticMigPct": -0.45,
     "netMig2024": 199,
     "bounds": {
       "sw": {
@@ -14833,6 +15539,7 @@
     "growthPct": -0.99,
     "medianIncome": 53901,
     "domesticMig2024": 22,
+    "domesticMigPct": 0.06,
     "netMig2024": 208,
     "bounds": {
       "sw": {
@@ -14854,6 +15561,7 @@
     "growthPct": 2.4,
     "medianIncome": 77264,
     "domesticMig2024": 119,
+    "domesticMigPct": 0.3,
     "netMig2024": 153,
     "bounds": {
       "sw": {
@@ -14875,6 +15583,7 @@
     "growthPct": 1.27,
     "medianIncome": 64646,
     "domesticMig2024": 5,
+    "domesticMigPct": 0.01,
     "netMig2024": -4,
     "bounds": {
       "sw": {
@@ -14896,6 +15605,7 @@
     "growthPct": -0.29,
     "medianIncome": 68435,
     "domesticMig2024": -88,
+    "domesticMigPct": -0.22,
     "netMig2024": -35,
     "bounds": {
       "sw": {
@@ -14917,6 +15627,7 @@
     "growthPct": -2.37,
     "medianIncome": 61705,
     "domesticMig2024": 106,
+    "domesticMigPct": 0.27,
     "netMig2024": 156,
     "bounds": {
       "sw": {
@@ -14938,6 +15649,7 @@
     "growthPct": 5.98,
     "medianIncome": 59881,
     "domesticMig2024": -102,
+    "domesticMigPct": -0.26,
     "netMig2024": 532,
     "bounds": {
       "sw": {
@@ -14959,6 +15671,7 @@
     "growthPct": 3.92,
     "medianIncome": 59670,
     "domesticMig2024": 228,
+    "domesticMigPct": 0.58,
     "netMig2024": 407,
     "bounds": {
       "sw": {
@@ -14980,6 +15693,7 @@
     "growthPct": -0.85,
     "medianIncome": 59108,
     "domesticMig2024": -26,
+    "domesticMigPct": -0.07,
     "netMig2024": 39,
     "bounds": {
       "sw": {
@@ -15001,6 +15715,7 @@
     "growthPct": 7.75,
     "medianIncome": 94175,
     "domesticMig2024": 528,
+    "domesticMigPct": 1.35,
     "netMig2024": 573,
     "bounds": {
       "sw": {
@@ -15022,6 +15737,7 @@
     "growthPct": 3.8,
     "medianIncome": 51854,
     "domesticMig2024": 322,
+    "domesticMigPct": 0.83,
     "netMig2024": 530,
     "bounds": {
       "sw": {
@@ -15043,6 +15759,7 @@
     "growthPct": 0.1,
     "medianIncome": 63425,
     "domesticMig2024": 190,
+    "domesticMigPct": 0.49,
     "netMig2024": 213,
     "bounds": {
       "sw": {
@@ -15064,6 +15781,7 @@
     "growthPct": 0.51,
     "medianIncome": 74239,
     "domesticMig2024": 27,
+    "domesticMigPct": 0.07,
     "netMig2024": 55,
     "bounds": {
       "sw": {
@@ -15085,6 +15803,7 @@
     "growthPct": -0.17,
     "medianIncome": 50311,
     "domesticMig2024": -229,
+    "domesticMigPct": -0.59,
     "netMig2024": -6,
     "bounds": {
       "sw": {
@@ -15106,6 +15825,7 @@
     "growthPct": 0.44,
     "medianIncome": 82133,
     "domesticMig2024": 248,
+    "domesticMigPct": 0.64,
     "netMig2024": 404,
     "bounds": {
       "sw": {
@@ -15127,6 +15847,7 @@
     "growthPct": 5.42,
     "medianIncome": 64725,
     "domesticMig2024": 390,
+    "domesticMigPct": 1.01,
     "netMig2024": 518,
     "bounds": {
       "sw": {
@@ -15148,6 +15869,7 @@
     "growthPct": 7.85,
     "medianIncome": 68377,
     "domesticMig2024": 895,
+    "domesticMigPct": 2.32,
     "netMig2024": 913,
     "bounds": {
       "sw": {
@@ -15169,6 +15891,7 @@
     "growthPct": 0.95,
     "medianIncome": 73615,
     "domesticMig2024": 11,
+    "domesticMigPct": 0.03,
     "netMig2024": 215,
     "bounds": {
       "sw": {
@@ -15190,6 +15913,7 @@
     "growthPct": 1.84,
     "medianIncome": 66571,
     "domesticMig2024": 37,
+    "domesticMigPct": 0.1,
     "netMig2024": 60,
     "bounds": {
       "sw": {
@@ -15211,6 +15935,7 @@
     "growthPct": 1.38,
     "medianIncome": 55305,
     "domesticMig2024": 288,
+    "domesticMigPct": 0.75,
     "netMig2024": 397,
     "bounds": {
       "sw": {
@@ -15232,6 +15957,7 @@
     "growthPct": 0.68,
     "medianIncome": 93984,
     "domesticMig2024": -249,
+    "domesticMigPct": -0.65,
     "netMig2024": -149,
     "bounds": {
       "sw": {
@@ -15253,6 +15979,7 @@
     "growthPct": 3.34,
     "medianIncome": 55929,
     "domesticMig2024": 347,
+    "domesticMigPct": 0.9,
     "netMig2024": 426,
     "bounds": {
       "sw": {
@@ -15274,6 +16001,7 @@
     "growthPct": -0.3,
     "medianIncome": 72437,
     "domesticMig2024": -643,
+    "domesticMigPct": -1.68,
     "netMig2024": 32,
     "bounds": {
       "sw": {
@@ -15295,6 +16023,7 @@
     "growthPct": 1.09,
     "medianIncome": 56009,
     "domesticMig2024": 31,
+    "domesticMigPct": 0.08,
     "netMig2024": 31,
     "bounds": {
       "sw": {
@@ -15316,6 +16045,7 @@
     "growthPct": 0.64,
     "medianIncome": 62564,
     "domesticMig2024": -199,
+    "domesticMigPct": -0.52,
     "netMig2024": -159,
     "bounds": {
       "sw": {
@@ -15337,6 +16067,7 @@
     "growthPct": 7.56,
     "medianIncome": 69861,
     "domesticMig2024": 23,
+    "domesticMigPct": 0.06,
     "netMig2024": 221,
     "bounds": {
       "sw": {
@@ -15358,6 +16089,7 @@
     "growthPct": -1.23,
     "medianIncome": 102233,
     "domesticMig2024": -365,
+    "domesticMigPct": -0.95,
     "netMig2024": -169,
     "bounds": {
       "sw": {
@@ -15379,6 +16111,7 @@
     "growthPct": 1.92,
     "medianIncome": 84378,
     "domesticMig2024": 240,
+    "domesticMigPct": 0.63,
     "netMig2024": 418,
     "bounds": {
       "sw": {
@@ -15400,6 +16133,7 @@
     "growthPct": -0.56,
     "medianIncome": 55756,
     "domesticMig2024": 251,
+    "domesticMigPct": 0.66,
     "netMig2024": 264,
     "bounds": {
       "sw": {
@@ -15421,6 +16155,7 @@
     "growthPct": 3.44,
     "medianIncome": 81214,
     "domesticMig2024": 28,
+    "domesticMigPct": 0.07,
     "netMig2024": 165,
     "bounds": {
       "sw": {
@@ -15442,6 +16177,7 @@
     "growthPct": -6.37,
     "medianIncome": 53428,
     "domesticMig2024": -562,
+    "domesticMigPct": -1.48,
     "netMig2024": -521,
     "bounds": {
       "sw": {
@@ -15463,6 +16199,7 @@
     "growthPct": 1.91,
     "medianIncome": 71294,
     "domesticMig2024": 96,
+    "domesticMigPct": 0.25,
     "netMig2024": 329,
     "bounds": {
       "sw": {
@@ -15484,6 +16221,7 @@
     "growthPct": 1.11,
     "medianIncome": 58842,
     "domesticMig2024": 42,
+    "domesticMigPct": 0.11,
     "netMig2024": 72,
     "bounds": {
       "sw": {
@@ -15505,6 +16243,7 @@
     "growthPct": 10.27,
     "medianIncome": 70829,
     "domesticMig2024": 762,
+    "domesticMigPct": 2.01,
     "netMig2024": 761,
     "bounds": {
       "sw": {
@@ -15526,6 +16265,7 @@
     "growthPct": 5.62,
     "medianIncome": 75085,
     "domesticMig2024": 423,
+    "domesticMigPct": 1.12,
     "netMig2024": 569,
     "bounds": {
       "sw": {
@@ -15547,6 +16287,7 @@
     "growthPct": 2.94,
     "medianIncome": 76182,
     "domesticMig2024": 214,
+    "domesticMigPct": 0.57,
     "netMig2024": 304,
     "bounds": {
       "sw": {
@@ -15568,6 +16309,7 @@
     "growthPct": 4.44,
     "medianIncome": 48416,
     "domesticMig2024": 658,
+    "domesticMigPct": 1.75,
     "netMig2024": 679,
     "bounds": {
       "sw": {
@@ -15589,6 +16331,7 @@
     "growthPct": -0.81,
     "medianIncome": 56525,
     "domesticMig2024": -401,
+    "domesticMigPct": -1.07,
     "netMig2024": -266,
     "bounds": {
       "sw": {
@@ -15610,6 +16353,7 @@
     "growthPct": -2.97,
     "medianIncome": 66168,
     "domesticMig2024": -6,
+    "domesticMigPct": -0.02,
     "netMig2024": 7,
     "bounds": {
       "sw": {
@@ -15631,6 +16375,7 @@
     "growthPct": 0.09,
     "medianIncome": 83448,
     "domesticMig2024": -156,
+    "domesticMigPct": -0.42,
     "netMig2024": -83,
     "bounds": {
       "sw": {
@@ -15652,6 +16397,7 @@
     "growthPct": -3.17,
     "medianIncome": 59013,
     "domesticMig2024": -102,
+    "domesticMigPct": -0.27,
     "netMig2024": -66,
     "bounds": {
       "sw": {
@@ -15673,6 +16419,7 @@
     "growthPct": -0.83,
     "medianIncome": 71494,
     "domesticMig2024": 26,
+    "domesticMigPct": 0.07,
     "netMig2024": 99,
     "bounds": {
       "sw": {
@@ -15694,6 +16441,7 @@
     "growthPct": -5.25,
     "medianIncome": 50221,
     "domesticMig2024": -293,
+    "domesticMigPct": -0.79,
     "netMig2024": -262,
     "bounds": {
       "sw": {
@@ -15715,6 +16463,7 @@
     "growthPct": 1.06,
     "medianIncome": 54687,
     "domesticMig2024": 127,
+    "domesticMigPct": 0.34,
     "netMig2024": 152,
     "bounds": {
       "sw": {
@@ -15736,6 +16485,7 @@
     "growthPct": -2.46,
     "medianIncome": 53276,
     "domesticMig2024": -323,
+    "domesticMigPct": -0.87,
     "netMig2024": -148,
     "bounds": {
       "sw": {
@@ -15757,6 +16507,7 @@
     "growthPct": 0.76,
     "medianIncome": 62734,
     "domesticMig2024": 86,
+    "domesticMigPct": 0.23,
     "netMig2024": 166,
     "bounds": {
       "sw": {
@@ -15778,6 +16529,7 @@
     "growthPct": -0.24,
     "medianIncome": 68054,
     "domesticMig2024": 15,
+    "domesticMigPct": 0.04,
     "netMig2024": 310,
     "bounds": {
       "sw": {
@@ -15799,6 +16551,7 @@
     "growthPct": 0.45,
     "medianIncome": 50576,
     "domesticMig2024": 101,
+    "domesticMigPct": 0.27,
     "netMig2024": 254,
     "bounds": {
       "sw": {
@@ -15820,6 +16573,7 @@
     "growthPct": 0.04,
     "medianIncome": 78468,
     "domesticMig2024": -99,
+    "domesticMigPct": -0.27,
     "netMig2024": -37,
     "bounds": {
       "sw": {
@@ -15841,6 +16595,7 @@
     "growthPct": 4.04,
     "medianIncome": 63115,
     "domesticMig2024": 554,
+    "domesticMigPct": 1.51,
     "netMig2024": 587,
     "bounds": {
       "sw": {
@@ -15862,6 +16617,7 @@
     "growthPct": 8.15,
     "medianIncome": 50868,
     "domesticMig2024": 298,
+    "domesticMigPct": 0.81,
     "netMig2024": 534,
     "bounds": {
       "sw": {
@@ -15883,6 +16639,7 @@
     "growthPct": 1.94,
     "medianIncome": 50825,
     "domesticMig2024": 52,
+    "domesticMigPct": 0.14,
     "netMig2024": 95,
     "bounds": {
       "sw": {
@@ -15904,6 +16661,7 @@
     "growthPct": 0.38,
     "medianIncome": 64995,
     "domesticMig2024": -249,
+    "domesticMigPct": -0.68,
     "netMig2024": -237,
     "bounds": {
       "sw": {
@@ -15925,6 +16683,7 @@
     "growthPct": -0.59,
     "medianIncome": 54829,
     "domesticMig2024": 82,
+    "domesticMigPct": 0.22,
     "netMig2024": 96,
     "bounds": {
       "sw": {
@@ -15946,6 +16705,7 @@
     "growthPct": 2.14,
     "medianIncome": 63128,
     "domesticMig2024": -268,
+    "domesticMigPct": -0.73,
     "netMig2024": -211,
     "bounds": {
       "sw": {
@@ -15967,6 +16727,7 @@
     "growthPct": -3.45,
     "medianIncome": 60839,
     "domesticMig2024": -67,
+    "domesticMigPct": -0.18,
     "netMig2024": -53,
     "bounds": {
       "sw": {
@@ -15988,6 +16749,7 @@
     "growthPct": -1.08,
     "medianIncome": 54973,
     "domesticMig2024": 48,
+    "domesticMigPct": 0.13,
     "netMig2024": 51,
     "bounds": {
       "sw": {
@@ -16009,6 +16771,7 @@
     "growthPct": -1,
     "medianIncome": 61156,
     "domesticMig2024": -64,
+    "domesticMigPct": -0.18,
     "netMig2024": -3,
     "bounds": {
       "sw": {
@@ -16030,6 +16793,7 @@
     "growthPct": 0.37,
     "medianIncome": 55174,
     "domesticMig2024": -351,
+    "domesticMigPct": -0.96,
     "netMig2024": -51,
     "bounds": {
       "sw": {
@@ -16051,6 +16815,7 @@
     "growthPct": 5.77,
     "medianIncome": 67341,
     "domesticMig2024": 48,
+    "domesticMigPct": 0.13,
     "netMig2024": 304,
     "bounds": {
       "sw": {
@@ -16072,6 +16837,7 @@
     "growthPct": -1.45,
     "medianIncome": 60631,
     "domesticMig2024": -39,
+    "domesticMigPct": -0.11,
     "netMig2024": 78,
     "bounds": {
       "sw": {
@@ -16093,6 +16859,7 @@
     "growthPct": 3.57,
     "medianIncome": 106679,
     "domesticMig2024": -231,
+    "domesticMigPct": -0.64,
     "netMig2024": 46,
     "bounds": {
       "sw": {
@@ -16114,6 +16881,7 @@
     "growthPct": 2.86,
     "medianIncome": 57504,
     "domesticMig2024": 94,
+    "domesticMigPct": 0.26,
     "netMig2024": 124,
     "bounds": {
       "sw": {
@@ -16135,6 +16903,7 @@
     "growthPct": -2.71,
     "medianIncome": 61102,
     "domesticMig2024": -132,
+    "domesticMigPct": -0.37,
     "netMig2024": -99,
     "bounds": {
       "sw": {
@@ -16156,6 +16925,7 @@
     "growthPct": 1.18,
     "medianIncome": 53809,
     "domesticMig2024": -64,
+    "domesticMigPct": -0.18,
     "netMig2024": 102,
     "bounds": {
       "sw": {
@@ -16177,6 +16947,7 @@
     "growthPct": -4.1,
     "medianIncome": 46798,
     "domesticMig2024": -316,
+    "domesticMigPct": -0.88,
     "netMig2024": -278,
     "bounds": {
       "sw": {
@@ -16198,6 +16969,7 @@
     "growthPct": -1.14,
     "medianIncome": 58863,
     "domesticMig2024": -165,
+    "domesticMigPct": -0.46,
     "netMig2024": -43,
     "bounds": {
       "sw": {
@@ -16219,6 +16991,7 @@
     "growthPct": 0.69,
     "medianIncome": 60034,
     "domesticMig2024": -239,
+    "domesticMigPct": -0.67,
     "netMig2024": 228,
     "bounds": {
       "sw": {
@@ -16240,6 +17013,7 @@
     "growthPct": -0.97,
     "medianIncome": 61130,
     "domesticMig2024": 199,
+    "domesticMigPct": 0.56,
     "netMig2024": 214,
     "bounds": {
       "sw": {
@@ -16261,6 +17035,7 @@
     "growthPct": -7.6,
     "medianIncome": 36810,
     "domesticMig2024": -712,
+    "domesticMigPct": -2,
     "netMig2024": -591,
     "bounds": {
       "sw": {
@@ -16282,6 +17057,7 @@
     "growthPct": -7.69,
     "medianIncome": 37718,
     "domesticMig2024": -483,
+    "domesticMigPct": -1.36,
     "netMig2024": -423,
     "bounds": {
       "sw": {
@@ -16303,6 +17079,7 @@
     "growthPct": 0.74,
     "medianIncome": 71117,
     "domesticMig2024": 151,
+    "domesticMigPct": 0.43,
     "netMig2024": 174,
     "bounds": {
       "sw": {
@@ -16324,6 +17101,7 @@
     "growthPct": -1.32,
     "medianIncome": 70796,
     "domesticMig2024": 90,
+    "domesticMigPct": 0.25,
     "netMig2024": 160,
     "bounds": {
       "sw": {
@@ -16345,6 +17123,7 @@
     "growthPct": -4.83,
     "medianIncome": 37396,
     "domesticMig2024": -130,
+    "domesticMigPct": -0.37,
     "netMig2024": -83,
     "bounds": {
       "sw": {
@@ -16366,6 +17145,7 @@
     "growthPct": 0.79,
     "medianIncome": 58788,
     "domesticMig2024": -136,
+    "domesticMigPct": -0.39,
     "netMig2024": 201,
     "bounds": {
       "sw": {
@@ -16387,6 +17167,7 @@
     "growthPct": 0.1,
     "medianIncome": 48316,
     "domesticMig2024": 139,
+    "domesticMigPct": 0.4,
     "netMig2024": 167,
     "bounds": {
       "sw": {
@@ -16408,6 +17189,7 @@
     "growthPct": 1.21,
     "medianIncome": 71483,
     "domesticMig2024": -59,
+    "domesticMigPct": -0.17,
     "netMig2024": 30,
     "bounds": {
       "sw": {
@@ -16429,6 +17211,7 @@
     "growthPct": -0.03,
     "medianIncome": 58908,
     "domesticMig2024": 6,
+    "domesticMigPct": 0.02,
     "netMig2024": 173,
     "bounds": {
       "sw": {
@@ -16450,6 +17233,7 @@
     "growthPct": -1.48,
     "medianIncome": 49404,
     "domesticMig2024": 260,
+    "domesticMigPct": 0.76,
     "netMig2024": 256,
     "bounds": {
       "sw": {
@@ -16471,6 +17255,7 @@
     "growthPct": -1.06,
     "medianIncome": 58263,
     "domesticMig2024": -45,
+    "domesticMigPct": -0.13,
     "netMig2024": 44,
     "bounds": {
       "sw": {
@@ -16492,6 +17277,7 @@
     "growthPct": 3.39,
     "medianIncome": 64523,
     "domesticMig2024": 277,
+    "domesticMigPct": 0.81,
     "netMig2024": 426,
     "bounds": {
       "sw": {
@@ -16513,6 +17299,7 @@
     "growthPct": 2.12,
     "medianIncome": 68561,
     "domesticMig2024": -81,
+    "domesticMigPct": -0.24,
     "netMig2024": 83,
     "bounds": {
       "sw": {
@@ -16534,6 +17321,7 @@
     "growthPct": -0.64,
     "medianIncome": 70495,
     "domesticMig2024": -600,
+    "domesticMigPct": -1.76,
     "netMig2024": -264,
     "bounds": {
       "sw": {
@@ -16555,6 +17343,7 @@
     "growthPct": 1.89,
     "medianIncome": 78059,
     "domesticMig2024": 294,
+    "domesticMigPct": 0.86,
     "netMig2024": 354,
     "bounds": {
       "sw": {
@@ -16576,6 +17365,7 @@
     "growthPct": -3.91,
     "medianIncome": 64652,
     "domesticMig2024": -125,
+    "domesticMigPct": -0.37,
     "netMig2024": -18,
     "bounds": {
       "sw": {
@@ -16597,6 +17387,7 @@
     "growthPct": -0.47,
     "medianIncome": 73724,
     "domesticMig2024": 69,
+    "domesticMigPct": 0.2,
     "netMig2024": 84,
     "bounds": {
       "sw": {
@@ -16618,6 +17409,7 @@
     "growthPct": 2.95,
     "medianIncome": 71143,
     "domesticMig2024": 443,
+    "domesticMigPct": 1.31,
     "netMig2024": 502,
     "bounds": {
       "sw": {
@@ -16639,6 +17431,7 @@
     "growthPct": -0.8,
     "medianIncome": 43500,
     "domesticMig2024": 204,
+    "domesticMigPct": 0.6,
     "netMig2024": 330,
     "bounds": {
       "sw": {
@@ -16660,6 +17453,7 @@
     "growthPct": -1.78,
     "medianIncome": 68459,
     "domesticMig2024": 0,
+    "domesticMigPct": 0,
     "netMig2024": 66,
     "bounds": {
       "sw": {
@@ -16681,6 +17475,7 @@
     "growthPct": -2.02,
     "medianIncome": 42821,
     "domesticMig2024": -10,
+    "domesticMigPct": -0.03,
     "netMig2024": 35,
     "bounds": {
       "sw": {
@@ -16702,6 +17497,7 @@
     "growthPct": 0.82,
     "medianIncome": 52644,
     "domesticMig2024": 262,
+    "domesticMigPct": 0.79,
     "netMig2024": 260,
     "bounds": {
       "sw": {
@@ -16723,6 +17519,7 @@
     "growthPct": -2.38,
     "medianIncome": 59253,
     "domesticMig2024": -6,
+    "domesticMigPct": -0.02,
     "netMig2024": -3,
     "bounds": {
       "sw": {
@@ -16744,6 +17541,7 @@
     "growthPct": 0.8,
     "medianIncome": 49502,
     "domesticMig2024": 95,
+    "domesticMigPct": 0.29,
     "netMig2024": 174,
     "bounds": {
       "sw": {
@@ -16765,6 +17563,7 @@
     "growthPct": 1.89,
     "medianIncome": 60495,
     "domesticMig2024": 257,
+    "domesticMigPct": 0.78,
     "netMig2024": 282,
     "bounds": {
       "sw": {
@@ -16786,6 +17585,7 @@
     "growthPct": 0.37,
     "medianIncome": 47961,
     "domesticMig2024": -164,
+    "domesticMigPct": -0.5,
     "netMig2024": -43,
     "bounds": {
       "sw": {
@@ -16807,6 +17607,7 @@
     "growthPct": 6.65,
     "medianIncome": 70855,
     "domesticMig2024": 325,
+    "domesticMigPct": 0.99,
     "netMig2024": 398,
     "bounds": {
       "sw": {
@@ -16828,6 +17629,7 @@
     "growthPct": -0.68,
     "medianIncome": 59987,
     "domesticMig2024": 71,
+    "domesticMigPct": 0.22,
     "netMig2024": 122,
     "bounds": {
       "sw": {
@@ -16849,6 +17651,7 @@
     "growthPct": -0.87,
     "medianIncome": 63690,
     "domesticMig2024": -183,
+    "domesticMigPct": -0.56,
     "netMig2024": -66,
     "bounds": {
       "sw": {
@@ -16870,6 +17673,7 @@
     "growthPct": 2.13,
     "medianIncome": 48540,
     "domesticMig2024": 626,
+    "domesticMigPct": 1.9,
     "netMig2024": 637,
     "bounds": {
       "sw": {
@@ -16891,6 +17695,7 @@
     "growthPct": -3.42,
     "medianIncome": 66007,
     "domesticMig2024": 193,
+    "domesticMigPct": 0.59,
     "netMig2024": 297,
     "bounds": {
       "sw": {
@@ -16912,6 +17717,7 @@
     "growthPct": -3.45,
     "medianIncome": 58617,
     "domesticMig2024": 37,
+    "domesticMigPct": 0.11,
     "netMig2024": 51,
     "bounds": {
       "sw": {
@@ -16933,6 +17739,7 @@
     "growthPct": -3.51,
     "medianIncome": 59803,
     "domesticMig2024": 13,
+    "domesticMigPct": 0.04,
     "netMig2024": 12,
     "bounds": {
       "sw": {
@@ -16954,6 +17761,7 @@
     "growthPct": 6.61,
     "medianIncome": 49562,
     "domesticMig2024": 703,
+    "domesticMigPct": 2.19,
     "netMig2024": 793,
     "bounds": {
       "sw": {
@@ -16975,6 +17783,7 @@
     "growthPct": 5.21,
     "medianIncome": 81389,
     "domesticMig2024": -76,
+    "domesticMigPct": -0.24,
     "netMig2024": 111,
     "bounds": {
       "sw": {
@@ -16996,6 +17805,7 @@
     "growthPct": -0.74,
     "medianIncome": 51493,
     "domesticMig2024": -241,
+    "domesticMigPct": -0.76,
     "netMig2024": -52,
     "bounds": {
       "sw": {
@@ -17017,6 +17827,7 @@
     "growthPct": -2.1,
     "medianIncome": 100513,
     "domesticMig2024": -55,
+    "domesticMigPct": -0.17,
     "netMig2024": 40,
     "bounds": {
       "sw": {
@@ -17038,6 +17849,7 @@
     "growthPct": 0.55,
     "medianIncome": 56075,
     "domesticMig2024": -154,
+    "domesticMigPct": -0.49,
     "netMig2024": -107,
     "bounds": {
       "sw": {
@@ -17059,6 +17871,7 @@
     "growthPct": 4.92,
     "medianIncome": 70533,
     "domesticMig2024": 269,
+    "domesticMigPct": 0.87,
     "netMig2024": 323,
     "bounds": {
       "sw": {
@@ -17080,6 +17893,7 @@
     "growthPct": -11.55,
     "medianIncome": 71457,
     "domesticMig2024": -98,
+    "domesticMigPct": -0.32,
     "netMig2024": 182,
     "bounds": {
       "sw": {
@@ -17101,6 +17915,7 @@
     "growthPct": -0.63,
     "medianIncome": 68414,
     "domesticMig2024": 85,
+    "domesticMigPct": 0.28,
     "netMig2024": 102,
     "bounds": {
       "sw": {
@@ -17122,6 +17937,7 @@
     "growthPct": 0.51,
     "medianIncome": 61960,
     "domesticMig2024": 55,
+    "domesticMigPct": 0.18,
     "netMig2024": 104,
     "bounds": {
       "sw": {
@@ -17143,6 +17959,7 @@
     "growthPct": -2.74,
     "medianIncome": 47700,
     "domesticMig2024": -102,
+    "domesticMigPct": -0.33,
     "netMig2024": -79,
     "bounds": {
       "sw": {
@@ -17164,6 +17981,7 @@
     "growthPct": -1.93,
     "medianIncome": 57612,
     "domesticMig2024": -194,
+    "domesticMigPct": -0.64,
     "netMig2024": -36,
     "bounds": {
       "sw": {
@@ -17185,6 +18003,7 @@
     "growthPct": 0.39,
     "medianIncome": 48656,
     "domesticMig2024": 163,
+    "domesticMigPct": 0.54,
     "netMig2024": 195,
     "bounds": {
       "sw": {
@@ -17206,6 +18025,7 @@
     "growthPct": -3.51,
     "medianIncome": 46918,
     "domesticMig2024": -208,
+    "domesticMigPct": -0.69,
     "netMig2024": -177,
     "bounds": {
       "sw": {
@@ -17227,6 +18047,7 @@
     "growthPct": 0.38,
     "medianIncome": 77701,
     "domesticMig2024": 17,
+    "domesticMigPct": 0.06,
     "netMig2024": 118,
     "bounds": {
       "sw": {
@@ -17248,6 +18069,7 @@
     "growthPct": -1.85,
     "medianIncome": 69012,
     "domesticMig2024": 17,
+    "domesticMigPct": 0.06,
     "netMig2024": 22,
     "bounds": {
       "sw": {
@@ -17269,6 +18091,7 @@
     "growthPct": 4.08,
     "medianIncome": 75407,
     "domesticMig2024": -42,
+    "domesticMigPct": -0.14,
     "netMig2024": 378,
     "bounds": {
       "sw": {
@@ -17290,6 +18113,7 @@
     "growthPct": -1.72,
     "medianIncome": 53102,
     "domesticMig2024": -61,
+    "domesticMigPct": -0.2,
     "netMig2024": -30,
     "bounds": {
       "sw": {
@@ -17311,6 +18135,7 @@
     "growthPct": 6.42,
     "medianIncome": 64972,
     "domesticMig2024": 472,
+    "domesticMigPct": 1.56,
     "netMig2024": 517,
     "bounds": {
       "sw": {
@@ -17332,6 +18157,7 @@
     "growthPct": -2.8,
     "medianIncome": 64103,
     "domesticMig2024": 11,
+    "domesticMigPct": 0.04,
     "netMig2024": 35,
     "bounds": {
       "sw": {
@@ -17353,6 +18179,7 @@
     "growthPct": 3.68,
     "medianIncome": 58976,
     "domesticMig2024": -385,
+    "domesticMigPct": -1.3,
     "netMig2024": -213,
     "bounds": {
       "sw": {
@@ -17374,6 +18201,7 @@
     "growthPct": 1.29,
     "medianIncome": 56468,
     "domesticMig2024": 114,
+    "domesticMigPct": 0.38,
     "netMig2024": 345,
     "bounds": {
       "sw": {
@@ -17395,6 +18223,7 @@
     "growthPct": 0.08,
     "medianIncome": 50485,
     "domesticMig2024": 259,
+    "domesticMigPct": 0.88,
     "netMig2024": 308,
     "bounds": {
       "sw": {
@@ -17416,6 +18245,7 @@
     "growthPct": 3.37,
     "medianIncome": 65080,
     "domesticMig2024": 267,
+    "domesticMigPct": 0.91,
     "netMig2024": 271,
     "bounds": {
       "sw": {
@@ -17437,6 +18267,7 @@
     "growthPct": 0.13,
     "medianIncome": 62296,
     "domesticMig2024": 63,
+    "domesticMigPct": 0.22,
     "netMig2024": 95,
     "bounds": {
       "sw": {
@@ -17458,6 +18289,7 @@
     "growthPct": 0.25,
     "medianIncome": 59889,
     "domesticMig2024": -104,
+    "domesticMigPct": -0.36,
     "netMig2024": 28,
     "bounds": {
       "sw": {
@@ -17479,6 +18311,7 @@
     "growthPct": 0,
     "medianIncome": 51909,
     "domesticMig2024": 207,
+    "domesticMigPct": 0.72,
     "netMig2024": 215,
     "bounds": {
       "sw": {
@@ -17500,6 +18333,7 @@
     "growthPct": -0.16,
     "medianIncome": 65344,
     "domesticMig2024": 129,
+    "domesticMigPct": 0.45,
     "netMig2024": 182,
     "bounds": {
       "sw": {
@@ -17521,6 +18355,7 @@
     "growthPct": -1.15,
     "medianIncome": 56455,
     "domesticMig2024": 37,
+    "domesticMigPct": 0.13,
     "netMig2024": 49,
     "bounds": {
       "sw": {
@@ -17542,6 +18377,7 @@
     "growthPct": 11.77,
     "medianIncome": 66766,
     "domesticMig2024": 694,
+    "domesticMigPct": 2.41,
     "netMig2024": 735,
     "bounds": {
       "sw": {
@@ -17563,6 +18399,7 @@
     "growthPct": -0.57,
     "medianIncome": 60047,
     "domesticMig2024": 26,
+    "domesticMigPct": 0.09,
     "netMig2024": 32,
     "bounds": {
       "sw": {
@@ -17584,6 +18421,7 @@
     "growthPct": -8.36,
     "medianIncome": 37315,
     "domesticMig2024": -345,
+    "domesticMigPct": -1.22,
     "netMig2024": -319,
     "bounds": {
       "sw": {
@@ -17605,6 +18443,7 @@
     "growthPct": 2.39,
     "medianIncome": 50904,
     "domesticMig2024": 223,
+    "domesticMigPct": 0.79,
     "netMig2024": 219,
     "bounds": {
       "sw": {
@@ -17626,6 +18465,7 @@
     "growthPct": -13.42,
     "medianIncome": 64395,
     "domesticMig2024": -438,
+    "domesticMigPct": -1.55,
     "netMig2024": -371,
     "bounds": {
       "sw": {
@@ -17647,6 +18487,7 @@
     "growthPct": 5.29,
     "medianIncome": 67799,
     "domesticMig2024": 332,
+    "domesticMigPct": 1.18,
     "netMig2024": 487,
     "bounds": {
       "sw": {
@@ -17668,6 +18509,7 @@
     "growthPct": 2.17,
     "medianIncome": 48011,
     "domesticMig2024": 77,
+    "domesticMigPct": 0.28,
     "netMig2024": 87,
     "bounds": {
       "sw": {
@@ -17689,6 +18531,7 @@
     "growthPct": -2.33,
     "medianIncome": 45921,
     "domesticMig2024": 159,
+    "domesticMigPct": 0.58,
     "netMig2024": 255,
     "bounds": {
       "sw": {
@@ -17710,6 +18553,7 @@
     "growthPct": -1.68,
     "medianIncome": 64188,
     "domesticMig2024": 107,
+    "domesticMigPct": 0.39,
     "netMig2024": 134,
     "bounds": {
       "sw": {
@@ -17731,6 +18575,7 @@
     "growthPct": 2.7,
     "medianIncome": 52264,
     "domesticMig2024": 298,
+    "domesticMigPct": 1.08,
     "netMig2024": 341,
     "bounds": {
       "sw": {
@@ -17752,6 +18597,7 @@
     "growthPct": -2.66,
     "medianIncome": 55057,
     "domesticMig2024": -42,
+    "domesticMigPct": -0.15,
     "netMig2024": -33,
     "bounds": {
       "sw": {
@@ -17773,6 +18619,7 @@
     "growthPct": -2.64,
     "medianIncome": 66780,
     "domesticMig2024": 567,
+    "domesticMigPct": 2.1,
     "netMig2024": 566,
     "bounds": {
       "sw": {
@@ -17794,6 +18641,7 @@
     "growthPct": -4.53,
     "medianIncome": 47368,
     "domesticMig2024": 50,
+    "domesticMigPct": 0.19,
     "netMig2024": 68,
     "bounds": {
       "sw": {
@@ -17815,6 +18663,7 @@
     "growthPct": -2.84,
     "medianIncome": 43740,
     "domesticMig2024": -184,
+    "domesticMigPct": -0.69,
     "netMig2024": -152,
     "bounds": {
       "sw": {
@@ -17836,6 +18685,7 @@
     "growthPct": -2.16,
     "medianIncome": 50434,
     "domesticMig2024": -344,
+    "domesticMigPct": -1.29,
     "netMig2024": -256,
     "bounds": {
       "sw": {
@@ -17857,6 +18707,7 @@
     "growthPct": -0.6,
     "medianIncome": 63602,
     "domesticMig2024": 177,
+    "domesticMigPct": 0.67,
     "netMig2024": 236,
     "bounds": {
       "sw": {
@@ -17878,6 +18729,7 @@
     "growthPct": -0.2,
     "medianIncome": 74228,
     "domesticMig2024": 46,
+    "domesticMigPct": 0.17,
     "netMig2024": 71,
     "bounds": {
       "sw": {
@@ -17899,6 +18751,7 @@
     "growthPct": -3.7,
     "medianIncome": 52267,
     "domesticMig2024": 98,
+    "domesticMigPct": 0.37,
     "netMig2024": 97,
     "bounds": {
       "sw": {
@@ -17920,6 +18773,7 @@
     "growthPct": 1.4,
     "medianIncome": 66023,
     "domesticMig2024": -489,
+    "domesticMigPct": -1.85,
     "netMig2024": -13,
     "bounds": {
       "sw": {
@@ -17941,6 +18795,7 @@
     "growthPct": 1.07,
     "medianIncome": 72142,
     "domesticMig2024": 9,
+    "domesticMigPct": 0.03,
     "netMig2024": 48,
     "bounds": {
       "sw": {
@@ -17962,6 +18817,7 @@
     "growthPct": -0.52,
     "medianIncome": 64212,
     "domesticMig2024": 94,
+    "domesticMigPct": 0.36,
     "netMig2024": 138,
     "bounds": {
       "sw": {
@@ -17983,6 +18839,7 @@
     "growthPct": 2,
     "medianIncome": 73268,
     "domesticMig2024": 144,
+    "domesticMigPct": 0.55,
     "netMig2024": 181,
     "bounds": {
       "sw": {
@@ -18004,6 +18861,7 @@
     "growthPct": 1.79,
     "medianIncome": 37917,
     "domesticMig2024": -6,
+    "domesticMigPct": -0.02,
     "netMig2024": 254,
     "bounds": {
       "sw": {
@@ -18025,6 +18883,7 @@
     "growthPct": 0.49,
     "medianIncome": 81600,
     "domesticMig2024": -91,
+    "domesticMigPct": -0.35,
     "netMig2024": 32,
     "bounds": {
       "sw": {
@@ -18046,6 +18905,7 @@
     "growthPct": 0.13,
     "medianIncome": 64723,
     "domesticMig2024": -73,
+    "domesticMigPct": -0.28,
     "netMig2024": -50,
     "bounds": {
       "sw": {
@@ -18067,6 +18927,7 @@
     "growthPct": -0.79,
     "medianIncome": 68690,
     "domesticMig2024": -24,
+    "domesticMigPct": -0.09,
     "netMig2024": 30,
     "bounds": {
       "sw": {
@@ -18088,6 +18949,7 @@
     "growthPct": 0.22,
     "medianIncome": 72761,
     "domesticMig2024": -93,
+    "domesticMigPct": -0.36,
     "netMig2024": 55,
     "bounds": {
       "sw": {
@@ -18109,6 +18971,7 @@
     "growthPct": 1.34,
     "medianIncome": 47785,
     "domesticMig2024": 202,
+    "domesticMigPct": 0.8,
     "netMig2024": 272,
     "bounds": {
       "sw": {
@@ -18130,6 +18993,7 @@
     "growthPct": 2.33,
     "medianIncome": 57849,
     "domesticMig2024": -135,
+    "domesticMigPct": -0.54,
     "netMig2024": 23,
     "bounds": {
       "sw": {
@@ -18151,6 +19015,7 @@
     "growthPct": -2.6,
     "medianIncome": 56733,
     "domesticMig2024": -76,
+    "domesticMigPct": -0.31,
     "netMig2024": -64,
     "bounds": {
       "sw": {
@@ -18172,6 +19037,7 @@
     "growthPct": 0.55,
     "medianIncome": 66143,
     "domesticMig2024": -88,
+    "domesticMigPct": -0.35,
     "netMig2024": 53,
     "bounds": {
       "sw": {
@@ -18193,6 +19059,7 @@
     "growthPct": -1.01,
     "medianIncome": 61497,
     "domesticMig2024": -290,
+    "domesticMigPct": -1.18,
     "netMig2024": -177,
     "bounds": {
       "sw": {
@@ -18214,6 +19081,7 @@
     "growthPct": -2.63,
     "medianIncome": 56232,
     "domesticMig2024": 1,
+    "domesticMigPct": 0,
     "netMig2024": 4,
     "bounds": {
       "sw": {
@@ -18235,6 +19103,7 @@
     "growthPct": -2.57,
     "medianIncome": 55310,
     "domesticMig2024": -10,
+    "domesticMigPct": -0.04,
     "netMig2024": -10,
     "bounds": {
       "sw": {
@@ -18256,6 +19125,7 @@
     "growthPct": -0.9,
     "medianIncome": 82095,
     "domesticMig2024": -163,
+    "domesticMigPct": -0.69,
     "netMig2024": -84,
     "bounds": {
       "sw": {
@@ -18277,6 +19147,7 @@
     "growthPct": 0.85,
     "medianIncome": 73855,
     "domesticMig2024": -22,
+    "domesticMigPct": -0.09,
     "netMig2024": 3,
     "bounds": {
       "sw": {
@@ -18298,6 +19169,7 @@
     "growthPct": 1.8,
     "medianIncome": 81526,
     "domesticMig2024": -34,
+    "domesticMigPct": -0.15,
     "netMig2024": -40,
     "bounds": {
       "sw": {
@@ -18319,6 +19191,7 @@
     "growthPct": -0.26,
     "medianIncome": 56659,
     "domesticMig2024": 246,
+    "domesticMigPct": 1.05,
     "netMig2024": 272,
     "bounds": {
       "sw": {
@@ -18340,6 +19213,7 @@
     "growthPct": -0.04,
     "medianIncome": 56566,
     "domesticMig2024": -62,
+    "domesticMigPct": -0.27,
     "netMig2024": 139,
     "bounds": {
       "sw": {
@@ -18361,6 +19235,7 @@
     "growthPct": -4.34,
     "medianIncome": 32403,
     "domesticMig2024": -34,
+    "domesticMigPct": -0.15,
     "netMig2024": -36,
     "bounds": {
       "sw": {
@@ -18382,6 +19257,7 @@
     "growthPct": -0.49,
     "medianIncome": 70762,
     "domesticMig2024": 27,
+    "domesticMigPct": 0.12,
     "netMig2024": 44,
     "bounds": {
       "sw": {
@@ -18403,6 +19279,7 @@
     "growthPct": -2.87,
     "medianIncome": 64769,
     "domesticMig2024": -154,
+    "domesticMigPct": -0.68,
     "netMig2024": -165,
     "bounds": {
       "sw": {
@@ -18424,6 +19301,7 @@
     "growthPct": -0.72,
     "medianIncome": 52323,
     "domesticMig2024": 87,
+    "domesticMigPct": 0.39,
     "netMig2024": 101,
     "bounds": {
       "sw": {
@@ -18445,6 +19323,7 @@
     "growthPct": -0.71,
     "medianIncome": 69019,
     "domesticMig2024": -8,
+    "domesticMigPct": -0.04,
     "netMig2024": 77,
     "bounds": {
       "sw": {
@@ -18466,6 +19345,7 @@
     "growthPct": -3.39,
     "medianIncome": 47363,
     "domesticMig2024": -82,
+    "domesticMigPct": -0.37,
     "netMig2024": -51,
     "bounds": {
       "sw": {
@@ -18487,6 +19367,7 @@
     "growthPct": -1.44,
     "medianIncome": 65509,
     "domesticMig2024": -327,
+    "domesticMigPct": -1.49,
     "netMig2024": -21,
     "bounds": {
       "sw": {
@@ -18508,6 +19389,7 @@
     "growthPct": 2.38,
     "medianIncome": 61325,
     "domesticMig2024": -273,
+    "domesticMigPct": -1.25,
     "netMig2024": 208,
     "bounds": {
       "sw": {
@@ -18529,6 +19411,7 @@
     "growthPct": -5.49,
     "medianIncome": 41784,
     "domesticMig2024": -202,
+    "domesticMigPct": -0.93,
     "netMig2024": -146,
     "bounds": {
       "sw": {
@@ -18550,6 +19433,7 @@
     "growthPct": -1.49,
     "medianIncome": 56658,
     "domesticMig2024": -164,
+    "domesticMigPct": -0.75,
     "netMig2024": -67,
     "bounds": {
       "sw": {
@@ -18571,6 +19455,7 @@
     "growthPct": -0.07,
     "medianIncome": 64426,
     "domesticMig2024": 143,
+    "domesticMigPct": 0.66,
     "netMig2024": 146,
     "bounds": {
       "sw": {
@@ -18592,6 +19477,7 @@
     "growthPct": -0.25,
     "medianIncome": 60172,
     "domesticMig2024": -67,
+    "domesticMigPct": -0.31,
     "netMig2024": 35,
     "bounds": {
       "sw": {
@@ -18613,6 +19499,7 @@
     "growthPct": -3.12,
     "medianIncome": 62269,
     "domesticMig2024": -365,
+    "domesticMigPct": -1.72,
     "netMig2024": -176,
     "bounds": {
       "sw": {
@@ -18634,6 +19521,7 @@
     "growthPct": 2.29,
     "medianIncome": 102348,
     "domesticMig2024": -42,
+    "domesticMigPct": -0.2,
     "netMig2024": 181,
     "bounds": {
       "sw": {
@@ -18655,6 +19543,7 @@
     "growthPct": 2.08,
     "medianIncome": 65042,
     "domesticMig2024": -127,
+    "domesticMigPct": -0.6,
     "netMig2024": 48,
     "bounds": {
       "sw": {
@@ -18676,6 +19565,7 @@
     "growthPct": -2.53,
     "medianIncome": 50985,
     "domesticMig2024": 72,
+    "domesticMigPct": 0.34,
     "netMig2024": 64,
     "bounds": {
       "sw": {
@@ -18697,6 +19587,7 @@
     "growthPct": -0.05,
     "medianIncome": 66564,
     "domesticMig2024": -321,
+    "domesticMigPct": -1.54,
     "netMig2024": -17,
     "bounds": {
       "sw": {
@@ -18718,6 +19609,7 @@
     "growthPct": -3.6,
     "medianIncome": 55074,
     "domesticMig2024": 132,
+    "domesticMigPct": 0.64,
     "netMig2024": 175,
     "bounds": {
       "sw": {
@@ -18739,6 +19631,7 @@
     "growthPct": 1.01,
     "medianIncome": 53673,
     "domesticMig2024": 40,
+    "domesticMigPct": 0.19,
     "netMig2024": 46,
     "bounds": {
       "sw": {
@@ -18760,6 +19653,7 @@
     "growthPct": -3.77,
     "medianIncome": 59275,
     "domesticMig2024": -394,
+    "domesticMigPct": -1.91,
     "netMig2024": -138,
     "bounds": {
       "sw": {
@@ -18781,6 +19675,7 @@
     "growthPct": -1.01,
     "medianIncome": 78965,
     "domesticMig2024": -137,
+    "domesticMigPct": -0.67,
     "netMig2024": -140,
     "bounds": {
       "sw": {
@@ -18802,6 +19697,7 @@
     "growthPct": -3.43,
     "medianIncome": 55970,
     "domesticMig2024": -331,
+    "domesticMigPct": -1.61,
     "netMig2024": -228,
     "bounds": {
       "sw": {
@@ -18823,6 +19719,7 @@
     "growthPct": -1.73,
     "medianIncome": 68528,
     "domesticMig2024": -63,
+    "domesticMigPct": -0.31,
     "netMig2024": -47,
     "bounds": {
       "sw": {
@@ -18844,6 +19741,7 @@
     "growthPct": 3.85,
     "medianIncome": 57392,
     "domesticMig2024": 123,
+    "domesticMigPct": 0.6,
     "netMig2024": 149,
     "bounds": {
       "sw": {
@@ -18865,6 +19763,7 @@
     "growthPct": -6,
     "medianIncome": 36259,
     "domesticMig2024": -323,
+    "domesticMigPct": -1.61,
     "netMig2024": -92,
     "bounds": {
       "sw": {
@@ -18886,6 +19785,7 @@
     "growthPct": -0.67,
     "medianIncome": 45645,
     "domesticMig2024": -8,
+    "domesticMigPct": -0.04,
     "netMig2024": 14,
     "bounds": {
       "sw": {
@@ -18907,6 +19807,7 @@
     "growthPct": -1.17,
     "medianIncome": 51643,
     "domesticMig2024": 94,
+    "domesticMigPct": 0.47,
     "netMig2024": 125,
     "bounds": {
       "sw": {
@@ -18928,6 +19829,7 @@
     "growthPct": -2.4,
     "medianIncome": 65060,
     "domesticMig2024": -174,
+    "domesticMigPct": -0.87,
     "netMig2024": -133,
     "bounds": {
       "sw": {
@@ -18949,6 +19851,7 @@
     "growthPct": -0.81,
     "medianIncome": 71870,
     "domesticMig2024": 29,
+    "domesticMigPct": 0.15,
     "netMig2024": 128,
     "bounds": {
       "sw": {
@@ -18970,6 +19873,7 @@
     "growthPct": -4.36,
     "medianIncome": 65470,
     "domesticMig2024": -210,
+    "domesticMigPct": -1.06,
     "netMig2024": -205,
     "bounds": {
       "sw": {
@@ -18991,6 +19895,7 @@
     "growthPct": 1.3,
     "medianIncome": 143188,
     "domesticMig2024": 40,
+    "domesticMigPct": 0.2,
     "netMig2024": 237,
     "bounds": {
       "sw": {
@@ -19012,6 +19917,7 @@
     "growthPct": -2.35,
     "medianIncome": 62969,
     "domesticMig2024": -126,
+    "domesticMigPct": -0.64,
     "netMig2024": -105,
     "bounds": {
       "sw": {
@@ -19033,6 +19939,7 @@
     "growthPct": -3.29,
     "medianIncome": 42745,
     "domesticMig2024": -185,
+    "domesticMigPct": -0.95,
     "netMig2024": -185,
     "bounds": {
       "sw": {
@@ -19054,6 +19961,7 @@
     "growthPct": 1.6,
     "medianIncome": 63082,
     "domesticMig2024": -242,
+    "domesticMigPct": -1.24,
     "netMig2024": -37,
     "bounds": {
       "sw": {
@@ -19075,6 +19983,7 @@
     "growthPct": 1.68,
     "medianIncome": 76902,
     "domesticMig2024": -41,
+    "domesticMigPct": -0.22,
     "netMig2024": 18,
     "bounds": {
       "sw": {
@@ -19096,6 +20005,7 @@
     "growthPct": -0.48,
     "medianIncome": 54114,
     "domesticMig2024": -228,
+    "domesticMigPct": -1.23,
     "netMig2024": -111,
     "bounds": {
       "sw": {
@@ -19117,6 +20027,7 @@
     "growthPct": -2.83,
     "medianIncome": 72432,
     "domesticMig2024": -38,
+    "domesticMigPct": -0.21,
     "netMig2024": -8,
     "bounds": {
       "sw": {
@@ -19138,6 +20049,7 @@
     "growthPct": 2.54,
     "medianIncome": 74570,
     "domesticMig2024": 95,
+    "domesticMigPct": 0.52,
     "netMig2024": 125,
     "bounds": {
       "sw": {
@@ -19159,6 +20071,7 @@
     "growthPct": -0.97,
     "medianIncome": 79946,
     "domesticMig2024": -112,
+    "domesticMigPct": -0.65,
     "netMig2024": -52,
     "bounds": {
       "sw": {
@@ -19180,6 +20093,7 @@
     "growthPct": -1.43,
     "medianIncome": 39081,
     "domesticMig2024": -160,
+    "domesticMigPct": -0.94,
     "netMig2024": -133,
     "bounds": {
       "sw": {
@@ -19201,6 +20115,7 @@
     "growthPct": 0.49,
     "medianIncome": 57844,
     "domesticMig2024": -31,
+    "domesticMigPct": -0.19,
     "netMig2024": -22,
     "bounds": {
       "sw": {
@@ -19222,6 +20137,7 @@
     "growthPct": 0.57,
     "medianIncome": 64082,
     "domesticMig2024": -37,
+    "domesticMigPct": -0.22,
     "netMig2024": -26,
     "bounds": {
       "sw": {
@@ -19243,6 +20159,7 @@
     "growthPct": -0.58,
     "medianIncome": 62164,
     "domesticMig2024": 67,
+    "domesticMigPct": 0.41,
     "netMig2024": 115,
     "bounds": {
       "sw": {
@@ -19264,6 +20181,7 @@
     "growthPct": -4.13,
     "medianIncome": 62689,
     "domesticMig2024": -101,
+    "domesticMigPct": -0.62,
     "netMig2024": -55,
     "bounds": {
       "sw": {
@@ -19285,6 +20203,7 @@
     "growthPct": 1.83,
     "medianIncome": 58794,
     "domesticMig2024": -183,
+    "domesticMigPct": -1.2,
     "netMig2024": -149,
     "bounds": {
       "sw": {
@@ -19306,6 +20225,7 @@
     "growthPct": 2.95,
     "medianIncome": 119750,
     "domesticMig2024": -58,
+    "domesticMigPct": -0.4,
     "netMig2024": 73,
     "bounds": {
       "sw": {
@@ -19327,6 +20247,7 @@
     "growthPct": -3.79,
     "medianIncome": 50160,
     "domesticMig2024": -81,
+    "domesticMigPct": -0.57,
     "netMig2024": -72,
     "bounds": {
       "sw": {
@@ -19348,6 +20269,7 @@
     "growthPct": -0.5,
     "medianIncome": 36527,
     "domesticMig2024": -119,
+    "domesticMigPct": -0.86,
     "netMig2024": -23,
     "bounds": {
       "sw": {
@@ -19369,6 +20291,7 @@
     "growthPct": -1.96,
     "medianIncome": 89155,
     "domesticMig2024": -80,
+    "domesticMigPct": -0.58,
     "netMig2024": -18,
     "bounds": {
       "sw": {
@@ -19390,6 +20313,7 @@
     "growthPct": -3.37,
     "medianIncome": 51626,
     "domesticMig2024": -47,
+    "domesticMigPct": -0.38,
     "netMig2024": -20,
     "bounds": {
       "sw": {
@@ -19411,6 +20335,7 @@
     "growthPct": -18.91,
     "medianIncome": 56056,
     "domesticMig2024": -21,
+    "domesticMigPct": -0.18,
     "netMig2024": 42,
     "bounds": {
       "sw": {

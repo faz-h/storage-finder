@@ -191,6 +191,7 @@
                                 <th data-sort="growthPct">Growth %</th>
                                 <th data-sort="medianIncome">Median Income</th>
                                 <th data-sort="domesticMig2024">Dom. Migration</th>
+                                <th data-sort="domesticMigPct">Dom. Mig. %</th>
                                 <th data-sort="lastSearched">Last Searched</th>
                             </tr>
                         </thead>
@@ -309,6 +310,7 @@
                             + '<td>' + formatPct(c.growthPct) + '</td>'
                             + '<td>' + formatIncome(c.medianIncome) + '</td>'
                             + '<td>' + formatMig(c.domesticMig2024) + '</td>'
+                            + '<td>' + formatPct(c.domesticMigPct) + '</td>'
                             + '<td>' + formatDate(searched) + '</td>'
                             + '</tr>';
                     }

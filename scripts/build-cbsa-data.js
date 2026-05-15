@@ -40,11 +40,16 @@ function parsePopulationCSV() {
       ? Math.round(((pop2024 - popBase2020) / popBase2020) * 10000) / 100
       : 0;
 
+    const domesticMigPct = pop2024 > 0
+      ? Math.round(((domMig2024 || 0) / pop2024) * 10000) / 100
+      : 0;
+
     popMap.set(cbsa, {
       population: pop2024,
       type: lsad === 'Metropolitan Statistical Area' ? 'metro' : 'micro',
       growthPct,
       domesticMig2024: domMig2024 || 0,
+      domesticMigPct,
       netMig2024: netMig2024 || 0,
     });
   }
@@ -128,6 +133,7 @@ async function buildCBSAData() {
       growthPct: popData.growthPct,
       medianIncome: incomeMap.get(code) || null,
       domesticMig2024: popData.domesticMig2024,
+      domesticMigPct: popData.domesticMigPct,
       netMig2024: popData.netMig2024,
       bounds,
     });
