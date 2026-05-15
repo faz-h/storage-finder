@@ -188,6 +188,9 @@
                                 <th data-sort="name">Name</th>
                                 <th data-sort="type">Type</th>
                                 <th data-sort="population">Population</th>
+                                <th data-sort="growthPct">Growth %</th>
+                                <th data-sort="medianIncome">Median Income</th>
+                                <th data-sort="domesticMig2024">Dom. Migration</th>
                                 <th data-sort="lastSearched">Last Searched</th>
                             </tr>
                         </thead>
@@ -227,6 +230,24 @@
                     return n ? n.toLocaleString() : '';
                 }
 
+                function formatPct(n) {
+                    if (n === null || n === undefined) return '';
+                    var cls = n > 0 ? 'text-success' : n < 0 ? 'text-danger' : '';
+                    return '<span class="' + cls + '">' + (n > 0 ? '+' : '') + n.toFixed(2) + '%</span>';
+                }
+
+                function formatIncome(n) {
+                    if (!n) return '';
+                    return '$' + n.toLocaleString();
+                }
+
+                function formatMig(n) {
+                    if (n === null || n === undefined) return '';
+                    var cls = n > 0 ? 'text-success' : n < 0 ? 'text-danger' : '';
+                    var prefix = n > 0 ? '+' : '';
+                    return '<span class="' + cls + '">' + prefix + n.toLocaleString() + '</span>';
+                }
+
                 function formatDate(iso) {
                     if (!iso) return '';
                     var d = new Date(iso);
@@ -257,6 +278,8 @@
                             va = a[col];
                             vb = b[col];
                         }
+                        if (va === null || va === undefined) va = -Infinity;
+                        if (vb === null || vb === undefined) vb = -Infinity;
                         if (typeof va === 'string') va = va.toLowerCase();
                         if (typeof vb === 'string') vb = vb.toLowerCase();
                         if (va < vb) return -1 * dir;
@@ -283,6 +306,9 @@
                             + '<td>' + c.name + '</td>'
                             + '<td>' + badge + '</td>'
                             + '<td>' + formatPop(c.population) + '</td>'
+                            + '<td>' + formatPct(c.growthPct) + '</td>'
+                            + '<td>' + formatIncome(c.medianIncome) + '</td>'
+                            + '<td>' + formatMig(c.domesticMig2024) + '</td>'
                             + '<td>' + formatDate(searched) + '</td>'
                             + '</tr>';
                     }
