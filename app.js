@@ -116,7 +116,7 @@ app.get('/rawresults', (req, res) => {
 /***** AREA SEARCH (zip/city/state) ******/
 
 app.post('/area-search', async (req, res) => {
-  const { searchType, searchValue, keyword, excludeAirtable, excludeBanned, setSkipTrace } = req.body;
+  const { searchType, searchValue, keyword, excludeAirtable, excludeBanned, setSkipTrace, pushAirtable } = req.body;
   const searchId = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 
   searches.set(searchId, {
@@ -127,6 +127,7 @@ app.post('/area-search', async (req, res) => {
     excludeAirtable: excludeAirtable === 'on',
     excludeBanned: excludeBanned === 'on',
     setSkipTrace: setSkipTrace === 'on',
+    pushAirtable: pushAirtable === 'on',
     cancelToken: { cancelled: false },
     progress: { phase: 'starting' },
     results: null,
@@ -230,6 +231,7 @@ app.post('/batch-search', async (req, res) => {
     excludeAirtable: req.body.excludeAirtable === 'on',
     excludeBanned: req.body.excludeBanned === 'on',
     setSkipTrace: req.body.setSkipTrace === 'on',
+    pushAirtable: req.body.pushAirtable === 'on',
     cbsas: cbsaItems,
     currentIndex: 0,
     cancelToken: { cancelled: false },
@@ -358,6 +360,7 @@ async function runBatchSearch(batchId) {
       excludeAirtable: batch.excludeAirtable,
       excludeBanned: batch.excludeBanned,
       setSkipTrace: batch.setSkipTrace,
+      pushAirtable: batch.pushAirtable,
       bounds: cbsaItem.bounds,
       cancelToken: batch.cancelToken,
       progress: { phase: 'starting' },
@@ -497,30 +500,34 @@ async function runAreaSearch(searchId) {
   search.progress = { phase: 'csv', message: 'Generating CSV...' };
   search.csv = generateCSV(filteredResults);
 
-  // Phase 7: Push to Airtable
-  search.progress = { phase: 'airtable-push', message: `Pushing ${filteredResults.length} records to Airtable...` };
-  console.log(`[${searchId}] Pushing ${filteredResults.length} records to Airtable`);
+  // Phase 7: Push to Airtable (if enabled)
+  if (search.pushAirtable) {
+    search.progress = { phase: 'airtable-push', message: `Pushing ${filteredResults.length} records to Airtable...` };
+    console.log(`[${searchId}] Pushing ${filteredResults.length} records to Airtable`);
 
-  try {
-    const stage = search.setSkipTrace ? 'Skip Trace' : 'Newly Added';
-    search.airtableResult = await pushToAirtable(
-      filteredResults,
-      AIRTABLE_ACCESS_TOKEN,
-      AIRTABLE_BASE_ID,
-      AIRTABLE_TABLE_ID,
-      (prog) => {
-        search.progress = {
-          phase: 'airtable-push',
-          message: `Pushed ${prog.created}/${prog.total} records to Airtable`,
-          ...prog,
-        };
-      },
-      stage
-    );
-    console.log(`[${searchId}] Airtable push complete: ${search.airtableResult.created}/${search.airtableResult.total}`);
-  } catch (err) {
-    console.error(`[${searchId}] Airtable push failed: ${err.message}`);
-    search.airtableResult = { created: 0, total: filteredResults.length, error: err.message };
+    try {
+      const stage = search.setSkipTrace ? 'Skip Trace' : 'Newly Added';
+      search.airtableResult = await pushToAirtable(
+        filteredResults,
+        AIRTABLE_ACCESS_TOKEN,
+        AIRTABLE_BASE_ID,
+        AIRTABLE_TABLE_ID,
+        (prog) => {
+          search.progress = {
+            phase: 'airtable-push',
+            message: `Pushed ${prog.created}/${prog.total} records to Airtable`,
+            ...prog,
+          };
+        },
+        stage
+      );
+      console.log(`[${searchId}] Airtable push complete: ${search.airtableResult.created}/${search.airtableResult.total}`);
+    } catch (err) {
+      console.error(`[${searchId}] Airtable push failed: ${err.message}`);
+      search.airtableResult = { created: 0, total: filteredResults.length, error: err.message };
+    }
+  } else {
+    console.log(`[${searchId}] Skipping Airtable push (not enabled)`);
   }
 
   // Done
