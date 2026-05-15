@@ -1,0 +1,18 @@
+body {
+	padding:  5%;	
+}
+
+form {
+	padding-top: 3%;
+	width: 50%;
+	min-width 400px;
+}
+
+button {
+	margin-top: 3%;
+}
+
+#markets-form {
+	width: 100%;
+	max-width: none;
+}

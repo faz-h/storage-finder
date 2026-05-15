@@ -11,6 +11,18 @@
             .search-section.active { display: block; }
             .mode-btn { margin-right: 10px; margin-bottom: 15px; }
             .mode-btn.active { font-weight: bold; }
+            .cbsa-table { font-size: 13px; }
+            .cbsa-table th { cursor: pointer; user-select: none; white-space: nowrap; position: sticky; top: 0; background: #fff; z-index: 1; }
+            .cbsa-table th.sorted-asc::after { content: ' \\25B2'; font-size: 10px; }
+            .cbsa-table th.sorted-desc::after { content: ' \\25BC'; font-size: 10px; }
+            .cbsa-table td, .cbsa-table th { padding: 4px 8px !important; vertical-align: middle !important; }
+            .cbsa-table-wrap { max-height: 600px; overflow-y: auto; border: 1px solid #dee2e6; border-radius: 4px; }
+            .badge-metro { background-color: #007bff; color: #fff; }
+            .badge-micro { background-color: #6c757d; color: #fff; }
+            .cbsa-row-searched { background-color: #f0f9f0; }
+            .cbsa-filter-bar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+            .cbsa-filter-bar input[type="text"] { max-width: 300px; }
+            .cbsa-selection-footer { position: sticky; bottom: 0; background: #f8f9fa; border-top: 1px solid #dee2e6; padding: 10px 0; margin-top: 12px; }
         </style>
     </head>
     <body>
@@ -22,6 +34,7 @@
             <button type="button" class="btn btn-outline-primary mode-btn" data-mode="zip">Zip Code</button>
             <button type="button" class="btn btn-outline-primary mode-btn" data-mode="city">City</button>
             <button type="button" class="btn btn-outline-primary mode-btn" data-mode="state">State</button>
+            <button type="button" class="btn btn-outline-primary mode-btn" data-mode="markets">Markets</button>
         </div>
 
         <!-- Coordinate Search (original) -->
@@ -42,7 +55,7 @@
                     <input name='excludeBanned' id='excludeBanned1' type="checkbox" class="form-check-input" checked>
                     <label class="form-check-label" for="excludeBanned1">Exclude banned facility names</label>
                 </div>
-                <div class="form-check mt-2">
+                <div class="form-check mt-2" style="display:none">
                     <input name='setSkipTrace' id='setSkipTrace1' type="checkbox" class="form-check-input">
                     <label class="form-check-label" for="setSkipTrace1">Set stage to Skip Trace</label>
                 </div>
@@ -69,7 +82,7 @@
                     <input name='excludeBanned' id='excludeBanned2' type="checkbox" class="form-check-input" checked>
                     <label class="form-check-label" for="excludeBanned2">Exclude banned facility names</label>
                 </div>
-                <div class="form-check mt-2">
+                <div class="form-check mt-2" style="display:none">
                     <input name='setSkipTrace' id='setSkipTrace2' type="checkbox" class="form-check-input">
                     <label class="form-check-label" for="setSkipTrace2">Set stage to Skip Trace</label>
                 </div>
@@ -96,7 +109,7 @@
                     <input name='excludeBanned' id='excludeBanned3' type="checkbox" class="form-check-input" checked>
                     <label class="form-check-label" for="excludeBanned3">Exclude banned facility names</label>
                 </div>
-                <div class="form-check mt-2">
+                <div class="form-check mt-2" style="display:none">
                     <input name='setSkipTrace' id='setSkipTrace3' type="checkbox" class="form-check-input">
                     <label class="form-check-label" for="setSkipTrace3">Set stage to Skip Trace</label>
                 </div>
@@ -123,7 +136,7 @@
                     <input name='excludeBanned' id='excludeBanned4' type="checkbox" class="form-check-input" checked>
                     <label class="form-check-label" for="excludeBanned4">Exclude banned facility names</label>
                 </div>
-                <div class="form-check mt-2">
+                <div class="form-check mt-2" style="display:none">
                     <input name='setSkipTrace' id='setSkipTrace4' type="checkbox" class="form-check-input">
                     <label class="form-check-label" for="setSkipTrace4">Set stage to Skip Trace</label>
                 </div>
@@ -133,7 +146,64 @@
             </form>
         </div>
 
+        <!-- Markets (CBSA) Search -->
+        <div id="section-markets" class="search-section">
+            <form id="markets-form" action='/batch-search' method='POST'>
+
+                <div class="cbsa-filter-bar">
+                    <input type="text" id="cbsa-name-filter" class="form-control form-control-sm" placeholder="Filter by name...">
+                    <div class="btn-group btn-group-sm" role="group">
+                        <button type="button" class="btn btn-outline-secondary cbsa-type-btn active" data-type="all">All</button>
+                        <button type="button" class="btn btn-outline-secondary cbsa-type-btn" data-type="metro">Metro</button>
+                        <button type="button" class="btn btn-outline-secondary cbsa-type-btn" data-type="micro">Micro</button>
+                    </div>
+                    <span id="cbsa-count" class="text-muted" style="font-size:13px;"></span>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-auto">
+                        <label class="mr-2">Search Term</label>
+                        <input name='keyword' type="text" class="form-control form-control-sm" value='storage' style="width:200px; display:inline-block;">
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input name='excludeAirtable' id='excludeAirtable5' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeAirtable5">Exclude Airtable duplicates</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input name='excludeBanned' id='excludeBanned5' type="checkbox" class="form-check-input" checked>
+                    <label class="form-check-label" for="excludeBanned5">Exclude banned facilities</label>
+                </div>
+                <div class="form-check form-check-inline" style="display:none">
+                    <input name='setSkipTrace' id='setSkipTrace5' type="checkbox" class="form-check-input">
+                    <label class="form-check-label" for="setSkipTrace5">Set stage to Skip Trace</label>
+                </div>
+
+                <div class="cbsa-table-wrap mt-2">
+                    <table class="table table-sm table-hover cbsa-table mb-0">
+                        <thead>
+                            <tr>
+                                <th style="width:40px;"><input type="checkbox" id="cbsa-select-all"></th>
+                                <th data-sort="rank" class="sorted-asc">Rank</th>
+                                <th data-sort="name">Name</th>
+                                <th data-sort="type">Type</th>
+                                <th data-sort="population">Population</th>
+                                <th data-sort="lastSearched">Last Searched</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cbsa-tbody"></tbody>
+                    </table>
+                </div>
+
+                <div class="cbsa-selection-footer">
+                    <span id="cbsa-selected-count" class="mr-3"><strong>0</strong> markets selected</span>
+                    <button type="submit" class="btn btn-primary btn-sm" id="cbsa-search-btn" disabled>Search Selected Markets</button>
+                </div>
+            </form>
+        </div>
+
         <script>
+            // Mode tab switching
             document.querySelectorAll('.mode-btn').forEach(function(btn) {
                 btn.addEventListener('click', function() {
                     document.querySelectorAll('.mode-btn').forEach(function(b) { b.classList.remove('active'); });
@@ -142,6 +212,179 @@
                     document.getElementById('section-' + btn.getAttribute('data-mode')).classList.add('active');
                 });
             });
+
+            // Markets table logic
+            (function() {
+                var cbsaData = <%- JSON.stringify(cbsaData || []) %>;
+                var searchHistory = <%- JSON.stringify(searchHistory || {}) %>;
+
+                var currentSort = { col: 'rank', dir: 'asc' };
+                var nameFilter = '';
+                var typeFilter = 'all';
+                var selectedCodes = new Set();
+
+                function formatPop(n) {
+                    return n ? n.toLocaleString() : '';
+                }
+
+                function formatDate(iso) {
+                    if (!iso) return '';
+                    var d = new Date(iso);
+                    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                }
+
+                function getFiltered() {
+                    var filtered = cbsaData;
+                    if (typeFilter !== 'all') {
+                        filtered = filtered.filter(function(c) { return c.type === typeFilter; });
+                    }
+                    if (nameFilter) {
+                        var q = nameFilter.toLowerCase();
+                        filtered = filtered.filter(function(c) { return c.name.toLowerCase().indexOf(q) !== -1; });
+                    }
+                    return filtered;
+                }
+
+                function sortData(data) {
+                    var col = currentSort.col;
+                    var dir = currentSort.dir === 'asc' ? 1 : -1;
+                    return data.slice().sort(function(a, b) {
+                        var va, vb;
+                        if (col === 'lastSearched') {
+                            va = searchHistory[a.code] || '';
+                            vb = searchHistory[b.code] || '';
+                        } else {
+                            va = a[col];
+                            vb = b[col];
+                        }
+                        if (typeof va === 'string') va = va.toLowerCase();
+                        if (typeof vb === 'string') vb = vb.toLowerCase();
+                        if (va < vb) return -1 * dir;
+                        if (va > vb) return 1 * dir;
+                        return 0;
+                    });
+                }
+
+                function renderTable() {
+                    var filtered = sortData(getFiltered());
+                    var tbody = document.getElementById('cbsa-tbody');
+                    var html = '';
+                    for (var i = 0; i < filtered.length; i++) {
+                        var c = filtered[i];
+                        var searched = searchHistory[c.code] || '';
+                        var rowClass = searched ? 'cbsa-row-searched' : '';
+                        var checked = selectedCodes.has(c.code) ? 'checked' : '';
+                        var badge = c.type === 'metro'
+                            ? '<span class="badge badge-metro">Metro</span>'
+                            : '<span class="badge badge-micro">Micro</span>';
+                        html += '<tr class="' + rowClass + '">'
+                            + '<td><input type="checkbox" class="cbsa-check" data-code="' + c.code + '" ' + checked + '></td>'
+                            + '<td>' + c.rank + '</td>'
+                            + '<td>' + c.name + '</td>'
+                            + '<td>' + badge + '</td>'
+                            + '<td>' + formatPop(c.population) + '</td>'
+                            + '<td>' + formatDate(searched) + '</td>'
+                            + '</tr>';
+                    }
+                    tbody.innerHTML = html;
+                    document.getElementById('cbsa-count').textContent = filtered.length + ' of ' + cbsaData.length + ' markets';
+                    updateSelectAll();
+                    updateFooter();
+                }
+
+                function updateFooter() {
+                    var count = selectedCodes.size;
+                    document.getElementById('cbsa-selected-count').innerHTML = '<strong>' + count + '</strong> market' + (count !== 1 ? 's' : '') + ' selected';
+                    document.getElementById('cbsa-search-btn').disabled = count === 0;
+                }
+
+                function updateSelectAll() {
+                    var checks = document.querySelectorAll('.cbsa-check');
+                    var allChecked = checks.length > 0;
+                    for (var i = 0; i < checks.length; i++) {
+                        if (!checks[i].checked) { allChecked = false; break; }
+                    }
+                    document.getElementById('cbsa-select-all').checked = allChecked;
+                }
+
+                // Event: checkbox changes
+                document.getElementById('cbsa-tbody').addEventListener('change', function(e) {
+                    if (e.target.classList.contains('cbsa-check')) {
+                        var code = e.target.getAttribute('data-code');
+                        if (e.target.checked) selectedCodes.add(code);
+                        else selectedCodes.delete(code);
+                        updateSelectAll();
+                        updateFooter();
+                    }
+                });
+
+                // Event: select all
+                document.getElementById('cbsa-select-all').addEventListener('change', function() {
+                    var checked = this.checked;
+                    var checks = document.querySelectorAll('.cbsa-check');
+                    for (var i = 0; i < checks.length; i++) {
+                        checks[i].checked = checked;
+                        var code = checks[i].getAttribute('data-code');
+                        if (checked) selectedCodes.add(code);
+                        else selectedCodes.delete(code);
+                    }
+                    updateFooter();
+                });
+
+                // Event: name filter
+                var filterTimeout;
+                document.getElementById('cbsa-name-filter').addEventListener('input', function() {
+                    clearTimeout(filterTimeout);
+                    filterTimeout = setTimeout(function() {
+                        nameFilter = document.getElementById('cbsa-name-filter').value;
+                        renderTable();
+                    }, 200);
+                });
+
+                // Event: type filter
+                document.querySelectorAll('.cbsa-type-btn').forEach(function(btn) {
+                    btn.addEventListener('click', function() {
+                        document.querySelectorAll('.cbsa-type-btn').forEach(function(b) { b.classList.remove('active'); });
+                        btn.classList.add('active');
+                        typeFilter = btn.getAttribute('data-type');
+                        renderTable();
+                    });
+                });
+
+                // Event: column sort
+                document.querySelectorAll('.cbsa-table th[data-sort]').forEach(function(th) {
+                    th.addEventListener('click', function() {
+                        var col = th.getAttribute('data-sort');
+                        if (currentSort.col === col) {
+                            currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
+                        } else {
+                            currentSort = { col: col, dir: 'asc' };
+                        }
+                        document.querySelectorAll('.cbsa-table th').forEach(function(h) {
+                            h.classList.remove('sorted-asc', 'sorted-desc');
+                        });
+                        th.classList.add(currentSort.dir === 'asc' ? 'sorted-asc' : 'sorted-desc');
+                        renderTable();
+                    });
+                });
+
+                // Event: form submit — inject selected codes as hidden inputs
+                document.getElementById('markets-form').addEventListener('submit', function(e) {
+                    var existing = this.querySelectorAll('input[name="cbsaCodes[]"]');
+                    for (var i = 0; i < existing.length; i++) existing[i].remove();
+                    selectedCodes.forEach(function(code) {
+                        var input = document.createElement('input');
+                        input.type = 'hidden';
+                        input.name = 'cbsaCodes[]';
+                        input.value = code;
+                        document.getElementById('markets-form').appendChild(input);
+                    });
+                    if (selectedCodes.size === 0) e.preventDefault();
+                });
+
+                // Initial render
+                renderTable();
+            })();
         </script>
     </body>
 </html>

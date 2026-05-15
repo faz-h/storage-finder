@@ -15,6 +15,7 @@ const { getBoundsForSearch } = require('./lib/geocode');
 const { adaptiveGridSearch, getPlaceDetails, preFilterPlaces } = require('./lib/grid');
 const { fetchAirtableAddresses, isAddressInAirtable, pushToAirtable } = require('./lib/airtable');
 const { generateCSV } = require('./lib/csv');
+const { loadCBSAData, getCBSAByCode, loadSearchHistory, updateSearchHistory } = require('./lib/cbsa');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -87,11 +88,14 @@ var bannedFacilities = [
 
 // In-memory store for long-running area searches
 const searches = new Map();
+const batches = new Map();
 
 /***** STORAGE FINDER ******/
 
 app.get('/', (req, res) => {
-  res.render('index');
+  const cbsaData = loadCBSAData();
+  const searchHistory = loadSearchHistory();
+  res.render('index', { cbsaData, searchHistory });
 });
 
 // Original coordinate-based search
@@ -199,14 +203,219 @@ app.get('/api/search/:id/csv', (req, res) => {
   res.send(search.csv);
 });
 
+/***** BATCH SEARCH (markets/CBSA) ******/
+
+app.post('/batch-search', async (req, res) => {
+  let cbsaCodes = req.body['cbsaCodes[]'] || req.body.cbsaCodes || [];
+  if (!Array.isArray(cbsaCodes)) cbsaCodes = [cbsaCodes];
+  if (cbsaCodes.length === 0) return res.redirect('/');
+
+  const batchId = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+
+  const cbsaItems = cbsaCodes.map(code => {
+    const cbsa = getCBSAByCode(code);
+    return {
+      code,
+      name: cbsa ? cbsa.name : code,
+      bounds: cbsa ? cbsa.bounds : null,
+      searchId: null,
+      status: 'pending',
+      resultCount: 0,
+    };
+  });
+
+  batches.set(batchId, {
+    status: 'running',
+    keyword: req.body.keyword || 'storage',
+    excludeAirtable: req.body.excludeAirtable === 'on',
+    excludeBanned: req.body.excludeBanned === 'on',
+    setSkipTrace: req.body.setSkipTrace === 'on',
+    cbsas: cbsaItems,
+    currentIndex: 0,
+    cancelToken: { cancelled: false },
+    startedAt: new Date(),
+  });
+
+  runBatchSearch(batchId).catch(err => {
+    console.error(`Batch search ${batchId} failed:`, err);
+    const batch = batches.get(batchId);
+    if (batch) {
+      batch.status = 'error';
+      batch.error = err.message;
+    }
+  });
+
+  res.redirect(`/batch-search/${batchId}`);
+});
+
+app.get('/batch-search/:id', (req, res) => {
+  const batch = batches.get(req.params.id);
+  if (!batch) return res.status(404).send('Batch not found');
+  res.render('batch-progress', { batchId: req.params.id, batch });
+});
+
+app.get('/api/batch/:id/status', (req, res) => {
+  const batch = batches.get(req.params.id);
+  if (!batch) return res.status(404).json({ error: 'Batch not found' });
+
+  const currentCbsa = batch.cbsas[batch.currentIndex];
+  let currentSearchProgress = null;
+  if (currentCbsa && currentCbsa.searchId) {
+    const currentSearch = searches.get(currentCbsa.searchId);
+    if (currentSearch) currentSearchProgress = currentSearch.progress;
+  }
+
+  res.json({
+    status: batch.status,
+    error: batch.error || null,
+    currentIndex: batch.currentIndex,
+    totalCBSAs: batch.cbsas.length,
+    cbsas: batch.cbsas.map(c => ({
+      code: c.code,
+      name: c.name,
+      status: c.status,
+      searchId: c.searchId,
+      resultCount: c.resultCount,
+    })),
+    currentSearchProgress,
+  });
+});
+
+app.post('/api/batch/:id/cancel', (req, res) => {
+  const batch = batches.get(req.params.id);
+  if (!batch) return res.status(404).json({ error: 'Batch not found' });
+  if (batch.status !== 'running') return res.json({ message: 'Batch already finished' });
+
+  batch.cancelToken.cancelled = true;
+  batch.status = 'cancelled';
+
+  const currentCbsa = batch.cbsas[batch.currentIndex];
+  if (currentCbsa && currentCbsa.searchId) {
+    const currentSearch = searches.get(currentCbsa.searchId);
+    if (currentSearch && currentSearch.status === 'running') {
+      currentSearch.cancelToken.cancelled = true;
+      currentSearch.status = 'cancelled';
+      currentSearch.progress = { phase: 'cancelled', message: 'Search cancelled by user.' };
+    }
+  }
+
+  console.log(`[batch:${req.params.id}] Batch cancelled by user`);
+  res.json({ message: 'Batch cancelled' });
+});
+
+app.get('/api/batch/:id/csv', (req, res) => {
+  const batch = batches.get(req.params.id);
+  if (!batch) return res.status(404).send('Batch not found');
+
+  let combined = '';
+  let headerWritten = false;
+  for (const cbsa of batch.cbsas) {
+    if (!cbsa.searchId) continue;
+    const search = searches.get(cbsa.searchId);
+    if (!search || !search.csv) continue;
+    const lines = search.csv.split('\n');
+    if (!headerWritten) {
+      combined += lines[0] + '\n';
+      headerWritten = true;
+    }
+    combined += lines.slice(1).filter(l => l.trim()).join('\n') + '\n';
+  }
+
+  if (!combined) return res.status(404).send('No CSV data available');
+  res.setHeader('Content-Type', 'text/csv');
+  res.setHeader('Content-Disposition', `attachment; filename="storage-batch-${Date.now()}.csv"`);
+  res.send(combined);
+});
+
+async function runBatchSearch(batchId) {
+  const batch = batches.get(batchId);
+
+  let airtableAddresses = null;
+  if (batch.excludeAirtable) {
+    try {
+      airtableAddresses = await fetchAirtableAddresses(AIRTABLE_ACCESS_TOKEN, AIRTABLE_BASE_ID, AIRTABLE_TABLE_ID);
+      console.log(`[batch:${batchId}] Pre-fetched ${airtableAddresses.size} Airtable addresses for dedup`);
+    } catch (err) {
+      console.error(`[batch:${batchId}] Airtable pre-fetch failed: ${err.message}`);
+    }
+  }
+
+  for (let i = 0; i < batch.cbsas.length; i++) {
+    if (batch.cancelToken.cancelled) break;
+
+    const cbsaItem = batch.cbsas[i];
+    batch.currentIndex = i;
+    cbsaItem.status = 'running';
+
+    const searchId = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+    cbsaItem.searchId = searchId;
+
+    searches.set(searchId, {
+      status: 'running',
+      searchType: 'cbsa',
+      searchValue: cbsaItem.name,
+      keyword: batch.keyword,
+      excludeAirtable: batch.excludeAirtable,
+      excludeBanned: batch.excludeBanned,
+      setSkipTrace: batch.setSkipTrace,
+      bounds: cbsaItem.bounds,
+      cancelToken: batch.cancelToken,
+      progress: { phase: 'starting' },
+      results: null,
+      error: null,
+      startedAt: new Date(),
+      csv: null,
+      airtableResult: null,
+      _airtableAddresses: airtableAddresses,
+    });
+
+    console.log(`[batch:${batchId}] Starting CBSA ${i + 1}/${batch.cbsas.length}: ${cbsaItem.name}`);
+
+    try {
+      await runAreaSearch(searchId);
+      const search = searches.get(searchId);
+      cbsaItem.status = search.status === 'complete' ? 'complete' : search.status;
+      cbsaItem.resultCount = search.results ? search.results.length : 0;
+
+      if (search.status === 'complete') {
+        updateSearchHistory(cbsaItem.code, new Date().toISOString());
+      }
+    } catch (err) {
+      console.error(`[batch:${batchId}] CBSA ${cbsaItem.name} failed:`, err.message);
+      cbsaItem.status = 'error';
+      const search = searches.get(searchId);
+      if (search) {
+        search.status = 'error';
+        search.error = err.message;
+      }
+    }
+
+    if (batch.cancelToken.cancelled) {
+      cbsaItem.status = 'cancelled';
+      break;
+    }
+  }
+
+  if (!batch.cancelToken.cancelled) {
+    batch.status = 'complete';
+    console.log(`[batch:${batchId}] Batch complete`);
+  }
+}
+
 async function runAreaSearch(searchId) {
   const search = searches.get(searchId);
 
-  // Phase 1: Geocode the search area
-  search.progress = { phase: 'geocoding', message: `Geocoding ${search.searchType}: ${search.searchValue}` };
-  console.log(`[${searchId}] Geocoding ${search.searchType}: ${search.searchValue}`);
-
-  const { bounds, label } = await getBoundsForSearch(search.searchType, search.searchValue, api_key);
+  // Phase 1: Geocode the search area (or use pre-supplied bounds for CBSA batch searches)
+  let bounds;
+  if (search.bounds) {
+    bounds = search.bounds;
+    console.log(`[${searchId}] Using pre-supplied bounds for: ${search.searchValue}`);
+  } else {
+    search.progress = { phase: 'geocoding', message: `Geocoding ${search.searchType}: ${search.searchValue}` };
+    console.log(`[${searchId}] Geocoding ${search.searchType}: ${search.searchValue}`);
+    const geocodeResult = await getBoundsForSearch(search.searchType, search.searchValue, api_key);
+    bounds = geocodeResult.bounds;
+  }
   console.log(`[${searchId}] Bounds: SW(${bounds.sw.lat},${bounds.sw.lng}) NE(${bounds.ne.lat},${bounds.ne.lng})`);
 
   // Phase 2: Adaptive grid search

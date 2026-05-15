@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Batch Search in Progress - Storage Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+    <style>
+        body { padding: 30px; }
+        .stat { font-size: 24px; font-weight: bold; }
+        .cbsa-status-table { font-size: 13px; }
+        .cbsa-status-table td, .cbsa-status-table th { padding: 5px 10px !important; vertical-align: middle !important; }
+        .badge-pending { background-color: #e9ecef; color: #495057; }
+        .badge-running { background-color: #007bff; color: #fff; }
+        .badge-complete { background-color: #28a745; color: #fff; }
+        .badge-error { background-color: #dc3545; color: #fff; }
+        .badge-cancelled { background-color: #ffc107; color: #212529; }
+        #current-detail { background: #f8f9fa; padding: 15px; border-radius: 5px; font-family: monospace; font-size: 13px; max-height: 200px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <h1>Storage Finder</h1>
+    <h3>Batch Search: <%= batch.cbsas.length %> Market<%= batch.cbsas.length !== 1 ? 's' : '' %></h3>
+    <hr>
+
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-status">Starting...</div>
+                <div class="text-muted">Status</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-progress">0 / <%= batch.cbsas.length %></div>
+                <div class="text-muted">Markets Completed</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-total-results">0</div>
+                <div class="text-muted">Total Facilities Found</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-center p-3">
+                <div class="stat" id="stat-current">-</div>
+                <div class="text-muted">Current Market</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress mb-3" style="height: 30px;">
+        <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%">
+            Starting...
+        </div>
+    </div>
+
+    <h5>Markets</h5>
+    <table class="table table-sm cbsa-status-table mb-3">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Market</th>
+                <th>Status</th>
+                <th>Results</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="cbsa-status-tbody">
+            <% batch.cbsas.forEach(function(c, i) { %>
+            <tr id="cbsa-row-<%= i %>">
+                <td><%= i + 1 %></td>
+                <td><%= c.name %></td>
+                <td><span class="badge badge-pending">Pending</span></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+
+    <h5>Current Market Progress</h5>
+    <div id="current-detail">Waiting to start...</div>
+
+    <div class="mt-3 mb-3" id="cancel-section">
+        <button id="btn-cancel" class="btn btn-danger btn-lg" onclick="cancelBatch()">Cancel Batch</button>
+    </div>
+
+    <div id="complete-actions" style="display: none;" class="mt-4">
+        <a id="btn-csv-all" class="btn btn-success btn-lg mr-2" href="#">Download All CSV</a>
+        <a class="btn btn-secondary btn-lg" href="/">New Search</a>
+    </div>
+
+    <script>
+        var batchId = '<%= batchId %>';
+        var totalCBSAs = <%= batch.cbsas.length %>;
+
+        function cancelBatch() {
+            if (!confirm('Cancel the entire batch search?')) return;
+            fetch('/api/batch/' + batchId + '/cancel', { method: 'POST' })
+                .then(function(r) { return r.json(); })
+                .then(function() {
+                    document.getElementById('btn-cancel').disabled = true;
+                    document.getElementById('btn-cancel').textContent = 'Cancelled';
+                });
+        }
+
+        function statusBadge(status) {
+            return '<span class="badge badge-' + status + '">' + status.charAt(0).toUpperCase() + status.slice(1) + '</span>';
+        }
+
+        function poll() {
+            fetch('/api/batch/' + batchId + '/status')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    var completed = 0;
+                    var totalResults = 0;
+
+                    for (var i = 0; i < data.cbsas.length; i++) {
+                        var c = data.cbsas[i];
+                        var row = document.getElementById('cbsa-row-' + i);
+                        if (!row) continue;
+                        var cells = row.querySelectorAll('td');
+                        cells[2].innerHTML = statusBadge(c.status);
+                        cells[3].textContent = c.status === 'complete' ? c.resultCount : '-';
+
+                        if (c.status === 'complete' && c.searchId) {
+                            cells[4].innerHTML = '<a href="/area-search/' + c.searchId + '/results" class="btn btn-sm btn-outline-primary mr-1">Results</a>'
+                                + '<a href="/api/search/' + c.searchId + '/csv" class="btn btn-sm btn-outline-success">CSV</a>';
+                            completed++;
+                            totalResults += c.resultCount;
+                        } else if (c.status === 'error') {
+                            cells[4].textContent = 'Error';
+                        }
+                    }
+
+                    document.getElementById('stat-progress').textContent = completed + ' / ' + totalCBSAs;
+                    document.getElementById('stat-total-results').textContent = totalResults;
+
+                    var pct = Math.round((completed / totalCBSAs) * 100);
+
+                    // Show current market name and its sub-progress
+                    if (data.currentIndex < data.cbsas.length && data.cbsas[data.currentIndex].status === 'running') {
+                        var currentName = data.cbsas[data.currentIndex].name;
+                        document.getElementById('stat-current').textContent = currentName;
+                        document.getElementById('stat-current').style.fontSize = '14px';
+                        document.getElementById('stat-status').textContent = 'Searching...';
+
+                        if (data.currentSearchProgress) {
+                            var sp = data.currentSearchProgress;
+                            document.getElementById('current-detail').textContent = sp.message || sp.phase || 'Working...';
+
+                            // Refine progress bar within current CBSA
+                            var basePct = Math.round((completed / totalCBSAs) * 100);
+                            var cbsaSlice = 100 / totalCBSAs;
+                            var subPct = 0;
+                            if (sp.phase === 'searching' && sp.totalInitialCells) {
+                                subPct = (sp.cellsProcessed / (sp.totalInitialCells + (sp.cellsSubdivided || 0) * 3)) * 0.5;
+                            } else if (sp.phase === 'details' && sp.totalToFetch) {
+                                subPct = 0.5 + (sp.detailsFetched / sp.totalToFetch) * 0.3;
+                            } else if (sp.phase === 'airtable-push' && sp.total) {
+                                subPct = 0.8 + (sp.created / sp.total) * 0.15;
+                            } else if (sp.phase === 'pre-filter' || sp.phase === 'airtable-dedup') {
+                                subPct = 0.45;
+                            } else if (sp.phase === 'csv') {
+                                subPct = 0.95;
+                            }
+                            pct = Math.round(basePct + subPct * cbsaSlice);
+                        }
+                    }
+
+                    document.getElementById('progress-bar').style.width = Math.min(pct, 99) + '%';
+                    document.getElementById('progress-bar').textContent = 'Market ' + (data.currentIndex + 1) + ' of ' + totalCBSAs;
+
+                    if (data.status === 'complete') {
+                        document.getElementById('stat-status').textContent = 'Complete';
+                        document.getElementById('stat-current').textContent = '-';
+                        document.getElementById('stat-current').style.fontSize = '';
+                        document.getElementById('progress-bar').style.width = '100%';
+                        document.getElementById('progress-bar').textContent = 'All markets complete!';
+                        document.getElementById('progress-bar').classList.remove('progress-bar-animated');
+                        document.getElementById('progress-bar').classList.add('bg-success');
+                        document.getElementById('current-detail').textContent = 'Batch complete. Found ' + totalResults + ' total facilities across ' + completed + ' markets.';
+                        document.getElementById('cancel-section').style.display = 'none';
+                        document.getElementById('complete-actions').style.display = 'block';
+                        document.getElementById('btn-csv-all').href = '/api/batch/' + batchId + '/csv';
+                        return;
+                    }
+
+                    if (data.status === 'cancelled') {
+                        document.getElementById('stat-status').textContent = 'Cancelled';
+                        document.getElementById('progress-bar').classList.remove('progress-bar-animated');
+                        document.getElementById('progress-bar').classList.add('bg-warning');
+                        document.getElementById('progress-bar').textContent = 'Cancelled';
+                        document.getElementById('cancel-section').style.display = 'none';
+                        document.getElementById('current-detail').textContent = 'Batch cancelled by user.';
+                        if (totalResults > 0) {
+                            document.getElementById('complete-actions').style.display = 'block';
+                            document.getElementById('btn-csv-all').href = '/api/batch/' + batchId + '/csv';
+                        }
+                        return;
+                    }
+
+                    if (data.status === 'error') {
+                        document.getElementById('stat-status').textContent = 'Error';
+                        document.getElementById('progress-bar').classList.remove('progress-bar-animated');
+                        document.getElementById('progress-bar').classList.add('bg-danger');
+                        document.getElementById('cancel-section').style.display = 'none';
+                        document.getElementById('current-detail').textContent = 'Error: ' + (data.error || 'Unknown error');
+                        return;
+                    }
+
+                    setTimeout(poll, 3000);
+                })
+                .catch(function(err) {
+                    setTimeout(poll, 5000);
+                });
+        }
+
+        poll();
+    </script>
+</body>
+</html>
