@@ -1,4 +1,4 @@
-runtime: nodejs20
+runtime: nodejs22
 entrypoint: node app.js
 
 instance_class: F2
