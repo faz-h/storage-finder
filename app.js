@@ -92,9 +92,9 @@ const batches = new Map();
 
 /***** STORAGE FINDER ******/
 
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
   const cbsaData = loadCBSAData();
-  const searchHistory = loadSearchHistory();
+  const searchHistory = await loadSearchHistory();
   res.render('index', { cbsaData, searchHistory });
 });
 
@@ -381,7 +381,7 @@ async function runBatchSearch(batchId) {
       cbsaItem.resultCount = search.results ? search.results.length : 0;
 
       if (search.status === 'complete') {
-        updateSearchHistory(cbsaItem.code, new Date().toISOString());
+        await updateSearchHistory(cbsaItem.code, new Date().toISOString());
       }
     } catch (err) {
       console.error(`[batch:${batchId}] CBSA ${cbsaItem.name} failed:`, err.message);
