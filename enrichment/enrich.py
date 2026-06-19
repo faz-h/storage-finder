@@ -21,7 +21,7 @@ Outcome semantics (critical for budget safety):
 Confidence values must match the Airtable single-select options:
   High | Review | No-Parcel | No-Coords | No-Footprint | Failed
 """
-import os, re, json, math, urllib.parse, urllib.request, ssl
+import os, re, json, math, urllib.parse, urllib.request, urllib.error, ssl
 
 import duckdb, pyproj
 from shapely import from_wkb
@@ -76,14 +76,19 @@ def geocode(address):
 
 
 def realie_parcels(lat, lng):
-    """Return list of {geom(GeoJSON), owner, barea, use}. Raises TransientError
-    on any HTTP failure (incl. quota), so the record is retried later."""
+    """Return list of {geom(GeoJSON), owner, barea, use}. A 4xx (Realie has no
+    coverage for this point / bad request) returns [] -> permanent No-Parcel.
+    402/429/5xx/network errors raise TransientError -> retried later."""
     q = urllib.parse.urlencode({"latitude": lat, "longitude": lng,
                                 "radius": REALIE_RADIUS_MI, "limit": REALIE_LIMIT})
     try:
         j = _get_json(REALIE_URL + "?" + q, headers={"Authorization": REALIE_API_KEY})
+    except urllib.error.HTTPError as e:
+        if e.code in (400, 404, 422):
+            return []                                   # no parcel data here -> No-Parcel (permanent)
+        raise TransientError(f"realie http {e.code}")   # 402/429/5xx -> retry
     except Exception as e:
-        raise TransientError(f"realie http: {e}")
+        raise TransientError(f"realie http: {e}")       # network/timeout -> retry
     out = []
     for p in j.get("properties", []):
         g = p.get("geometry")
