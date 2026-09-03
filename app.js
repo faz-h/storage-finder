@@ -12,7 +12,7 @@ const haversine = require('haversine-distance');
 const axios = require('axios');
 
 const { getBoundsForSearch } = require('./lib/geocode');
-const { adaptiveGridSearch, getPlaceDetails, preFilterPlaces } = require('./lib/grid');
+const { adaptiveGridSearch, getPlaceDetails, preFilterPlaces, isBannedName } = require('./lib/grid');
 const { fetchAirtableAddresses, isAddressInAirtable, pushToAirtable } = require('./lib/airtable');
 const { generateCSV } = require('./lib/csv');
 const { loadCBSAData, getCBSAByCode, loadSearchHistory, updateSearchHistory } = require('./lib/cbsa');
@@ -28,9 +28,11 @@ const AIRTABLE_BASE_ID = process.env.AIRTABLE_BASE_ID;
 const AIRTABLE_TABLE_ID = process.env.AIRTABLE_TABLE_ID;
 
 /***** BANNED FACILITIES ******/
+// Substring match: a place is excluded if its Google name CONTAINS any of
+// these (case-sensitive). Keep entries specific enough not to hit independents.
 var bannedFacilities = [
   "Public Storage",
-  "CubeSmart Self Storage",
+  "CubeSmart",
   "Extra Space Storage",
   "SecurCare Self Storage",
   "Life Storage - ",
@@ -38,16 +40,18 @@ var bannedFacilities = [
   "Go Store It Self",
   "iStorage",
   "FreeUp",
-  "10 Federal", "10Federal",
+  "10 Federal",
+  "10Federal",
   "Iron Storage",
   "UHaul",
   "Bee Safe",
   "U-Haul",
   "Metro Self Storage -",
-  "Storage Sense -",
-  "Storage Zone Self Storage and Business Centers",
+  "Storage Sense",
+  "Storage Zone Self Storage",
   "Red Dot Storage",
-  "American Flag Self Storage", "Ample Storage Center",
+  "American Flag Self Storage",
+  "Ample Storage Center",
   "Morningstar Storage",
   "Storage Rentals of America",
   "SmartStop Self Storage",
@@ -55,7 +59,7 @@ var bannedFacilities = [
   "RightSpace Storage",
   "Storage King USA",
   "Simply Self Storage",
-  "StorQuest Economy Self Storage",
+  "StorQuest",
   "PODS Moving & Storage",
   "Red Shark Storage",
   "Mini Mal Self Storage",
@@ -70,7 +74,6 @@ var bannedFacilities = [
   "On Track Storage",
   "SmartStop",
   "Devon",
-  "StorageMax",
   "Storage Max",
   "Move It Self Storage",
   "The Storage Center",
@@ -78,11 +81,80 @@ var bannedFacilities = [
   "Midgard",
   "StorEase",
   "Storelocal",
-  "Store Space Self Storage",
   "Cloud Storage Solutions",
   "Iron Mountain",
   "PODS",
-  "Container King"
+  "Container King",
+  "KO Storage",
+  "Storage Star",
+  "MyPlace",
+  "My Place Storage",
+  "All My Sons",
+  "Mini Mall Storage",
+  "Move It Storage",
+  "StoreLocal",
+  "Storage Express",
+  "Northwest Self Storage",
+  "Manhattan Mini Storage",
+  "Compass Self Storage",
+  "US Storage Centers",
+  "Atlantic Self Storage",
+  "The Lock Up",
+  "USA Storage Centers",
+  "Metro Mini Storage",
+  "True Storage",
+  "Lockaway Storage",
+  "StaxUP",
+  "Mini U Storage",
+  "Trojan Storage",
+  "RV Storage Depot",
+  "Prestige Storage",
+  "Space Shop",
+  "Mini Price Storage",
+  "Storage of America",
+  "National Storage Centers",
+  "SafStor",
+  "Value Store It",
+  "Avid Storage",
+  "Boardwalk Storage",
+  "UpLift Self Storage",
+  "Budget Store & Lock",
+  "Storage Etc",
+  "ManCave Storage",
+  "StorWise",
+  "Shield Storage",
+  "JustStorage",
+  "Storage Direct",
+  "West Coast Self-Storage",
+  "Heartland Storage",
+  "Purely Storage",
+  "A Storage Place",
+  "Annexx",
+  "Saf Keep",
+  "Storage Corner",
+  "Easy Stop Storage",
+  "Just A Closet",
+  "SoCal Self Storage",
+  "Golden State Storage",
+  "Nova Storage",
+  "Southern Self Storage",
+  "Guardian Storage",
+  "Superior Storage",
+  "Modern Storage",
+  "StorSafe",
+  "Storage Masters"
+];
+
+// Exact match: a place is excluded only if its full Google name EQUALS one of
+// these (case-insensitive, trimmed). For brand names that are too generic to
+// substring-match without banning unrelated local facilities.
+var bannedFacilitiesExact = [
+  "Valley Storage",
+  "Stor-It Self Storage",
+  "Columbia Self Storage",
+  "A-1 Self Storage",
+  "Five Star Storage",
+  "Century Storage"
 ];
 
 
@@ -445,6 +517,7 @@ async function runAreaSearch(searchId) {
 
   placesToDetail = preFilterPlaces(placesToDetail, {
     bannedFacilities: search.excludeBanned ? bannedFacilities : null,
+    bannedFacilitiesExact: search.excludeBanned ? bannedFacilitiesExact : null,
     bounds,
     requiredTypes: ['storage'],
     requireRelevantName: true,
@@ -647,14 +720,9 @@ async function secondCall(req, res) {
 
     if (excludeBanned) {
       for (var i = 0; i < resultsArray.length; i++) {
-        var check = true;
-        for (var j = 0; j < bannedFacilities.length; j++) {
-          if (resultsArray[i].result.name.includes(bannedFacilities[j])) {
-            console.log(resultsArray[i].result.name);
-            check = false;
-          }
-        }
-        if (check == true) {
+        if (isBannedName(resultsArray[i].result.name, bannedFacilities, bannedFacilitiesExact)) {
+          console.log(resultsArray[i].result.name);
+        } else {
           resultsArrayTwo.push(resultsArray[i].result);
         }
       }
